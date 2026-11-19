@@ -1,0 +1,50 @@
+251;O menino gostam das escolas.;O menino gosta das escolas.;gostam;gosta;Sintaxe;Concordância verbal
+252;A chefe no meu trabalho saíram sem saber como dar a notícia.;A chefe no meu trabalho saiu sem saber como dar a notícia.;saíram;saiu;Sintaxe;Concordância verbal
+253;Quem deu a cara foi eu.;Quem deu a cara fui eu.;foi;fui;Sintaxe;Concordância verbal
+254;Quem deu a cara foi nós.;Quem deu a cara fomos nós.;foi;fomos;Sintaxe;Concordância verbal
+255;Quem deu a cara foi vós.;Quem deu a cara fostes vós.;foi;fostes;Sintaxe;Concordância verbal
+256;Quem deu a cara foi eles.;Quem deu a cara foram eles.;foi;foram;Sintaxe;Concordância verbal
+257;Quem deu a cara foi vocês.;Quem deu a cara foram vocês.;foi;foram;Sintaxe;Concordância verbal
+258;Precisam-se de trabalhadores.;Precisa-se de trabalhadores.;Precisam-se;Precisa-se;Sintaxe;Concordância verbal
+259;Tratam-se de pessoas estudiosas.;Trata-se de pessoas estudiosas.;Tratam-se;Trata-se;Sintaxe;Concordância verbal
+260;Como foi suas férias?;Como foram suas férias?;foi;foram;Sintaxe;Concordância verbal
+261;Cujo pai chegou.;O homem cujo pai chegou.;Cujo;O homem cujo;Morfologia;Pronome
+262;Cujo ele comprou.;O que ele comprou.;Cujo;O que;Morfologia;Pronome
+263;Cujas ele comprou.;As que ele comprou.;Cujas;As que;Morfologia;Pronome
+264;Cujos ele comprou.;Os que ele comprou.;Cujos;Os que;Morfologia;Pronome
+265;Ela é a mãe cujo a filha é professora.;Ela é a mãe cuja filha é professora.;cujo a;cuja;Sintaxe;Concordância nominal
+266;Ela é a mãe cujo o filho é professor.;Ela é a mãe cujo filho é professor.;cujo o;cujo;Sintaxe;Redundância
+267;Ela é a mãe cujo as filhas são professoras.;Ela é a mãe cujas filhas são professoras.;cujo as;cujas;Sintaxe;Concordância nominal
+268;Ela é a mãe cujo os filhos são professores.;Ela é a mãe cujos filhos são professores.;cujo os;cujos;Sintaxe;Concordância nominal
+269;Os filhos cujo os quais não são professores.;Os filhos dos quais não são professores.;cujo os quais;dos quais;Morfologia;Pronome
+270;A realidade das pessoas mostram.;A realidade das pessoas mostra.;mostram;mostra;Sintaxe;Concordância verbal
+271;A realidade das pessoas mostram-se.;A realidade das pessoas mostra-se.;mostram-se;mostra-se;Sintaxe;Concordância verbal
+272;Depois de ter discretamente limpo o carro, foi desculpado.;Depois de ter discretamente limpo o carro, foi desculpado.;;;;
+273;Percebi que tinha impresso o documento errado.;Percebi que tinha impresso o documento errado.;;;;
+274;O dinheiro foi gastado o mês passado.;O dinheiro foi gasto no mês passado.;o mês passado;no mês passado;Morfologia;Contração
+275;A ele juntou-se os amigos e família.;A ele juntaram-se os amigos e família.;juntou-se;juntaram-se;Sintaxe;Concordância verbal
+276;A ele juntou-se muitos bons amigos e família.;A ele juntaram-se muitos bons amigos e família.;juntou-se;juntaram-se;Sintaxe;Concordância verbal
+277;A ele juntaram-se a família.;A ele juntou-se a família.;juntaram-se;juntou-se;Sintaxe;Concordância verbal
+278;Enviarão ontem os livros.;Enviaram ontem os livros.;Enviarão;Enviaram;Morfologia;Verbo
+279;Enviará ontem os livros.;Enviou ontem os livros.;Enviará;Enviou;Morfologia;Verbo
+280;Enviaram amanhã os livros.;Enviarão amanhã os livros.;Enviaram;Enviarão;Morfologia;Verbo
+281;Enviara amanhã os livros.;Enviará amanhã os livros.;Enviara;Enviará;Morfologia;Verbo
+282;Enviara amanhã os livros.;Enviará amanhã os livros.;Enviara;Enviará;Morfologia;Verbo
+283;Fazem muitos anos que não a vejo.;Faz muitos anos que não a vejo.;Fazem;Faz;Sintaxe;Concordância verbal
+284;«Fazem muitos anos que não a vejo.;«Faz muitos anos que não a vejo.;Fazem;Faz;Sintaxe;Concordância verbal
+285;Fizeram vinte e um anos que não a vejo.;Faz vinte e um anos que não a vejo.;Fizeram;Faz;Sintaxe;Concordância verbal
+286;Rui, fazem duas semanas que não falamos.;Rui, faz duas semanas que não falamos.;fazem;faz;Sintaxe;Concordância verbal
+287;Já vão fazer três semanas que não o vejo.;Já vai fazer três semanas que não o vejo.;vão;vai;Sintaxe;Concordância verbal
+288;Já iam fazer seis semanas que não o vejo.;Já ia fazer seis semanas que não o vejo.;iam;ia;Sintaxe;Concordância verbal
+289;Devem haver baratas naquele restaurante.;Deve haver baratas naquele restaurante.;Devem;Deve;Sintaxe;Concordância verbal
+290;Poderão haver baratas naquele restaurante.;Poderá haver baratas naquele restaurante.;Poderão;Poderá;Sintaxe;Concordância verbal
+291;Na vida existe muitas coisas boas.;Na vida existem muitas coisas boas.;existe;existem;Sintaxe;Concordância verbal
+292;Acontece ainda vários outros problemas.;Acontecem ainda vários outros problemas.;Acontece;Acontecem;Sintaxe;Concordância verbal
+293;Em junho, ocorre a tradicional festa junina onde acontece shows com bandas.;Em junho, ocorre a tradicional festa junina onde acontecem shows com bandas.;acontece;acontecem;Sintaxe;Concordância verbal
+294;Acabou as provas ontem.;Acabaram as provas ontem.;Acabou;Acabaram;Sintaxe;Concordância verbal
+295;Já aconteceu erros em vacinas no passado;Já aconteceram erros em vacinas no passado;aconteceu;aconteceram;Sintaxe;Concordância verbal
+296;No entanto, ainda resta muitos mistérios na história dos anões.;No entanto, ainda restam muitos mistérios na história dos anões.;resta;restam;Sintaxe;Concordância verbal
+297;Apenas basta três pessoas para completar o time.;Apenas bastam três pessoas para completar o time.;basta;bastam;Sintaxe;Concordância verbal
+298;Na vida vai existir muitas coisas boas.;Na vida vão existir muitas coisas boas.;vai;vão;Sintaxe;Concordância verbal
+299;Poderá ainda acontecer mais incentivos como esses.;Poderão ainda acontecer mais incentivos como esses.;Poderá;Poderão;Sintaxe;Concordância verbal
+300;Pode nunca mais sobrar tantas sobremesas.;Podem nunca mais sobrar tantas sobremesas.;Pode;Podem;Sintaxe;Concordância verbal

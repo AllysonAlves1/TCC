@@ -1,0 +1,50 @@
+601;Isto deve-se a tu.;Isto deve-se a ti.;tu;ti;Morfologia;Pronome
+602;Isto é de eu para o Rui.;Isto é de mim para o Rui.;eu;mim;Morfologia;Pronome
+603;Esse livro é para eu.;Esse livro é para mim.;eu;mim;Morfologia;Pronome
+604;O que se passou entre eu e o Rui?;O que se passou entre mim e o Rui?;eu;mim;Morfologia;Pronome
+605;O que se passou entre você e eu?;O que se passou entre você e mim?;eu;mim;Morfologia;Pronome
+606;O que se passou entre tu e o Rui?;O que se passou entre ti e o Rui?;tu;ti;Morfologia;Pronome
+607;Isso é entre ela e tu.;Isso é entre ela e ti.;tu;ti;Morfologia;Pronome
+608;O que se passou entre tu e eu?;O que se passou entre ti e mim?;tu;eu;ti;mim;Morfologia;Pronome
+609;Isto é para tu.;Isto é para ti.;tu;ti;Morfologia;Pronome
+610;Isto não é o mesmo sem tu.;Isto não é o mesmo sem ti.;tu;ti;Morfologia;Pronome
+611;Na tese temos vários conceitos chave.;Na tese temos vários conceitos-chave.;conceitos chave;conceitos-chave;Fonologia;Emprego do hífen
+612;Por vezes é necessário abdicar direitos.;Por vezes é necessário abdicar de direitos.;abdicar direitos;abdicar de direitos;Sintaxe;Regência verbal
+613;Isto é o mais principal a ter em conta.;Isto é o principal a ter em conta.;mais principal;principal;Morfologia;Adjetivo
+614;Tais textos são oportunos citar.;Tais textos são oportunos de citar.;oportunos citar;oportunos de citar;Sintaxe;Regência verbal
+615;Vamos ambicionar a que seja uma vitória.;Vamos ambicionar que seja uma vitória.;ambicionar a que;ambicionar que;Sintaxe;Regência verbal
+616;De qualquer das maneiras sugiro isso.;De qualquer maneira sugiro isso.;das maneiras;maneira;Morfologia;Substantivo
+617;Para nos ajudar em caso tenhamos dúvidas.;Para nos ajudar caso tenhamos dúvidas.;em caso;caso;Sintaxe;Regência nominal
+618;Temos de estar ao par com as exigências de mercado.;Temos de estar ao par das exigências de mercado.;com;das;Sintaxe;Regência nominal
+619;Diga-me aonde está o livro.;Diga-me onde está o livro.;aonde;onde;Morfologia;Advérbio
+620;A polícia encontrou as ossadas de Pedro.;A polícia encontrou os ossos de Pedro.;ossadas;ossos;Morfologia;Substantivo
+621;O ensino a distância é muito útil.;O ensino a distância é muito útil.;a distância;a distância;Morfologia;Substantivo
+622;Vou comprar uma caixa com fósforos.;Vou comprar uma caixa de fósforos.;com;de;Sintaxe;Regência nominal
+623;A dor condiciona em muito o trabalho.;A dor condiciona muito o trabalho.;em muito;muito;Morfologia;Advérbio
+624;O carro passou de cima de uma bola.;O carro passou por cima de uma bola.;de cima de;por cima de;Sintaxe;Regência verbal
+625;Tudo isto é derivado ao calor.;Tudo isto é devido ao calor.;derivado;devido;Semântica;Parônimo
+626;Não vou esquecer limpar a cozinha.;Não vou esquecer de limpar a cozinha.;esquecer limpar;esquecer de limpar;Sintaxe;Regência verbal
+627;O Rui está bom na vida.;O Rui está bem na vida.;bom;bem;Morfologia;Advérbio
+628;A como é os tomates?;Quanto custam os tomates?;A como é;Quanto custam;Sintaxe;Regência verbal
+629;Ele atreveu-se rio a dentro.;Ele atreveu-se a entrar no rio.;rio a dentro;a entrar no rio;Sintaxe;Regência verbal
+630;Eles estão a dizer verdade.;Eles estão a dizer a verdade.;dizer verdade;dizer a verdade;Sintaxe;Regência verbal
+631;Vamos ver a guarda-noturno.;Vamos ver a guarda-noturna.;guarda-noturno;guarda-noturna;Morfologia;Adjetivo
+632;Amanhã à mais em jogo.;Amanhã há mais em jogo.;à;há;Fonologia;Ortografia
+633;Faz a revisão à medida em que lês.;Faz a revisão à medida que lês.;à medida em que;à medida que;Sintaxe;Regência nominal
+634;Ficamos mais sábios à medida com que o tempo passa.;Ficamos mais sábios à medida que o tempo passa.;à medida com que;à medida que;Sintaxe;Regência nominal
+635;O encontro é à meia noite.;O encontro é à meia-noite.;meia noite;meia-noite;Fonologia;Emprego do hífen
+636;A que serve isto?;Para que serve isto?;A que;Para que;Sintaxe;Regência verbal
+637;Fazemos à sós ou em grupo?;Fazemo-lo a sós ou em grupo?;Fazemos à sós;Fazemo-lo a sós;Sintaxe;Regência verbal
+638;É muito atrevimento a falar assim.;É muito atrevimento falar assim.;a falar;falar;Sintaxe;Regência verbal
+639;Devemos ajudar que se faça justiça.;Devemos ajudar a que se faça justiça.;ajudar que;ajudar a que;Sintaxe;Regência verbal
+640;Obrigado por me alertar para com o perigo.;Obrigado por me alertar para o perigo.;para com;para;Sintaxe;Regência verbal
+641;Vamos ver os andares-modelos.;Vamos ver os andares modelo.;andares-modelos;andares modelo;Fonologia;Emprego do hífen
+642;Vamos apelar à fé.;Vamos apelar à fé.;apelar à;apelar à;Sintaxe;Regência verbal
+643;Vou apostar em como irei ganhar.;Vou apostar que irei ganhar.;em como;que;Sintaxe;Regência verbal
+644;O encontro é amanhã ao meio dia.;O encontro é amanhã ao meio-dia.;meio dia;meio-dia;Fonologia;Emprego do hífen
+645;Há produtos que ao serem usado fazem-nos sentir bem.;Há produtos que, ao serem usados, nos fazem sentir bem.;ao serem usado;ao serem usados;fazem-nos;nos fazem;Sintaxe;Concordância verbal
+646;Vai uma pessoa importante abordo da fragata.;Vai uma pessoa importante a bordo da fragata.;abordo;a bordo;Fonologia;Ortografia
+647;Vai uma pessoa importante abordo do avião.;Vai uma pessoa importante a bordo do avião.;abordo;a bordo;Fonologia;Ortografia
+648;O Paulo acabou com o namoro.;O Paulo acabou o namoro.;com;com;Sintaxe;Regência verbal
+649;A mensagem adivinha disso que ele revelou.;A mensagem advinha disso que ele revelou.;adivinha;advinha;Fonologia;Ortografia
+650;Actualiza sempre o anti vírus.;Atualiza sempre o antivírus.;Actualiza;Atualiza;anti vírus;antivírus;Fonologia;Ortografia

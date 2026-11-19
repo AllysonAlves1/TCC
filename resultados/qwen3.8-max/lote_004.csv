@@ -1,0 +1,50 @@
+151;As vaca são malhadas.;As vacas são malhadas.;vaca;vacas;Morfologia;Substantivo
+152;Valor contido numas espécie por descobrir.;Valor contido numa espécie por descobrir.;numas;numa;Morfologia;Contração
+153;As nossa equipa de operações está muito focada nos campos de verão..;A nossa equipe de operações está muito focada nos campos de verão..;As,equipa;A,equipe;Morfologia,Semântica;Artigo,Propriedade Vocabular
+154;Todo os erros têm solução.;Todos os erros têm solução.;Todo;Todos;Morfologia;Pronome
+155;Toda as soluções já existem.;Todas as soluções já existem.;Toda;Todas;Morfologia;Pronome
+156;O Rui quer as blusas gelos.;O Rui quer as blusas gelo.;gelos;gelo;Sintaxe;Concordância nominal
+157;O Rui quer as blusas violetas.;O Rui quer as blusas violeta.;violetas;violeta;Sintaxe;Concordância nominal
+158;Foi corrigidos o valor da fatura.;Foi corrigido o valor da fatura.;corrigidos;corrigido;Sintaxe;Concordância nominal
+159;Isto são trevo, Senhor. São trevos.;Isto são trevos, Senhor. São trevos.;trevo;trevos;Morfologia;Substantivo
+160;Quando forem necessária novas medidas.;Quando forem necessárias novas medidas.;necessária;necessárias;Sintaxe;Concordância nominal
+161;Quando forem necessário mais meios.;Quando forem necessários mais meios.;necessário;necessários;Sintaxe;Concordância nominal
+162;Todos os exames que forem urgente serão marcados.;Todos os exames que forem urgentes serão marcados.;urgente;urgentes;Sintaxe;Concordância nominal
+163;Foram corrigido o valor da fatura.;Foi corrigido o valor da fatura.;Foram;Foi;Sintaxe;Concordância verbal
+164;Quando ele dizer a verdade, eu faço uma festa.;Quando ele disser a verdade, eu faço uma festa.;dizer;disser;Morfologia;Verbo
+165;Enquanto a Maria manter a casa, nós não temos que nos preocupar.;Enquanto a Maria mantiver a casa, nós não temos que nos preocupar.;manter;mantiver;Morfologia;Verbo
+166;Se eu fazer essa proposta, estarei a correr um risco calculado.;Se eu fizer essa proposta, estarei a correr um risco calculado.;fazer;fizer;Morfologia;Verbo
+167;Quando eu ver algo errado, aviso.;Quando eu vir algo errado, aviso.;ver;vir;Morfologia;Verbo
+168;Quando eles dizerem a verdade, eu faço uma festa.;Quando eles disserem a verdade, eu faço uma festa.;dizerem;disserem;Morfologia;Verbo
+169;Se nós fazermos essa proposta, estarei a correr um risco calculado.;Se nós fizermos essa proposta, estarei a correr um risco calculado.;fazermos;fizermos;Morfologia;Verbo
+170;Quando nós vermos algo errado, aviso.;Quando nós virmos algo errado, aviso.;vermos;virmos;Morfologia;Verbo
+171;Enquanto a Maria e o Pedro manterem a casa, nós não temos que nos preocupar.;Enquanto a Maria e o Pedro mantiverem a casa, nós não temos que nos preocupar.;manterem;mantiverem;Morfologia;Verbo
+172;Negas que é verdade?;Negas que seja verdade?;é;seja;Morfologia;Verbo
+173;O Jorge nega que tem falado com ela.;O Jorge nega que tenha falado com ela.;tem;tenha;Morfologia;Verbo
+174;Ainda que é verdade?;Ainda que seja verdade?;é;seja;Morfologia;Verbo
+175;O Jorge nega, mesmo que tem falado com ela.;O Jorge nega, mesmo que tenha falado com ela.;tem;tenha;Morfologia;Verbo
+176;Tomara que é verdade.;Tomara que seja verdade.;é;seja;Morfologia;Verbo
+177;"Sublinhamos que antes que está a ""fazer tudo de acordo com as regras"", deve saber quais são as regras.";"Sublinhamos que antes que esteja a ""fazer tudo de acordo com as regras"", deve saber quais são as regras.";está;esteja;Morfologia;Verbo
+178;Embora é verdade, não me agrada.;Embora seja verdade, não me agrada.;é;seja;Morfologia;Verbo
+179;Esta foi a razão pelo qual ele concebeu a equação.;Esta foi a razão pela qual ele concebeu a equação.;pelo;pela;Morfologia;Contração
+180;Estas foram as razões pelos quais ele concebeu a equação.;Estas foram as razões pelas quais ele concebeu a equação.;pelos;pelas;Morfologia;Contração
+181;Esta foi uma das razões pelos quais ele concebeu a equação.;Esta foi uma das razões pelas quais ele concebeu a equação.;pelos;pelas;Morfologia;Contração
+182;Este foi o motivo pela qual ele concebeu a equação.;Este foi o motivo pelo qual ele concebeu a equação.;pela;pelo;Morfologia;Contração
+183;Estes foram os motivos pelas quais ele concebeu a equação.;Estes foram os motivos pelos quais ele concebeu a equação.;pelas;pelos;Morfologia;Contração
+184;Este foi um dos motivos pelas quais ele concebeu a equação.;Este foi um dos motivos pelos quais ele concebeu a equação.;pelas;pelos;Morfologia;Contração
+185;Um canecas são pesadas.;Umas canecas são pesadas.;Um;Umas;Morfologia;Artigo
+186;Sua riqueza é explorada pelo mulheres e homens.;Sua riqueza é explorada pelas mulheres e homens.;pelo;pelas;Morfologia;Contração
+187;Uns caneca são pesadas.;Umas canecas são pesadas.;Uns,caneca;Umas,canecas;Morfologia;Artigo,Substantivo
+188;Umas caneco são pesadas.;Umas canecas são pesadas.;caneco;canecas;Morfologia;Substantivo
+189;Uma canecos são pesadas.;Umas canecas são pesadas.;Uma,canecos;Umas,canecas;Morfologia;Artigo,Substantivo
+190;Exemplares trazidos pela espanhóis.;Exemplares trazidos pelos espanhóis.;pela;pelos;Morfologia;Contração
+191;Este texto é disponibilizado na termos da licença.;Este texto é disponibilizado nos termos da licença.;na;nos;Morfologia;Contração
+192;não se apoia somente na poderes da mente.;não se apoia somente nos poderes da mente.;na;nos;Morfologia;Contração
+193;pela aprovação da Declaração da Direitos do Homem e do Cidadão.;pela aprovação da Declaração dos Direitos do Homem e do Cidadão.;da;dos;Morfologia;Contração
+194;A incerteza na resultados de um experimento.;A incerteza nos resultados de um experimento.;na;nos;Morfologia;Contração
+195;A Cidade da Mortos.;A Cidade dos Mortos.;da;dos;Morfologia;Contração
+196;O minhas é preta.;A minha é preta.;O,minhas;A,minha;Morfologia;Artigo,Pronome
+197;Os minha é preta.;A minha é preta.;Os;A;Morfologia;Artigo
+198;As meu é preta.;A minha é preta.;As,meu;A,minha;Morfologia;Artigo,Pronome
+199;São os suas mãos.;São as suas mãos.;os;as;Morfologia;Artigo
+200;Está no tuas mãos.;Está nas tuas mãos.;no;nas;Morfologia;Contração

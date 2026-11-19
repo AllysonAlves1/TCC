@@ -1,0 +1,50 @@
+1101;Peço a um de voz para o fazer.;Peço a um de vós para o fazer.;voz;vós;Semântica;Parônimo
+1102;A adesão do pneu é boa.;A aderência do pneu é boa.;adesão;aderência;Semântica;Parônimo
+1103;Muitos emigraram para a França nos anos 60.;Muitos emigraram para a França nos anos 60.;;;;
+1104;Muitos imigraram da França nos anos 60.;Muitos emigraram da França nos anos 60.;imigraram;emigraram;Semântica;Parônimo
+1105;Para uma limpeza adequada dos intrumentos, deve emergir em água durante cerca 30 minutos.;Para uma limpeza adequada dos instrumentos, deve imergir em água durante cerca de 30 minutos.;intrumentos, emergir, cerca;instrumentos, imergir, cerca de;Fonologia, Semântica, Morfologia;Ortografia, Parônimo, Preposição
+1106;Ele emergiu o saquinho de chá em água durante cerca 30 minutos.;Ele imergiu o saquinho de chá em água durante cerca de 30 minutos.;emergiu, cerca;imergiu, cerca de;Semântica, Morfologia;Parônimo, Preposição
+1107;…assim, ela imergiu à superfície sem qualquer esforço.;…assim, ela emergiu à superfície sem qualquer esforço.;imergiu;emergiu;Semântica;Parônimo
+1108;Preciso fazer as coisas direitas.;Preciso fazer as coisas direito.;direitas;direito;Morfologia;Advérbio
+1109;Ele é a ovelha ranhosa da família.;Ele é a ovelha ronhosa da família.;ranhosa;ronhosa;Semântica;Parônimo
+1110;O anos da prova é nosso.;O ano da prova é nosso.;anos;ano;Sintaxe;Concordância nominal
+1111;Ela tem uma sexta de vime.;Ela tem uma cesta de vime.;sexta;cesta;Semântica;Parônimo
+1112;Elas têm umas sextas de vime.;Elas têm umas cestas de vime.;sextas;cestas;Semântica;Parônimo
+1113;As pessoas fizeram um baixo-assinado.;As pessoas fizeram um abaixo-assinado.;baixo-assinado;abaixo-assinado;Fonologia;Ortografia
+1114;O pequeno intestino é um órgão importante.;O intestino delgado é um órgão importante.;pequeno intestino;intestino delgado;Semântica;Propriedade Vocabular
+1115;O intestino pequeno é um órgão importante.;O intestino delgado é um órgão importante.;intestino pequeno;intestino delgado;Semântica;Propriedade Vocabular
+1116;O que nós seriamos?;O que nós seríamos?;seriamos;seríamos;Fonologia;Acentuação gráfica
+1117;E seria-o.;E sê-lo-ia.;seria-o;sê-lo-ia;Sintaxe;Colocação pronominal
+1118;E seriamos-lhe úteis.;E ser-lhe-íamos úteis.;seriamos-lhe;ser-lhe-íamos;Sintaxe;Colocação pronominal
+1119;E seriam-vos piores.;E ser-vos-iam piores.;seriam-vos;ser-vos-iam;Sintaxe;Colocação pronominal
+1120;Mas seria-lhes concedido...;Mas ser-lhes-ia concedido...;seria-lhes;ser-lhes-ia;Sintaxe;Colocação pronominal
+1121;Você quer oq?;Você quer o quê?;oq;o quê;Fonologia;Ortografia
+1122;Sabe oq;Sabe o quê?;oq;o quê;Fonologia;Ortografia
+1123;Não sei oq eles querem.;Não sei o que eles querem.;oq;o que;Fonologia;Ortografia
+1124;A resposta das mares foi imediata.;A resposta das mães foi imediata.;mares;mães;Fonologia;Acentuação gráfica
+1125;Isso esta confuso.;Isso está confuso.;esta;está;Fonologia;Acentuação gráfica
+1126;Isso esta confusos.;Isso está confuso.;esta, confusos;está, confuso;Fonologia, Sintaxe;Acentuação gráfica, Concordância nominal
+1127;Há milênios atras isso aconteceu.;Há milênios atrás isso aconteceu.;atras;atrás;Fonologia;Acentuação gráfica
+1128;Isso me da branco total.;Isso me dá branco total.;da;dá;Fonologia;Acentuação gráfica
+1129;A Wikipédia não tem vínculo com os responsáveis da sítios.;A Wikipédia não tem vínculo com os responsáveis dos sítios.;da;dos;Sintaxe;Concordância nominal
+1130;Fiquei tao aterrorizada.;Fiquei tão aterrorizada.;tao;tão;Fonologia;Acentuação gráfica
+1131;E eu to muito animada.;E eu estou muito animada.;to;estou;Fonologia;Ortografia
+1132;Isso é feito apos aprovação.;Isso é feito após aprovação.;apos;após;Fonologia;Acentuação gráfica
+1133;Não fique ai parada.;Não fique aí parada.;ai;aí;Fonologia;Acentuação gráfica
+1134;Foi à muito tempo.;Foi há muito tempo.;à;há;Semântica;Homônimo
+1135;A excepção do paragrafo.;A exceção do parágrafo.;excepção, paragrafo;exceção, parágrafo;Fonologia, Fonologia;Ortografia, Acentuação gráfica
+1136;Voltou com as ameijoas iguais e o cliente desistiu do artigo.;Voltou com as amêijoas iguais e o cliente desistiu do artigo.;ameijoas;amêijoas;Fonologia;Acentuação gráfica
+1137;Um anonimo escreveu esse poema.;Um anônimo escreveu esse poema.;anonimo;anônimo;Fonologia;Acentuação gráfica
+1138;Um erro nos tramites.;Um erro nos trâmites.;tramites;trâmites;Fonologia;Acentuação gráfica
+1139;Quero matriculas de automóveis em Portugal.;Quero matrículas de automóveis em Portugal.;matriculas;matrículas;Fonologia;Acentuação gráfica
+1140;Fui á feira ontem.;Fui à feira ontem.;á;à;Sintaxe;Uso da crase
+1141;Ficou cansado apos o expediente.;Ficou cansado após o expediente.;apos;após;Fonologia;Acentuação gráfica
+1142;Apôs 1990, as coisas se complicaram.;Após 1990, as coisas se complicaram.;Apôs;Após;Semântica;Parônimo
+1143;Sera que ele vai?;Será que ele vai?;Sera;Será;Fonologia;Acentuação gráfica
+1144;Mês que vem ela sera reconhecida com um prêmio.;Mês que vem ela será reconhecida com um prêmio.;sera;será;Fonologia;Acentuação gráfica
+1145;Assim poderia-se escrever à Ana.;Assim se poderia escrever à Ana.;poderia-se;se poderia;Sintaxe;Colocação pronominal
+1146;Faria-se melhor com mais queijo.;Far-se-ia melhor com mais queijo.;Faria-se;Far-se-ia;Sintaxe;Colocação pronominal
+1147;Poria-os no seu lugar.;Pô-los-ia no seu lugar.;Poria-os;Pô-los-ia;Sintaxe;Colocação pronominal
+1148;Assim poderias-te declarar à Ana.;Assim te poderias declarar à Ana.;poderias-te;te poderias;Sintaxe;Colocação pronominal
+1149;Assim poderiam-se escrever livros sobre o assunto.;Assim se poderiam escrever livros sobre o assunto.;poderiam-se;se poderiam;Sintaxe;Colocação pronominal
+1150;Assim encontrarei-te amanhã.;Assim te encontrarei amanhã.;encontrarei-te;te encontrarei;Sintaxe;Colocação pronominal

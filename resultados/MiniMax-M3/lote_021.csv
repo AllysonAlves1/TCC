@@ -1,0 +1,50 @@
+1001;O Rui trás o material.;O Rui traz o material.;trás;traz;Fonologia;Ortografia
+1002;Queria comprar una rosa.;Queria comprar uma rosa.;una;uma;Fonologia;Ortografia
+1003;Queríamos comprar unas rosas.;Queríamos comprar umas rosas.;unas;umas;Fonologia;Ortografia
+1004;Joga tão vem como o pai.;Joga tão bem como o pai.;vem;bem;Fonologia;Ortografia
+1005;Vejo vem o esquema proposto.;Vejo vem o esquema proposto.;Vejo vem;Vejo;Sintaxe;Pontuação
+1006;É um xeque cruzado.;É um xeque cruzado.;xeque;xeque;Semântica;Propriedade Vocabular
+1007;São xeques visados.;São xeques visados.;xeques;xeques;Semântica;Propriedade Vocabular
+1008;É um xeque sem cobertura.;É um xeque sem cobertura.;xeque;xeque;Semântica;Propriedade Vocabular
+1009;São xeques sem cobertura.;São xeques sem cobertura.;xeques;xeques;Semântica;Propriedade Vocabular
+1010;É um xeque em branco.;É um xeque em branco.;xeque;xeque;Semântica;Propriedade Vocabular
+1011;São xeques em branco.;São xeques em branco.;xeques;xeques;Semântica;Propriedade Vocabular
+1012;Isso é ótimo por temos informação adicional.;Isso é ótimo porque temos informação adicional.;por;porque;Morfologia;Conjunção
+1013;E as notas ficais de 2020?;E as notas finais de 2020?;ficais;finais;Fonologia;Ortografia
+1014;A renda per capta de Luxemburgo.;A renda per capita de Luxemburgo.;per capta;per capita;Fonologia;Ortografia
+1015;Não a paciência para este tipo de coisas;Não a paciência para este tipo de coisas;Não a;Não tenho;Morfologia;Verbo
+1016;Enxarca a vida.;Enxarca a vida.;Enxarca;Enxarca;Morfologia;Verbo
+1017;Mas à que saber estudar.;Mas há que saber estudar.;à;há;Fonologia;Ortografia
+1018;Ele deu uma mãozinha há sua família.;Ele deu uma mãozinha à sua família.;há sua;à sua;Sintaxe;Uso da crase
+1019;Dá uma mãozinha há tua família.;Dá uma mãozinha à tua família.;há tua;à tua;Sintaxe;Uso da crase
+1020;Algumas pessoas e ideias parecem fora do lugar ou há frente do seu tempo.;Algumas pessoas e ideias parecem fora do lugar ou à frente do seu tempo.;há frente;à frente;Sintaxe;Uso da crase
+1021;É que hás vezes temos de decidir.;É que às vezes temos de decidir.;hás;às;Fonologia;Ortografia
+1022;Nunca fui avisado a cerca desses alarmes.;Nunca fui avisado acerca desses alarmes.;a cerca;acerca;Morfologia;Preposição
+1023;Pegou na mochila e foi pela estrada a fora.;Pegou na mochila e foi pela estrada afora.;a fora;afora;Fonologia;Ortografia
+1024;Tenho muito a preço pelo DVD.;Tenho muito a preço pelo DVD.;a preço;a preço;Sintaxe;Uso da crase
+1025;Tenho muito a preço por ele.;Tenho muito a preço por ele.;a preço;a preço;Sintaxe;Uso da crase
+1026;Vamos tratar disso a quando da ida do Rui.;Vamos tratar disso quando da ida do Rui.;a quando;quando;Morfologia;Preposição
+1027;Vê a trás da porta.;Vê atrás da porta.;a trás;atrás;Fonologia;Ortografia
+1028;É preciso afear a faca.;É preciso afiar a faca.;afear;afiar;Fonologia;Ortografia
+1029;É preciso afear as facas.;É preciso afiar as facas.;afear;afiar;Fonologia;Ortografia
+1030;É preciso afear as suas facas.;É preciso afiar as suas facas.;afear;afiar;Fonologia;Ortografia
+1031;Vou por ai fora a cantar.;Vou por aí fora a cantar.;ai fora;aí fora;Fonologia;Ortografia
+1032;Quero ver a amostra de arte.;Quero ver a mostra de arte.;amostra;mostra;Semântica;Parônimo
+1033;Não é possível dizer de ante mão.;Não é possível dizer de antemão.;ante mão;antemão;Fonologia;Emprego do hífen
+1034;Venda o monitor ao parta o porquinho mealheiro.;Venda o monitor ao partir o porquinho mealheiro.;parta;partir;Morfologia;Verbo
+1035;Vendam o monitor ao partam o porquinho mealheiro.;Vendam o monitor ao partirem o porquinho mealheiro.;partam;partirem;Morfologia;Verbo
+1036;Venda o monitor ao quebre um mealheiro.;Venda o monitor ao quebrar um mealheiro.;quebre;quebrar;Morfologia;Verbo
+1037;Vendam o monitor ao quebrem uns mealheiros.;Vendam o monitor ao quebrarem uns mealheiros.;quebrem;quebrarem;Morfologia;Verbo
+1038;O jogo fica para aproxima corações.;O jogo fica para aproximar corações.;aproxima;aproximar;Morfologia;Verbo
+1039;Vamos arrear a vela.;Vamos arriar a vela.;arrear;arriar;Fonologia;Ortografia
+1040;Vamos fazer um asserto de contas.;Vamos fazer um acerto de contas.;asserto;acerto;Fonologia;Ortografia
+1041;E ate o menino conseguiu fazer isso.;E até o menino conseguiu fazer isso.;ate;até;Fonologia;Ortografia
+1042;Vou ate minha casa e volto.;Vou até minha casa e volto.;ate;até;Fonologia;Ortografia
+1043;E vou ate ao mercado.;E vou até ao mercado.;ate;até;Fonologia;Ortografia
+1044;O Rui foi decisivo na ate então inédita conquista.;O Rui foi decisivo na até então inédita conquista.;ate então;até então;Fonologia;Ortografia
+1045;Vou comer os medicamentos.;Vou tomar os medicamentos.;comer;tomar;Sintaxe;Regência verbal
+1046;Este é capas de ser o pior port de sempre.;Este é capaz de ser o pior jogador de sempre.;capas;capaz;Fonologia;Ortografia
+1047;Ele ainda não tinha chego a casa, quando se lembrou do aniversiário.;Ele ainda não tinha chegado a casa quando se lembrou do aniversário.;chego;chegado;Morfologia;Verbo
+1048;Devemos pedir um consejo ao padre.;Devemos pedir um conselho ao padre.;concelho;conselho;Fonologia;Ortografia
+1049;Vou a um conserto.;Vou a um conserto.;a um;a um;Morfologia;Artigo
+1050;Isto já contanto com o jantar.;Isto já conta com o jantar.;contanto;conta;Fonologia;Ortografia

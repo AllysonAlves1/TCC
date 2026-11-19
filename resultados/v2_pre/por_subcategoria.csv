@@ -1,0 +1,589 @@
+modelo;subcategoria;n;F05;Exata;Acc_sub
+GLM-5.3-Flash;Acentuação gráfica;129;0,8629;0,8605;0,0000
+GLM-5.3-Flash;Adjetivo;24;0,5556;0,4583;0,1250
+GLM-5.3-Flash;Advérbio;17;0,8025;0,7647;0,4118
+GLM-5.3-Flash;Artigo;13;0,6522;0,6923;0,4615
+GLM-5.3-Flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+GLM-5.3-Flash;Colocação Pronominal;23;0,7389;0,6087;0,0870
+GLM-5.3-Flash;Concordância Nominal;153;0,7125;0,6863;0,5294
+GLM-5.3-Flash;Concordância Verbal;39;0,8000;0,7949;0,4359
+GLM-5.3-Flash;Conjunção;12;0,6667;0,6667;0,0000
+GLM-5.3-Flash;Contração;3;0,5263;0,6667;1,0000
+GLM-5.3-Flash;Emprego do Hífen;22;0,5909;0,5909;0,6364
+GLM-5.3-Flash;Homônimo;25;0,8000;0,8000;0,0000
+GLM-5.3-Flash;Locução adjetiva;1;1,0000;1,0000;0,0000
+GLM-5.3-Flash;Locução conjuntiva;7;0,3704;0,2857;0,0000
+GLM-5.3-Flash;Maiúsculas e minúsculas;9;0,6349;0,5556;0,8889
+GLM-5.3-Flash;Ortografia;219;0,7959;0,7671;0,7900
+GLM-5.3-Flash;Parônimo;13;0,6557;0,6154;0,2308
+GLM-5.3-Flash;Pontuação;98;0,7063;0,6735;0,8265
+GLM-5.3-Flash;Preposição;33;0,6878;0,6667;0,0000
+GLM-5.3-Flash;Pronome;88;0,8230;0,7273;0,2386
+GLM-5.3-Flash;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+GLM-5.3-Flash;Redundância;4;0,3571;0,2500;0,5000
+GLM-5.3-Flash;Regência Nominal;12;0,6731;0,5833;0,3333
+GLM-5.3-Flash;Regência Verbal;22;0,8511;0,7273;0,5000
+GLM-5.3-Flash;Seleção Lexical;2;1,0000;1,0000;0,0000
+GLM-5.3-Flash;Substantivo;11;0,5319;0,4545;0,2727
+GLM-5.3-Flash;Uso da crase;52;0,8929;0,8654;0,9231
+GLM-5.3-Flash;Verbo;165;0,7459;0,7152;0,8242
+MiMo-V2.6-Flash;Acentuação gráfica;129;0,8499;0,8372;0,6202
+MiMo-V2.6-Flash;Adjetivo;24;0,5603;0,5000;0,7500
+MiMo-V2.6-Flash;Advérbio;17;0,6471;0,6471;0,8235
+MiMo-V2.6-Flash;Artigo;13;0,7246;0,7692;0,2308
+MiMo-V2.6-Flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+MiMo-V2.6-Flash;Colocação Pronominal;23;0,3448;0,1304;0,6957
+MiMo-V2.6-Flash;Concordância Nominal;153;0,7234;0,6863;0,8824
+MiMo-V2.6-Flash;Concordância Verbal;39;0,9750;0,9744;0,7179
+MiMo-V2.6-Flash;Conjunção;12;0,6667;0,6667;0,0000
+MiMo-V2.6-Flash;Contração;3;1,0000;1,0000;1,0000
+MiMo-V2.6-Flash;Emprego do Hífen;22;0,8889;0,6818;0,7273
+MiMo-V2.6-Flash;Homônimo;25;0,8120;0,7600;0,0000
+MiMo-V2.6-Flash;Locução adjetiva;1;0,0000;0,0000;0,0000
+MiMo-V2.6-Flash;Locução conjuntiva;7;0,4348;0,2857;0,7143
+MiMo-V2.6-Flash;Maiúsculas e minúsculas;9;0,8182;0,6667;0,7778
+MiMo-V2.6-Flash;Ortografia;219;0,8105;0,7443;0,2374
+MiMo-V2.6-Flash;Parônimo;13;0,4717;0,3846;0,5385
+MiMo-V2.6-Flash;Pontuação;98;0,7430;0,6939;0,8163
+MiMo-V2.6-Flash;Preposição;33;0,7225;0,6970;0,0000
+MiMo-V2.6-Flash;Pronome;88;0,9146;0,8864;0,2614
+MiMo-V2.6-Flash;Propriedade Vocabular;5;0,3846;0,2000;0,0000
+MiMo-V2.6-Flash;Redundância;4;0,6250;0,5000;0,2500
+MiMo-V2.6-Flash;Regência Nominal;12;0,6250;0,5000;0,1667
+MiMo-V2.6-Flash;Regência Verbal;22;0,7778;0,6364;0,8636
+MiMo-V2.6-Flash;Seleção Lexical;2;0,0000;0,0000;0,0000
+MiMo-V2.6-Flash;Substantivo;11;0,5128;0,3636;0,1818
+MiMo-V2.6-Flash;Uso da crase;52;0,9280;0,9038;0,9423
+MiMo-V2.6-Flash;Verbo;165;0,7570;0,7030;0,3939
+MiMo-V2.6-Pro;Acentuação gráfica;129;0,8699;0,8682;0,7519
+MiMo-V2.6-Pro;Adjetivo;24;0,7197;0,7083;0,3333
+MiMo-V2.6-Pro;Advérbio;17;0,9412;0,9412;0,8235
+MiMo-V2.6-Pro;Artigo;13;0,7971;0,8462;0,3077
+MiMo-V2.6-Pro;Classe de Palavras;2;1,0000;1,0000;0,0000
+MiMo-V2.6-Pro;Colocação Pronominal;23;0,7488;0,6087;0,8696
+MiMo-V2.6-Pro;Concordância Nominal;153;0,7478;0,7255;0,9542
+MiMo-V2.6-Pro;Concordância Verbal;39;0,9750;0,9744;0,8718
+MiMo-V2.6-Pro;Conjunção;12;0,6667;0,6667;0,0000
+MiMo-V2.6-Pro;Contração;3;1,0000;1,0000;1,0000
+MiMo-V2.6-Pro;Emprego do Hífen;22;0,7627;0,7727;0,8182
+MiMo-V2.6-Pro;Homônimo;25;0,9200;0,9200;0,8000
+MiMo-V2.6-Pro;Locução adjetiva;1;1,0000;1,0000;0,0000
+MiMo-V2.6-Pro;Locução conjuntiva;7;0,5714;0,5714;0,5714
+MiMo-V2.6-Pro;Maiúsculas e minúsculas;9;0,7143;0,7778;1,0000
+MiMo-V2.6-Pro;Ortografia;219;0,8795;0,8721;0,5936
+MiMo-V2.6-Pro;Parônimo;13;0,8696;0,8462;0,4615
+MiMo-V2.6-Pro;Pontuação;98;0,7368;0,7551;0,8367
+MiMo-V2.6-Pro;Preposição;33;0,8382;0,8182;0,0909
+MiMo-V2.6-Pro;Pronome;88;0,9299;0,9091;0,2614
+MiMo-V2.6-Pro;Propriedade Vocabular;5;0,4000;0,4000;0,4000
+MiMo-V2.6-Pro;Redundância;4;0,5000;0,5000;0,7500
+MiMo-V2.6-Pro;Regência Nominal;12;0,5833;0,5833;0,0833
+MiMo-V2.6-Pro;Regência Verbal;22;0,7895;0,8182;0,7727
+MiMo-V2.6-Pro;Seleção Lexical;2;1,0000;1,0000;0,0000
+MiMo-V2.6-Pro;Substantivo;11;0,8182;0,8182;0,0000
+MiMo-V2.6-Pro;Uso da crase;52;0,9007;0,9038;0,9038
+MiMo-V2.6-Pro;Verbo;165;0,7947;0,7939;0,4061
+MiniMax-M3;Acentuação gráfica;129;0,7839;0,7597;0,0000
+MiniMax-M3;Adjetivo;24;0,5556;0,4583;0,5000
+MiniMax-M3;Advérbio;17;0,7303;0,6471;0,5882
+MiniMax-M3;Artigo;13;0,5385;0,5385;0,5385
+MiniMax-M3;Classe de Palavras;2;1,0000;1,0000;0,0000
+MiniMax-M3;Colocação Pronominal;23;0,2139;0,1739;0,6087
+MiniMax-M3;Concordância Nominal;153;0,5767;0,5556;0,2092
+MiniMax-M3;Concordância Verbal;39;0,7955;0,6667;0,5128
+MiniMax-M3;Conjunção;12;0,4464;0,4167;0,0833
+MiniMax-M3;Contração;3;0,6667;0,6667;0,0000
+MiniMax-M3;Emprego do Hífen;22;0,6356;0,6364;0,7273
+MiniMax-M3;Homônimo;25;0,4959;0,4000;0,0000
+MiniMax-M3;Locução adjetiva;1;0,0000;0,0000;0,0000
+MiniMax-M3;Locução conjuntiva;7;0,3704;0,0000;0,0000
+MiniMax-M3;Maiúsculas e minúsculas;9;0,4762;0,4444;0,7778
+MiniMax-M3;Ortografia;219;0,6844;0,6256;0,4247
+MiniMax-M3;Parônimo;13;0,3774;0,3077;0,0769
+MiniMax-M3;Pontuação;98;0,4947;0,4796;0,6837
+MiniMax-M3;Preposição;33;0,6647;0,6061;0,3030
+MiniMax-M3;Pronome;88;0,6522;0,5682;0,2045
+MiniMax-M3;Propriedade Vocabular;5;0,2941;0,2000;0,0000
+MiniMax-M3;Redundância;4;0,2500;0,0000;0,0000
+MiniMax-M3;Regência Nominal;12;0,6731;0,5833;0,0000
+MiniMax-M3;Regência Verbal;22;0,7558;0,5909;0,1364
+MiniMax-M3;Seleção Lexical;2;0,8333;0,5000;0,0000
+MiniMax-M3;Substantivo;11;0,2564;0,1818;0,3636
+MiniMax-M3;Uso da crase;52;0,7904;0,7115;0,8077
+MiniMax-M3;Verbo;165;0,6792;0,6606;0,3697
+beam;Acentuação gráfica;129;0,8098;0,8062;0,2248
+beam;Adjetivo;24;0,4688;0,4583;0,2083
+beam;Advérbio;17;0,6452;0,5882;0,4118
+beam;Artigo;13;0,6522;0,6923;0,0000
+beam;Classe de Palavras;2;1,0000;1,0000;0,0000
+beam;Colocação Pronominal;23;0,4795;0,4348;0,7391
+beam;Concordância Nominal;153;0,6870;0,6732;0,6209
+beam;Concordância Verbal;39;0,4657;0,4615;0,6923
+beam;Conjunção;12;0,5833;0,5833;0,0000
+beam;Contração;3;0,6667;0,6667;0,0000
+beam;Emprego do Hífen;22;0,9434;0,8636;0,8636
+beam;Homônimo;25;0,7752;0,7200;0,0000
+beam;Locução adjetiva;1;1,0000;1,0000;0,0000
+beam;Locução conjuntiva;7;0,5128;0,5714;0,0000
+beam;Maiúsculas e minúsculas;9;0,5455;0,4444;0,6667
+beam;Ortografia;219;0,7775;0,7626;0,7534
+beam;Parônimo;13;0,5797;0,5385;0,2308
+beam;Pontuação;98;0,4805;0,4082;0,5612
+beam;Preposição;33;0,7345;0,6970;0,0000
+beam;Pronome;88;0,8488;0,7614;0,1591
+beam;Propriedade Vocabular;5;1,0000;1,0000;1,0000
+beam;Redundância;4;0,7500;0,7500;0,0000
+beam;Regência Nominal;12;0,7692;0,6667;0,4167
+beam;Regência Verbal;22;0,8182;0,8182;0,8182
+beam;Seleção Lexical;2;1,0000;1,0000;0,0000
+beam;Substantivo;11;0,3922;0,2727;0,1818
+beam;Uso da crase;52;0,8088;0,7308;0,8077
+beam;Verbo;165;0,6733;0,6606;0,2970
+claude-haiku-5.5;Acentuação gráfica;129;0,8470;0,8295;0,8450
+claude-haiku-5.5;Adjetivo;24;0,5500;0,4167;0,2500
+claude-haiku-5.5;Advérbio;17;0,6173;0,5882;0,7647
+claude-haiku-5.5;Artigo;13;0,5797;0,6154;0,2308
+claude-haiku-5.5;Classe de Palavras;2;0,0000;0,0000;0,0000
+claude-haiku-5.5;Colocação Pronominal;23;0,1397;0,0870;0,7391
+claude-haiku-5.5;Concordância Nominal;153;0,6783;0,6536;0,6405
+claude-haiku-5.5;Concordância Verbal;39;0,7500;0,4872;0,4103
+claude-haiku-5.5;Conjunção;12;0,5833;0,5833;0,5000
+claude-haiku-5.5;Contração;3;0,3333;0,3333;0,6667
+claude-haiku-5.5;Emprego do Hífen;22;0,7778;0,5909;0,5909
+claude-haiku-5.5;Homônimo;25;0,8547;0,7600;0,0000
+claude-haiku-5.5;Locução adjetiva;1;0,0000;0,0000;0,0000
+claude-haiku-5.5;Locução conjuntiva;7;0,2632;0,1429;0,0000
+claude-haiku-5.5;Maiúsculas e minúsculas;9;0,5455;0,4444;0,5556
+claude-haiku-5.5;Ortografia;219;0,8238;0,7580;0,3790
+claude-haiku-5.5;Parônimo;13;0,6154;0,4615;0,5385
+claude-haiku-5.5;Pontuação;98;0,7469;0,6429;0,6939
+claude-haiku-5.5;Preposição;33;0,6509;0,6061;0,0000
+claude-haiku-5.5;Pronome;88;0,8805;0,8523;0,2614
+claude-haiku-5.5;Propriedade Vocabular;5;0,3846;0,2000;0,2000
+claude-haiku-5.5;Redundância;4;0,8333;0,7500;0,7500
+claude-haiku-5.5;Regência Nominal;12;0,3846;0,2500;0,3333
+claude-haiku-5.5;Regência Verbal;22;0,7979;0,6818;0,6364
+claude-haiku-5.5;Seleção Lexical;2;0,0000;0,0000;0,0000
+claude-haiku-5.5;Substantivo;11;0,7143;0,4545;0,3636
+claude-haiku-5.5;Uso da crase;52;0,8640;0,7885;0,8654
+claude-haiku-5.5;Verbo;165;0,7494;0,7152;0,3758
+claude-opus-5.5;Acentuação gráfica;129;0,8419;0,8295;0,9147
+claude-opus-5.5;Adjetivo;24;0,4545;0,4583;0,1667
+claude-opus-5.5;Advérbio;17;0,8427;0,8824;0,7059
+claude-opus-5.5;Artigo;13;0,7246;0,7692;0,3077
+claude-opus-5.5;Classe de Palavras;2;1,0000;1,0000;0,0000
+claude-opus-5.5;Colocação Pronominal;23;0,5814;0,6087;0,6957
+claude-opus-5.5;Concordância Nominal;153;0,7194;0,6993;0,9150
+claude-opus-5.5;Concordância Verbal;39;0,9804;0,9744;0,7179
+claude-opus-5.5;Conjunção;12;1,0000;1,0000;0,0000
+claude-opus-5.5;Contração;3;1,0000;1,0000;1,0000
+claude-opus-5.5;Emprego do Hífen;22;0,8636;0,8182;0,9091
+claude-opus-5.5;Homônimo;25;0,8915;0,8400;0,7600
+claude-opus-5.5;Locução adjetiva;1;1,0000;1,0000;0,0000
+claude-opus-5.5;Locução conjuntiva;7;0,5814;0,7143;0,5714
+claude-opus-5.5;Maiúsculas e minúsculas;9;0,5333;0,6667;1,0000
+claude-opus-5.5;Ortografia;219;0,8836;0,8767;0,2968
+claude-opus-5.5;Parônimo;13;0,7534;0,6923;0,6154
+claude-opus-5.5;Pontuação;98;0,6004;0,5918;0,6837
+claude-opus-5.5;Preposição;33;0,7027;0,7273;0,0909
+claude-opus-5.5;Pronome;88;0,9161;0,8864;0,2500
+claude-opus-5.5;Propriedade Vocabular;5;1,0000;1,0000;1,0000
+claude-opus-5.5;Redundância;4;0,8333;0,7500;0,7500
+claude-opus-5.5;Regência Nominal;12;0,7353;0,7500;0,0833
+claude-opus-5.5;Regência Verbal;22;0,8182;0,8182;0,6818
+claude-opus-5.5;Seleção Lexical;2;1,0000;1,0000;0,0000
+claude-opus-5.5;Substantivo;11;0,9091;0,9091;0,6364
+claude-opus-5.5;Uso da crase;52;0,8929;0,8654;0,9423
+claude-opus-5.5;Verbo;165;0,8238;0,8242;0,3879
+claude-sonnet-5.5;Acentuação gráfica;129;0,8872;0,8760;0,8682
+claude-sonnet-5.5;Adjetivo;24;0,5682;0,5833;0,3750
+claude-sonnet-5.5;Advérbio;17;0,8235;0,8235;0,9412
+claude-sonnet-5.5;Artigo;13;0,7246;0,7692;0,5385
+claude-sonnet-5.5;Classe de Palavras;2;1,0000;1,0000;0,0000
+claude-sonnet-5.5;Colocação Pronominal;23;0,8447;0,7826;0,8261
+claude-sonnet-5.5;Concordância Nominal;153;0,7143;0,6928;0,4837
+claude-sonnet-5.5;Concordância Verbal;39;0,9559;0,9487;0,8718
+claude-sonnet-5.5;Conjunção;12;0,5833;0,5833;0,0833
+claude-sonnet-5.5;Contração;3;1,0000;1,0000;1,0000
+claude-sonnet-5.5;Emprego do Hífen;22;0,9211;0,8636;1,0000
+claude-sonnet-5.5;Homônimo;25;0,8915;0,8400;0,5200
+claude-sonnet-5.5;Locução adjetiva;1;0,0000;0,0000;0,0000
+claude-sonnet-5.5;Locução conjuntiva;7;0,6452;0,5714;0,5714
+claude-sonnet-5.5;Maiúsculas e minúsculas;9;0,5556;0,4444;0,8889
+claude-sonnet-5.5;Ortografia;219;0,9128;0,9041;0,3973
+claude-sonnet-5.5;Parônimo;13;0,7534;0,6923;0,6154
+claude-sonnet-5.5;Pontuação;98;0,7471;0,6837;0,8878
+claude-sonnet-5.5;Preposição;33;0,7297;0,7576;0,1212
+claude-sonnet-5.5;Pronome;88;0,9491;0,9432;0,2614
+claude-sonnet-5.5;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+claude-sonnet-5.5;Redundância;4;0,8333;0,7500;0,7500
+claude-sonnet-5.5;Regência Nominal;12;0,7692;0,6667;0,4167
+claude-sonnet-5.5;Regência Verbal;22;0,7843;0,7273;0,6818
+claude-sonnet-5.5;Seleção Lexical;2;1,0000;1,0000;0,0000
+claude-sonnet-5.5;Substantivo;11;0,9302;0,7273;0,2727
+claude-sonnet-5.5;Uso da crase;52;0,9191;0,8846;0,9231
+claude-sonnet-5.5;Verbo;165;0,8218;0,8182;0,4061
+deepseek-v4.1-flash;Acentuação gráfica;129;0,8098;0,8140;0,8062
+deepseek-v4.1-flash;Adjetivo;24;0,5303;0,5417;0,2917
+deepseek-v4.1-flash;Advérbio;17;0,8427;0,8235;0,9412
+deepseek-v4.1-flash;Artigo;13;0,7246;0,7692;0,2308
+deepseek-v4.1-flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+deepseek-v4.1-flash;Colocação Pronominal;23;0,8140;0,8261;0,6957
+deepseek-v4.1-flash;Concordância Nominal;153;0,7491;0,7255;0,7582
+deepseek-v4.1-flash;Concordância Verbal;39;0,9559;0,9487;0,6667
+deepseek-v4.1-flash;Conjunção;12;1,0000;1,0000;0,0000
+deepseek-v4.1-flash;Contração;3;1,0000;1,0000;1,0000
+deepseek-v4.1-flash;Emprego do Hífen;22;0,8333;0,8182;0,7273
+deepseek-v4.1-flash;Homônimo;25;0,8271;0,8000;0,0000
+deepseek-v4.1-flash;Locução adjetiva;1;1,0000;1,0000;0,0000
+deepseek-v4.1-flash;Locução conjuntiva;7;0,7143;0,7143;0,5714
+deepseek-v4.1-flash;Maiúsculas e minúsculas;9;0,6349;0,5556;0,7778
+deepseek-v4.1-flash;Ortografia;219;0,8591;0,8584;0,7626
+deepseek-v4.1-flash;Parônimo;13;0,7792;0,7692;0,4615
+deepseek-v4.1-flash;Pontuação;98;0,7353;0,7449;0,8673
+deepseek-v4.1-flash;Preposição;33;0,7568;0,7273;0,0303
+deepseek-v4.1-flash;Pronome;88;0,9024;0,8636;0,2614
+deepseek-v4.1-flash;Propriedade Vocabular;5;0,3448;0,4000;0,0000
+deepseek-v4.1-flash;Redundância;4;0,2500;0,2500;0,5000
+deepseek-v4.1-flash;Regência Nominal;12;0,7812;0,7500;0,5833
+deepseek-v4.1-flash;Regência Verbal;22;0,8636;0,8636;0,7727
+deepseek-v4.1-flash;Seleção Lexical;2;1,0000;1,0000;0,0000
+deepseek-v4.1-flash;Substantivo;11;0,7273;0,7273;0,4545
+deepseek-v4.1-flash;Uso da crase;52;0,8904;0,8462;0,8269
+deepseek-v4.1-flash;Verbo;165;0,7809;0,7697;0,3455
+gemini-3.8-flash;Acentuação gráfica;129;0,8850;0,8760;0,8992
+gemini-3.8-flash;Adjetivo;24;0,5859;0,5833;0,1667
+gemini-3.8-flash;Advérbio;17;0,8989;0,8824;0,7059
+gemini-3.8-flash;Artigo;13;0,6522;0,6923;0,3077
+gemini-3.8-flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+gemini-3.8-flash;Colocação Pronominal;23;0,3425;0,3478;0,6957
+gemini-3.8-flash;Concordância Nominal;153;0,7516;0,7320;0,9216
+gemini-3.8-flash;Concordância Verbal;39;0,9750;0,9744;0,7436
+gemini-3.8-flash;Conjunção;12;1,0000;1,0000;0,3333
+gemini-3.8-flash;Contração;3;1,0000;1,0000;1,0000
+gemini-3.8-flash;Emprego do Hífen;22;0,8475;0,8636;0,9091
+gemini-3.8-flash;Homônimo;25;0,9690;0,9600;0,6400
+gemini-3.8-flash;Locução adjetiva;1;1,0000;1,0000;1,0000
+gemini-3.8-flash;Locução conjuntiva;7;0,8065;0,7143;0,5714
+gemini-3.8-flash;Maiúsculas e minúsculas;9;0,5556;0,5556;0,7778
+gemini-3.8-flash;Ortografia;219;0,9243;0,9178;0,3699
+gemini-3.8-flash;Parônimo;13;0,7792;0,7692;0,6154
+gemini-3.8-flash;Pontuação;98;0,6529;0,6429;0,8163
+gemini-3.8-flash;Preposição;33;0,7735;0,7576;0,0909
+gemini-3.8-flash;Pronome;88;0,9202;0,9091;0,2614
+gemini-3.8-flash;Propriedade Vocabular;5;1,0000;1,0000;0,8000
+gemini-3.8-flash;Redundância;4;1,0000;1,0000;0,7500
+gemini-3.8-flash;Regência Nominal;12;0,6618;0,6667;0,0833
+gemini-3.8-flash;Regência Verbal;22;0,8051;0,8182;0,6818
+gemini-3.8-flash;Seleção Lexical;2;1,0000;1,0000;0,0000
+gemini-3.8-flash;Substantivo;11;0,8182;0,8182;0,7273
+gemini-3.8-flash;Uso da crase;52;0,9515;0,9423;0,9231
+gemini-3.8-flash;Verbo;165;0,8238;0,8182;0,3455
+gemini-4-argon;Acentuação gráfica;129;0,8894;0,8837;0,9380
+gemini-4-argon;Adjetivo;24;0,5682;0,5833;0,2083
+gemini-4-argon;Advérbio;17;0,8427;0,8235;0,7059
+gemini-4-argon;Artigo;13;0,7246;0,7692;0,3077
+gemini-4-argon;Classe de Palavras;2;1,0000;1,0000;0,0000
+gemini-4-argon;Colocação Pronominal;23;0,5814;0,6087;0,6957
+gemini-4-argon;Concordância Nominal;153;0,7660;0,7451;0,9673
+gemini-4-argon;Concordância Verbal;39;0,9804;0,9744;0,7436
+gemini-4-argon;Conjunção;12;1,0000;1,0000;0,0833
+gemini-4-argon;Contração;3;0,7895;0,6667;1,0000
+gemini-4-argon;Emprego do Hífen;22;0,8333;0,8182;0,9545
+gemini-4-argon;Homônimo;25;0,8156;0,7600;0,6400
+gemini-4-argon;Locução adjetiva;1;1,0000;1,0000;0,0000
+gemini-4-argon;Locução conjuntiva;7;0,7143;0,7143;0,5714
+gemini-4-argon;Maiúsculas e minúsculas;9;0,7463;0,5556;1,0000
+gemini-4-argon;Ortografia;219;0,9040;0,8904;0,5571
+gemini-4-argon;Parônimo;13;0,7792;0,7692;0,6923
+gemini-4-argon;Pontuação;98;0,7358;0,7449;0,8571
+gemini-4-argon;Preposição;33;0,7407;0,7273;0,0909
+gemini-4-argon;Pronome;88;0,8854;0,8295;0,2614
+gemini-4-argon;Propriedade Vocabular;5;1,0000;1,0000;0,8000
+gemini-4-argon;Redundância;4;0,6250;0,5000;0,5000
+gemini-4-argon;Regência Nominal;12;0,6250;0,5833;0,3333
+gemini-4-argon;Regência Verbal;22;0,8182;0,8182;0,7273
+gemini-4-argon;Seleção Lexical;2;1,0000;1,0000;0,0000
+gemini-4-argon;Substantivo;11;0,9091;0,9091;0,7273
+gemini-4-argon;Uso da crase;52;0,8979;0,8654;0,9231
+gemini-4-argon;Verbo;165;0,8038;0,7939;0,4182
+gemini-4-hydrogen;Acentuação gráfica;129;0,8346;0,8217;0,8915
+gemini-4-hydrogen;Adjetivo;24;0,4924;0,5000;0,1667
+gemini-4-hydrogen;Advérbio;17;0,8427;0,8824;0,7059
+gemini-4-hydrogen;Artigo;13;0,7246;0,7692;0,1538
+gemini-4-hydrogen;Classe de Palavras;2;1,0000;1,0000;0,0000
+gemini-4-hydrogen;Colocação Pronominal;23;0,3953;0,4348;0,6957
+gemini-4-hydrogen;Concordância Nominal;153;0,6949;0,6797;0,9542
+gemini-4-hydrogen;Concordância Verbal;39;0,9750;0,9744;0,7179
+gemini-4-hydrogen;Conjunção;12;1,0000;1,0000;0,4167
+gemini-4-hydrogen;Contração;3;1,0000;1,0000;1,0000
+gemini-4-hydrogen;Emprego do Hífen;22;0,9091;0,8636;1,0000
+gemini-4-hydrogen;Homônimo;25;0,8271;0,8000;0,5200
+gemini-4-hydrogen;Locução adjetiva;1;1,0000;1,0000;0,0000
+gemini-4-hydrogen;Locução conjuntiva;7;0,8140;0,7143;0,5714
+gemini-4-hydrogen;Maiúsculas e minúsculas;9;0,6349;0,5556;1,0000
+gemini-4-hydrogen;Ortografia;219;0,9158;0,9041;0,5571
+gemini-4-hydrogen;Parônimo;13;0,7792;0,7692;0,6154
+gemini-4-hydrogen;Pontuação;98;0,6270;0,6327;0,9082
+gemini-4-hydrogen;Preposição;33;0,7568;0,7273;0,0909
+gemini-4-hydrogen;Pronome;88;0,8757;0,8182;0,2614
+gemini-4-hydrogen;Propriedade Vocabular;5;1,0000;1,0000;0,8000
+gemini-4-hydrogen;Redundância;4;0,6250;0,5000;0,5000
+gemini-4-hydrogen;Regência Nominal;12;0,5882;0,5833;0,3333
+gemini-4-hydrogen;Regência Verbal;22;0,7895;0,8182;0,6364
+gemini-4-hydrogen;Seleção Lexical;2;1,0000;1,0000;0,0000
+gemini-4-hydrogen;Substantivo;11;0,8182;0,8182;0,5455
+gemini-4-hydrogen;Uso da crase;52;0,9107;0,8846;0,9423
+gemini-4-hydrogen;Verbo;165;0,8126;0,8182;0,4000
+gpt-6-luna;Acentuação gráfica;129;0,8321;0,8217;0,7132
+gpt-6-luna;Adjetivo;24;0,5682;0,5833;0,3750
+gpt-6-luna;Advérbio;17;0,8989;0,8824;1,0000
+gpt-6-luna;Artigo;13;0,6522;0,6923;0,3077
+gpt-6-luna;Classe de Palavras;2;1,0000;1,0000;0,0000
+gpt-6-luna;Colocação Pronominal;23;0,8372;0,7826;1,0000
+gpt-6-luna;Concordância Nominal;153;0,6596;0,6471;0,8366
+gpt-6-luna;Concordância Verbal;39;0,9559;0,9487;0,8205
+gpt-6-luna;Conjunção;12;1,0000;1,0000;0,0000
+gpt-6-luna;Contração;3;1,0000;1,0000;1,0000
+gpt-6-luna;Emprego do Hífen;22;0,7895;0,8182;0,7727
+gpt-6-luna;Homônimo;25;0,7519;0,7600;0,0000
+gpt-6-luna;Locução adjetiva;1;1,0000;1,0000;1,0000
+gpt-6-luna;Locução conjuntiva;7;0,5556;0,4286;0,0000
+gpt-6-luna;Maiúsculas e minúsculas;9;0,5556;0,4444;1,0000
+gpt-6-luna;Ortografia;219;0,8834;0,8676;0,5845
+gpt-6-luna;Parônimo;13;0,5072;0,4615;0,2308
+gpt-6-luna;Pontuação;98;0,6143;0,5918;0,8673
+gpt-6-luna;Preposição;33;0,6215;0,6364;0,0606
+gpt-6-luna;Pronome;88;0,8696;0,8409;0,2614
+gpt-6-luna;Propriedade Vocabular;5;0,7143;0,6000;1,0000
+gpt-6-luna;Redundância;4;0,7500;0,5000;0,5000
+gpt-6-luna;Regência Nominal;12;0,5469;0,5000;0,2500
+gpt-6-luna;Regência Verbal;22;0,8182;0,8182;0,6364
+gpt-6-luna;Seleção Lexical;2;0,0000;0,0000;0,0000
+gpt-6-luna;Substantivo;11;0,7447;0,6364;0,7273
+gpt-6-luna;Uso da crase;52;0,9191;0,8846;0,9231
+gpt-6-luna;Verbo;165;0,7859;0,7758;0,3939
+gpt-6.1-sol;Acentuação gráfica;129;0,8321;0,8217;0,8837
+gpt-6.1-sol;Adjetivo;24;0,6500;0,5000;0,0417
+gpt-6.1-sol;Advérbio;17;0,8824;0,8824;0,7059
+gpt-6.1-sol;Artigo;13;0,7246;0,7692;0,3077
+gpt-6.1-sol;Classe de Palavras;2;1,0000;1,0000;0,0000
+gpt-6.1-sol;Colocação Pronominal;23;0,3555;0,3478;0,7826
+gpt-6.1-sol;Concordância Nominal;153;0,6996;0,6601;0,9542
+gpt-6.1-sol;Concordância Verbal;39;0,9559;0,9487;0,8718
+gpt-6.1-sol;Conjunção;12;0,9167;0,9167;0,0000
+gpt-6.1-sol;Contração;3;1,0000;1,0000;1,0000
+gpt-6.1-sol;Emprego do Hífen;22;0,9091;0,8636;0,7727
+gpt-6.1-sol;Homônimo;25;0,8647;0,8000;0,3200
+gpt-6.1-sol;Locução adjetiva;1;1,0000;1,0000;1,0000
+gpt-6.1-sol;Locução conjuntiva;7;0,5556;0,4286;0,4286
+gpt-6.1-sol;Maiúsculas e minúsculas;9;0,6780;0,5556;0,6667
+gpt-6.1-sol;Ortografia;219;0,8991;0,8721;0,5297
+gpt-6.1-sol;Parônimo;13;0,6522;0,6154;0,5385
+gpt-6.1-sol;Pontuação;98;0,6509;0,6020;0,7653
+gpt-6.1-sol;Preposição;33;0,6647;0,6061;0,0909
+gpt-6.1-sol;Pronome;88;0,8810;0,8182;0,2500
+gpt-6.1-sol;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+gpt-6.1-sol;Redundância;4;0,4167;0,2500;0,5000
+gpt-6.1-sol;Regência Nominal;12;0,4808;0,3333;0,1667
+gpt-6.1-sol;Regência Verbal;22;0,6977;0,5455;0,5909
+gpt-6.1-sol;Seleção Lexical;2;0,0000;0,0000;0,0000
+gpt-6.1-sol;Substantivo;11;0,9804;0,9091;0,5455
+gpt-6.1-sol;Uso da crase;52;0,8803;0,8077;0,8846
+gpt-6.1-sol;Verbo;165;0,7910;0,7636;0,3758
+gpt-6.1-terra;Acentuação gráfica;129;0,8722;0,8605;0,8295
+gpt-6.1-terra;Adjetivo;24;0,7292;0,5417;0,1667
+gpt-6.1-terra;Advérbio;17;0,8427;0,8235;1,0000
+gpt-6.1-terra;Artigo;13;0,6522;0,6923;0,3077
+gpt-6.1-terra;Classe de Palavras;2;1,0000;1,0000;0,0000
+gpt-6.1-terra;Colocação Pronominal;23;0,6806;0,6087;0,8696
+gpt-6.1-terra;Concordância Nominal;153;0,7355;0,7059;0,9216
+gpt-6.1-terra;Concordância Verbal;39;0,8824;0,8718;0,9744
+gpt-6.1-terra;Conjunção;12;0,9821;0,9167;0,0833
+gpt-6.1-terra;Contração;3;1,0000;1,0000;1,0000
+gpt-6.1-terra;Emprego do Hífen;22;0,8962;0,8182;0,7727
+gpt-6.1-terra;Homônimo;25;0,8416;0,6400;0,3600
+gpt-6.1-terra;Locução adjetiva;1;1,0000;1,0000;1,0000
+gpt-6.1-terra;Locução conjuntiva;7;0,4348;0,2857;0,2857
+gpt-6.1-terra;Maiúsculas e minúsculas;9;0,5556;0,5556;0,8889
+gpt-6.1-terra;Ortografia;219;0,9398;0,9224;0,6347
+gpt-6.1-terra;Parônimo;13;0,5385;0,4615;0,2308
+gpt-6.1-terra;Pontuação;98;0,6559;0,6122;0,7959
+gpt-6.1-terra;Preposição;33;0,6667;0,6061;0,0909
+gpt-6.1-terra;Pronome;88;0,9084;0,8523;0,2500
+gpt-6.1-terra;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+gpt-6.1-terra;Redundância;4;0,8333;0,5000;0,5000
+gpt-6.1-terra;Regência Nominal;12;0,6250;0,4167;0,2500
+gpt-6.1-terra;Regência Verbal;22;0,6707;0,5000;0,5455
+gpt-6.1-terra;Seleção Lexical;2;0,0000;0,0000;0,0000
+gpt-6.1-terra;Substantivo;11;0,8974;0,6364;0,2727
+gpt-6.1-terra;Uso da crase;52;0,9239;0,8846;0,9038
+gpt-6.1-terra;Verbo;165;0,7518;0,7273;0,3455
+grok-4.7;Acentuação gráfica;129;0,8345;0,8217;0,7984
+grok-4.7;Adjetivo;24;0,6439;0,6667;0,2917
+grok-4.7;Advérbio;17;0,8989;0,8824;0,9412
+grok-4.7;Artigo;13;0,5479;0,6154;0,3846
+grok-4.7;Classe de Palavras;2;1,0000;1,0000;0,0000
+grok-4.7;Colocação Pronominal;23;0,2511;0,2609;0,8696
+grok-4.7;Concordância Nominal;153;0,6911;0,6863;0,4510
+grok-4.7;Concordância Verbal;39;0,8726;0,8974;0,6667
+grok-4.7;Conjunção;12;0,8594;0,9167;0,0833
+grok-4.7;Contração;3;1,0000;1,0000;1,0000
+grok-4.7;Emprego do Hífen;22;0,8772;0,8636;0,9091
+grok-4.7;Homônimo;25;0,7664;0,8000;0,0000
+grok-4.7;Locução adjetiva;1;1,0000;1,0000;1,0000
+grok-4.7;Locução conjuntiva;7;0,5714;0,5714;0,5714
+grok-4.7;Maiúsculas e minúsculas;9;0,5970;0,5556;0,6667
+grok-4.7;Ortografia;219;0,8892;0,8813;0,4475
+grok-4.7;Parônimo;13;0,7534;0,6923;0,5385
+grok-4.7;Pontuação;98;0,5928;0,6020;0,6531
+grok-4.7;Preposição;33;0,6716;0,6667;0,0303
+grok-4.7;Pronome;88;0,8576;0,7955;0,2386
+grok-4.7;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+grok-4.7;Redundância;4;0,2083;0,2500;0,5000
+grok-4.7;Regência Nominal;12;0,6250;0,5833;0,4167
+grok-4.7;Regência Verbal;22;0,6746;0,7273;0,6818
+grok-4.7;Seleção Lexical;2;1,0000;1,0000;0,0000
+grok-4.7;Substantivo;11;0,9091;0,9091;0,7273
+grok-4.7;Uso da crase;52;0,7753;0,7115;0,7308
+grok-4.7;Verbo;165;0,7739;0,7758;0,3394
+kimi-k3.1-pro;Acentuação gráfica;129;0,8172;0,8062;0,8450
+kimi-k3.1-pro;Adjetivo;24;0,7692;0,6250;0,2917
+kimi-k3.1-pro;Advérbio;17;0,8247;0,7647;0,8235
+kimi-k3.1-pro;Artigo;13;0,6522;0,6923;0,3077
+kimi-k3.1-pro;Classe de Palavras;2;1,0000;1,0000;0,0000
+kimi-k3.1-pro;Colocação Pronominal;23;0,7820;0,7826;0,6957
+kimi-k3.1-pro;Concordância Nominal;153;0,7057;0,6797;0,9150
+kimi-k3.1-pro;Concordância Verbal;39;0,8841;0,6923;0,4615
+kimi-k3.1-pro;Conjunção;12;1,0000;1,0000;0,3333
+kimi-k3.1-pro;Contração;3;0,6667;0,6667;1,0000
+kimi-k3.1-pro;Emprego do Hífen;22;0,9091;0,8636;0,8182
+kimi-k3.1-pro;Homônimo;25;0,8120;0,7200;0,0000
+kimi-k3.1-pro;Locução adjetiva;1;1,0000;1,0000;1,0000
+kimi-k3.1-pro;Locução conjuntiva;7;0,6452;0,5714;0,5714
+kimi-k3.1-pro;Maiúsculas e minúsculas;9;0,5556;0,5556;0,7778
+kimi-k3.1-pro;Ortografia;219;0,8495;0,8265;0,4429
+kimi-k3.1-pro;Parônimo;13;0,6154;0,5385;0,5385
+kimi-k3.1-pro;Pontuação;98;0,5735;0,5306;0,7653
+kimi-k3.1-pro;Preposição;33;0,7514;0,7576;0,0303
+kimi-k3.1-pro;Pronome;88;0,9172;0,8068;0,2273
+kimi-k3.1-pro;Propriedade Vocabular;5;0,5882;0,4000;0,0000
+kimi-k3.1-pro;Redundância;4;0,6250;0,5000;0,2500
+kimi-k3.1-pro;Regência Nominal;12;0,4808;0,3333;0,5000
+kimi-k3.1-pro;Regência Verbal;22;0,7895;0,7727;0,8636
+kimi-k3.1-pro;Seleção Lexical;2;1,0000;1,0000;0,0000
+kimi-k3.1-pro;Substantivo;11;0,7843;0,7273;0,3636
+kimi-k3.1-pro;Uso da crase;52;0,9375;0,9231;0,8846
+kimi-k3.1-pro;Verbo;165;0,7388;0,7152;0,3758
+minimax-m3.1-flash;Acentuação gráfica;129;0,8272;0,8140;0,7442
+minimax-m3.1-flash;Adjetivo;24;0,6439;0,6667;0,5417
+minimax-m3.1-flash;Advérbio;17;0,6742;0,6471;0,5882
+minimax-m3.1-flash;Artigo;13;0,6522;0,6923;0,6923
+minimax-m3.1-flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+minimax-m3.1-flash;Colocação Pronominal;23;0,2000;0,1739;0,7826
+minimax-m3.1-flash;Concordância Nominal;153;0,6360;0,6405;0,3856
+minimax-m3.1-flash;Concordância Verbal;39;0,4000;0,3590;0,3077
+minimax-m3.1-flash;Conjunção;12;0,6667;0,6667;0,0000
+minimax-m3.1-flash;Contração;3;1,0000;1,0000;1,0000
+minimax-m3.1-flash;Emprego do Hífen;22;0,7627;0,7727;0,7727
+minimax-m3.1-flash;Homônimo;25;0,7752;0,8000;0,0000
+minimax-m3.1-flash;Locução adjetiva;1;1,0000;1,0000;0,0000
+minimax-m3.1-flash;Locução conjuntiva;7;0,7143;0,7143;0,5714
+minimax-m3.1-flash;Maiúsculas e minúsculas;9;0,5085;0,4444;0,5556
+minimax-m3.1-flash;Ortografia;219;0,6094;0,5982;0,2009
+minimax-m3.1-flash;Parônimo;13;0,5556;0,6923;0,2308
+minimax-m3.1-flash;Pontuação;98;0,7230;0,7041;0,8367
+minimax-m3.1-flash;Preposição;33;0,3968;0,4242;0,0606
+minimax-m3.1-flash;Pronome;88;0,6325;0,5795;0,1705
+minimax-m3.1-flash;Propriedade Vocabular;5;0,2000;0,2000;0,2000
+minimax-m3.1-flash;Redundância;4;0,7500;0,7500;1,0000
+minimax-m3.1-flash;Regência Nominal;12;0,6667;0,6667;0,1667
+minimax-m3.1-flash;Regência Verbal;22;0,7456;0,7727;0,6818
+minimax-m3.1-flash;Seleção Lexical;2;1,0000;1,0000;0,0000
+minimax-m3.1-flash;Substantivo;11;0,4255;0,3636;0,1818
+minimax-m3.1-flash;Uso da crase;52;0,8152;0,7885;0,8846
+minimax-m3.1-flash;Verbo;165;0,6465;0,6545;0,2182
+musespark-1.3;Acentuação gráfica;129;0,8544;0,8372;0,8140
+musespark-1.3;Adjetivo;24;0,5682;0,5833;0,7083
+musespark-1.3;Advérbio;17;0,9412;0,9412;0,8824
+musespark-1.3;Artigo;13;0,7971;0,8462;0,4615
+musespark-1.3;Classe de Palavras;2;1,0000;1,0000;0,0000
+musespark-1.3;Colocação Pronominal;23;0,9716;0,9565;0,0000
+musespark-1.3;Concordância Nominal;153;0,7329;0,7059;0,4902
+musespark-1.3;Concordância Verbal;39;0,9069;0,8974;0,6923
+musespark-1.3;Conjunção;12;1,0000;1,0000;0,4167
+musespark-1.3;Contração;3;1,0000;1,0000;1,0000
+musespark-1.3;Emprego do Hífen;22;0,9211;0,9091;0,8636
+musespark-1.3;Homônimo;25;0,8527;0,8000;0,4000
+musespark-1.3;Locução adjetiva;1;0,0000;0,0000;0,0000
+musespark-1.3;Locução conjuntiva;7;0,6452;0,5714;0,0000
+musespark-1.3;Maiúsculas e minúsculas;9;0,5085;0,5556;0,6667
+musespark-1.3;Ortografia;219;0,8903;0,8676;0,3425
+musespark-1.3;Parônimo;13;0,6923;0,5385;0,3846
+musespark-1.3;Pontuação;98;0,7143;0,6939;0,7755
+musespark-1.3;Preposição;33;0,7062;0,6667;0,0000
+musespark-1.3;Pronome;88;0,8773;0,8409;0,2841
+musespark-1.3;Propriedade Vocabular;5;0,5882;0,4000;0,0000
+musespark-1.3;Redundância;4;0,5000;0,5000;0,5000
+musespark-1.3;Regência Nominal;12;0,7692;0,6667;0,2500
+musespark-1.3;Regência Verbal;22;0,7547;0,7273;0,5455
+musespark-1.3;Seleção Lexical;2;0,0000;0,0000;0,0000
+musespark-1.3;Substantivo;11;0,8182;0,8182;0,0000
+musespark-1.3;Uso da crase;52;0,9515;0,9231;0,9231
+musespark-1.3;Verbo;165;0,8741;0,8667;0,4121
+qwen3.8-flash;Acentuação gráfica;129;0,8295;0,8217;0,7519
+qwen3.8-flash;Adjetivo;24;0,5078;0,5000;0,7917
+qwen3.8-flash;Advérbio;17;0,8235;0,8235;0,8235
+qwen3.8-flash;Artigo;13;0,6522;0,6923;0,4615
+qwen3.8-flash;Classe de Palavras;2;1,0000;1,0000;0,0000
+qwen3.8-flash;Colocação Pronominal;23;0,4419;0,4348;0,6957
+qwen3.8-flash;Concordância Nominal;153;0,7633;0,7582;0,2026
+qwen3.8-flash;Concordância Verbal;39;0,9750;0,9744;0,7179
+qwen3.8-flash;Conjunção;12;0,5833;0,5833;0,0833
+qwen3.8-flash;Contração;3;1,0000;1,0000;1,0000
+qwen3.8-flash;Emprego do Hífen;22;1,0000;1,0000;1,0000
+qwen3.8-flash;Homônimo;25;0,7752;0,7600;0,0400
+qwen3.8-flash;Locução adjetiva;1;0,0000;0,0000;0,0000
+qwen3.8-flash;Locução conjuntiva;7;0,4651;0,5714;0,5714
+qwen3.8-flash;Maiúsculas e minúsculas;9;0,6349;0,5556;0,7778
+qwen3.8-flash;Ortografia;219;0,8973;0,8904;0,4201
+qwen3.8-flash;Parônimo;13;0,6790;0,6923;0,3846
+qwen3.8-flash;Pontuação;98;0,6707;0,6224;0,8469
+qwen3.8-flash;Preposição;33;0,7182;0,6970;0,0606
+qwen3.8-flash;Pronome;88;0,8773;0,8409;0,2841
+qwen3.8-flash;Propriedade Vocabular;5;0,7692;0,4000;0,0000
+qwen3.8-flash;Redundância;4;0,5357;0,5000;0,2500
+qwen3.8-flash;Regência Nominal;12;0,5833;0,5833;0,5833
+qwen3.8-flash;Regência Verbal;22;0,7203;0,7727;0,7727
+qwen3.8-flash;Seleção Lexical;2;1,0000;1,0000;0,0000
+qwen3.8-flash;Substantivo;11;0,7843;0,7273;0,3636
+qwen3.8-flash;Uso da crase;52;0,9239;0,9038;0,7692
+qwen3.8-flash;Verbo;165;0,7370;0,7455;0,3576
+qwen3.8-max;Acentuação gráfica;129;0,8618;0,8450;0,8295
+qwen3.8-max;Adjetivo;24;0,5859;0,5833;0,2917
+qwen3.8-max;Advérbio;17;0,8824;0,8824;0,9412
+qwen3.8-max;Artigo;13;0,7692;0,7692;0,4615
+qwen3.8-max;Classe de Palavras;2;1,0000;1,0000;0,0000
+qwen3.8-max;Colocação Pronominal;23;0,8744;0,8696;0,9565
+qwen3.8-max;Concordância Nominal;153;0,7453;0,7124;0,2092
+qwen3.8-max;Concordância Verbal;39;0,9559;0,9487;0,6923
+qwen3.8-max;Conjunção;12;0,6667;0,6667;0,4167
+qwen3.8-max;Contração;3;1,0000;1,0000;1,0000
+qwen3.8-max;Emprego do Hífen;22;0,9091;0,8636;0,9091
+qwen3.8-max;Homônimo;25;0,7522;0,6800;0,0000
+qwen3.8-max;Locução adjetiva;1;0,0000;0,0000;0,0000
+qwen3.8-max;Locução conjuntiva;7;0,4348;0,2857;0,2857
+qwen3.8-max;Maiúsculas e minúsculas;9;0,7143;0,6667;0,7778
+qwen3.8-max;Ortografia;219;0,9182;0,8950;0,3790
+qwen3.8-max;Parônimo;13;0,6154;0,3846;0,1538
+qwen3.8-max;Pontuação;98;0,7358;0,6939;0,7959
+qwen3.8-max;Preposição;33;0,8092;0,7879;0,0909
+qwen3.8-max;Pronome;88;0,8833;0,8068;0,2727
+qwen3.8-max;Propriedade Vocabular;5;0,7692;0,4000;0,2000
+qwen3.8-max;Redundância;4;0,3125;0,2500;0,5000
+qwen3.8-max;Regência Nominal;12;0,6731;0,5000;0,4167
+qwen3.8-max;Regência Verbal;22;0,9043;0,7727;0,6364
+qwen3.8-max;Seleção Lexical;2;0,0000;0,0000;0,0000
+qwen3.8-max;Substantivo;11;0,8140;0,6364;0,4545
+qwen3.8-max;Uso da crase;52;0,8750;0,8269;0,7885
+qwen3.8-max;Verbo;165;0,8372;0,8242;0,3455

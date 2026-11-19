@@ -1,0 +1,50 @@
+1001;O Rui trás o material.;O Rui traz o material.;trás;traz;Fonologia;Acentuação gráfica
+1002;Queria comprar una rosa.;Queria comprar uma rosa.;una;uma;Fonologia;Ortografia
+1003;Queríamos comprar unas rosas.;Queríamos comprar umas rosas.;unas;umas;Fonologia;Ortografia
+1004;Joga tão vem como o pai.;Joga tão bem como o pai.;vem;bem;Fonologia;Ortografia
+1005;Vejo vem o esquema proposto.;Vejo bem o esquema proposto.;vem;bem;Fonologia;Ortografia
+1006;É um xeque cruzado.;É um cheque cruzado.;xeque;cheque;Semântica;Homônimo
+1007;São xeques visados.;São cheques visados.;xeques;cheques;Semântica;Homônimo
+1008;É um xeque sem cobertura.;É um cheque sem cobertura.;xeque;cheque;Semântica;Homônimo
+1009;São xeques sem cobertura.;São cheques sem cobertura.;xeques;cheques;Semântica;Homônimo
+1010;É um xeque em branco.;É um cheque em branco.;xeque;cheque;Semântica;Homônimo
+1011;São xeques em branco.;São cheques em branco.;xeques;cheques;Semântica;Homônimo
+1012;Isso é ótimo por temos informação adicional.;Isso é ótimo por termos informação adicional.;temos;termos;Morfologia;Verbo
+1013;E as notas ficais de 2020?;E as notas fiscais de 2020?;ficais;fiscais;Semântica;Parônimo
+1014;A renda per capta de Luxemburgo.;A renda per capita de Luxemburgo.;capta;capita;Fonologia;Ortografia
+1015;Não a paciência para este tipo de coisas;Não há paciência para este tipo de coisas;a;há;Fonologia;Acentuação gráfica
+1016;Enxarca a vida.;Encharca a vida.;Enxarca;Encharca;Fonologia;Ortografia
+1017;Mas à que saber estudar.;Mas há que saber estudar.;à;há;Fonologia;Acentuação gráfica
+1018;Ele deu uma mãozinha há sua família.;Ele deu uma mãozinha à sua família.;há;à;Fonologia;Acentuação gráfica
+1019;Dá uma mãozinha há tua família.;Dá uma mãozinha à tua família.;há;à;Fonologia;Acentuação gráfica
+1020;Algumas pessoas e ideias parecem fora do lugar ou há frente do seu tempo.;Algumas pessoas e ideias parecem fora do lugar ou à frente do seu tempo.;há;à;Fonologia;Acentuação gráfica
+1021;É que hás vezes temos de decidir.;É que às vezes temos de decidir.;hás;às;Fonologia;Acentuação gráfica
+1022;Nunca fui avisado a cerca desses alarmes.;Nunca fui avisado acerca desses alarmes.;a cerca;acerca;Fonologia;Ortografia
+1023;Pegou na mochila e foi pela estrada a fora.;Pegou na mochila e foi pela estrada afora.;a fora;afora;Fonologia;Ortografia
+1024;Tenho muito a preço pelo DVD.;Tenho muito apreço pelo DVD.;a preço;apreço;Fonologia;Ortografia
+1025;Tenho muito a preço por ele.;Tenho muito apreço por ele.;a preço;apreço;Fonologia;Ortografia
+1026;Vamos tratar disso a quando da ida do Rui.;Vamos tratar disso aquando da ida do Rui.;a quando;aquando;Fonologia;Ortografia
+1027;Vê a trás da porta.;Vê atrás da porta.;a trás;atrás;Fonologia;Ortografia
+1028;É preciso afear a faca.;É preciso afiar a faca.;afear;afiar;Semântica;Parônimo
+1029;É preciso afear as facas.;É preciso afiar as facas.;afear;afiar;Semântica;Parônimo
+1030;É preciso afear as suas facas.;É preciso afiar as suas facas.;afear;afiar;Semântica;Parônimo
+1031;Vou por ai fora a cantar.;Vou por aí afora a cantar.;ai fora;aí afora;Fonologia;Ortografia
+1032;Quero ver a amostra de arte.;Quero ver a mostra de arte.;amostra;mostra;Semântica;Parônimo
+1033;Não é possível dizer de ante mão.;Não é possível dizer de antemão.;ante mão;antemão;Fonologia;Ortografia
+1034;Venda o monitor ao parta o porquinho mealheiro.;Venda o monitor ao invés de partir o porquinho mealheiro.;ao parta;ao invés de partir;Morfologia;Locução conjuntiva
+1035;Vendam o monitor ao partam o porquinho mealheiro.;Vendam o monitor ao invés de partirem o porquinho mealheiro.;ao partam;ao invés de partirem;Morfologia;Locução conjuntiva
+1036;Venda o monitor ao quebre um mealheiro.;Venda o monitor ao invés de quebrar um mealheiro.;ao quebre;ao invés de quebrar;Morfologia;Locução conjuntiva
+1037;Vendam o monitor ao quebrem uns mealheiros.;Vendam o monitor ao invés de quebrarem uns mealheiros.;ao quebrem;ao invés de quebrarem;Morfologia;Locução conjuntiva
+1038;O jogo fica para aproxima corações.;O jogo fica para aproximar corações.;aproxima;aproximar;Morfologia;Verbo
+1039;Vamos arrear a vela.;Vamos arriar a vela.;arrear;arriar;Semântica;Parônimo
+1040;Vamos fazer um asserto de contas.;Vamos fazer um acerto de contas.;asserto;acerto;Semântica;Parônimo
+1041;E ate o menino conseguiu fazer isso.;E até o menino conseguiu fazer isso.;ate;até;Fonologia;Acentuação gráfica
+1042;Vou ate minha casa e volto.;Vou até minha casa e volto.;ate;até;Fonologia;Acentuação gráfica
+1043;E vou ate ao mercado.;E vou até ao mercado.;ate;até;Fonologia;Acentuação gráfica
+1044;O Rui foi decisivo na ate então inédita conquista.;O Rui foi decisivo na até então inédita conquista.;ate;até;Fonologia;Acentuação gráfica
+1045;Vou comer os medicamentos.;Vou tomar os medicamentos.;comer;tomar;Sintaxe;Seleção Lexical
+1046;Este é capas de ser o pior port de sempre.;Este é capaz de ser o pior port de sempre.;capas;capaz;Fonologia;Ortografia
+1047;Ele ainda não tinha chego a casa, quando se lembrou do aniversiário.;Ele ainda não tinha chegado a casa, quando se lembrou do aniversário.;chego,aniversiário;chegado,aniversário;Morfologia;Verbo
+1048;Devemos pedir um concelho ao padre.;Devemos pedir um conselho ao padre.;concelho;conselho;Semântica;Homônimo
+1049;Vou a um conserto.;Vou a um concerto.;conserto;concerto;Semântica;Homônimo
+1050;Isto já contanto com o jantar.;Isto já contando com o jantar.;contanto;contando;Semântica;Parônimo

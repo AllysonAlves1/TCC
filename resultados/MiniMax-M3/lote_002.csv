@@ -1,0 +1,50 @@
+51;Está dando 10h da noite e ele ainda não chegou.;São 10h da noite e ele ainda não chegou.;Está dando 10h;São 10h;Sintaxe;Regência verbal
+52;Não tinha dado 3h da tarde.;Não tinha dado 3h da tarde.;Não tinha dado;Não eram;Sintaxe;Regência verbal
+53;Havia batido 22:05.;Havia batido 22:05.;Havia batido;Havia batido;Morfologia;Verbo
+54;Já bateu quatro da manhã.;Já bateram quatro da manhã.;bateu;bateram;Sintaxe;Concordância verbal
+55;Deu 10 da noite e ele ainda não chegou.;Deu 10 da noite e ele ainda não chegou.;Deu 10;Dez e meia;Fonologia;Ortografia
+56;Já vai bater quatro da manhã.;Já vão bater quatro da manhã.;vai bater;vão bater;Sintaxe;Concordância verbal
+57;Está dando 10 da noite e ele ainda não chegou.;São 10 da noite e ele ainda não chegou.;Está dando 10;São 10;Sintaxe;Regência verbal
+58;Não tinha dado três da tarde.;Não tinha dado três da tarde.;Não tinha dado;Não eram;Sintaxe;Regência verbal
+59;Ele está no 1ª lugar.;Ele está no 1º lugar.;1ª;1º;Morfologia;Numeral
+60;Quem foi o 12.ª coronel?;Quem foi o 12.º coronel?;12.ª;12.º;Morfologia;Numeral
+61;Ele está na 2º posição.;Ele está na 2ª posição.;2º;2ª;Morfologia;Numeral
+62;Ela será a 50.º presidente!;Ela será a 50ª presidente!;50.º;50ª;Morfologia;Numeral
+63;Ele própria escolheu.;Ele próprio escolheu.;própria;próprio;Morfologia;Adjetivo
+64;Eles próprias escolheram.;Eles próprios escolheram.;próprias;próprios;Morfologia;Adjetivo
+65;Ela próprio escolheu.;Ela própria escolheu.;próprio;própria;Morfologia;Adjetivo
+66;Elas próprios escolheram.;Elas próprias escolheram.;próprios;próprias;Morfologia;Adjetivo
+67;Elas próprio escolheram.;Elas próprias escolheram.;próprio;própria;Morfologia;Adjetivo
+68;Ela próprios escolheram.;Ela própria escolheu.;próprios;própria;Morfologia;Adjetivo
+69;Ele próprias escolheram.;Ele próprio escolheu.;próprias;próprio;Morfologia;Adjetivo
+70;Eles própria escolheram.;Eles próprios escolheram.;própria;próprios;Morfologia;Adjetivo
+71;E este tese foi redigida por mim.;E esta tese foi redigida por mim.;este;esta;Morfologia;Artigo
+72;E estes teses foram redigidas por mim.;E estas teses foram redigidas por mim.;estes;estas;Morfologia;Artigo
+73;E esta documento foi redigido por mim.;E este documento foi redigido por mim.;esta;este;Morfologia;Artigo
+74;E estas documentos foram redigidas por mim.;E estes documentos foram redigidos por mim.;estas documentos;estes documentos;Morfologia;Artigo
+75;Isto é muito engraçada.;Isto é muito engraçado.;engraçada;engraçado;Sintaxe;Concordância nominal
+76;Tudo isto é muito engraçada.;Tudo isto é muito engraçado.;engraçada;engraçado;Sintaxe;Concordância nominal
+77;Mas isto é muito engraçada.;Mas isto é muito engraçado.;engraçada;engraçado;Sintaxe;Concordância nominal
+78;Vê que isto é muito engraçada.;Vê que isto é muito engraçado.;engraçada;engraçado;Sintaxe;Concordância nominal
+79;Embora isto seja muito bonita.;Embora isto seja muito bonito.;bonita;bonito;Sintaxe;Concordância nominal
+80;Isto é boa.;Isto é bom.;boa;bom;Sintaxe;Concordância nominal
+81;Um vaca está no pasto.;Uma vaca está no pasto.;Um;Uma;Morfologia;Artigo
+82;Você pode fazer um omelete espanhola para eu jantar, por favor?;Você pode fazer um omelete espanhol para eu jantar, por favor?;espanhola;espanhol;Morfologia;Adjetivo
+83;Tenho um terrível dor na cabeça.;Tenho uma terrível dor na cabeça.;um;uma;Morfologia;Artigo
+84;Por exemplo, um grande erupção vulcânica causa maior reflexão da luz solar de vo…;Por exemplo, uma grande erupção vulcânica causa maior reflexão da luz solar de vo…;um grande;uma grande;Morfologia;Artigo
+85;É membro do milícia.;É membro da milícia.;do;da;Morfologia;Artigo
+86;Foi resolvido nos horas certas.;Foi resolvido nas horas certas.;nos;nas;Morfologia;Artigo
+87;Fui amigo dos garotas certas.;Fui amigo das garotas certas.;dos;das;Morfologia;Artigo
+88;Os invasoras holandeses decidiram ir em direção ao Rio Grande do Norte…;As invasoras holandesas decidiram ir em direção ao Rio Grande do Norte…;Os invasoras holandeses;As invasoras holandesas;Morfologia;Substantivo
+89;Os frases estão erradas.;As frases estão erradas.;Os frases;As frases;Morfologia;Substantivo
+90;Uns cadelas estão na rua.;Umas cadelas estão na rua.;Uns cadelas;Umas cadelas;Morfologia;Substantivo
+91;Tenho uns mais terríveis dores na cabeça.;Tenho dores mais terríveis na cabeça.;uns mais terríveis dores;dores mais terríveis;Morfologia;Substantivo
+92;Os escolas Álvaro de Campos, José Rodrigues dos Santos e Fernando Pessoa têm sido bem avaliadas.;As escolas Álvaro de Campos, José Rodrigues dos Santos e Fernando Pessoa têm sido bem avaliadas.;Os escolas;As escolas;Morfologia;Substantivo
+93;Alguns frases tem erros gramaticais.;Algumas frases têm erros gramaticais.;Alguns frases;Algumas frases;Morfologia;Substantivo
+94;Nos mil e uma noites.;Nas mil e uma noites.;Nos;Nas;Morfologia;Artigo
+95;Uma boi está no pasto.;Um boi está no pasto.;boi;boi;Morfologia;Substantivo
+96;Tem uma terrível inchaço na cabeça.;Tem uma terrível inchação na cabeça.;inchaço;inchação;Fonologia;Ortografia
+97;Tem uma mais terrível inchaço na cabeça.;Tem uma inchação mais terrível na cabeça.;inchaço;inchação;Fonologia;Ortografia
+98;Alguma tesoireiro está no pasto.;Algum tesoureiro está no pasto.;Alguma tesoireiro;Algum tesoureiro;Fonologia;Ortografia
+99;é membro do 3o Congresso.;É membro do 3º Congresso.;3o;3º;Morfologia;Numeral
+100;é membro do 3a Congresso.;É membro do 3º Congresso.;3a;3º;Morfologia;Numeral

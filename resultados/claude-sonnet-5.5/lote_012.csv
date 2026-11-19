@@ -1,0 +1,50 @@
+551;Foi o um erro de digitação.;Foi um erro de digitação.;o um;um;Morfologia;Artigo
+552;Foi o que fiz da aquela vez.;Foi o que fiz daquela vez.;da aquela;daquela;Morfologia;Contração
+553;Foi o que fiz na aquela hora.;Foi o que fiz naquela hora.;na aquela;naquela;Morfologia;Contração
+554;No um estado muçulmano independente;Num estado muçulmano independente;No um;Num;Morfologia;Contração
+555;Ele faz por nos um trabalho excelente.;Ele faz por nós um trabalho excelente.;nos;nós;Morfologia;Pronome
+556;Coloque em de paralelo fora para dentro.;Coloque em paralelo de fora para dentro.;em de paralelo fora;em paralelo de fora;Morfologia;Preposição
+557;em entre.;entre.;em entre;entre;Morfologia;Preposição
+558;Vai a ao mercado.;Vai ao mercado.;a ao;ao;Morfologia;Contração
+559;Provavelmente tenhas razão.;Provavelmente tens razão.;tenhas;tens;Morfologia;Verbo
+560;Provavelmente ainda tenhas razão.;Provavelmente ainda tens razão.;tenhas;tens;Morfologia;Verbo
+561;Quiçá não gostes sempre.;Quiçá não gostes sempre.;;;Morfologia;Verbo
+562;fez pensar que possivelmente já estivesse façanha de dantes;fez pensar que possivelmente já estava façanha de dantes;estivesse;estava;Morfologia;Verbo
+563;Demorou um mês a subir o monte Evereste.;Demorou um mês para subir o monte Evereste.;a;para;Morfologia;Preposição
+564;Ela viveu vários anos na América do sul.;Ela viveu vários anos na América do Sul.;sul;Sul;Fonologia;Maiúsculas e minúsculas
+565;Com a reunificação da Alemanha de leste e Oeste, a Républica Federal da Alemanha tornou-se apenas conhecida como 'Alemanha'.;Com a reunificação da Alemanha de Leste e Oeste, a República Federal da Alemanha tornou-se apenas conhecida como 'Alemanha'.;leste,Républica;Leste,República;Fonologia;Maiúsculas e minúsculas
+566;O que fizeste no dia dos namorados o ano passado?;O que fizeste no Dia dos Namorados no ano passado?;dia dos namorados,o ano;Dia dos Namorados,no ano;Fonologia;Maiúsculas e minúsculas
+567;Quantas pessoas morreram na segunda guerra mundial?;Quantas pessoas morreram na Segunda Guerra Mundial?;segunda guerra mundial;Segunda Guerra Mundial;Fonologia;Maiúsculas e minúsculas
+568;O Homo Sapiens é inteligente.;O Homo sapiens é inteligente.;Sapiens;sapiens;Fonologia;Maiúsculas e minúsculas
+569;O Homo Sapiens Sapiens é inteligente.;O Homo sapiens sapiens é inteligente.;Sapiens Sapiens;sapiens sapiens;Fonologia;Maiúsculas e minúsculas
+570;Moramos lá em meado dos anos 90.;Moramos lá em meados dos anos 90.;meado;meados;Morfologia;Substantivo
+571;Isso foi no meado de setembro.;Isso foi em meados de setembro.;no meado;em meados;Morfologia;Substantivo
+572;Quando? Meado da década de 80.;Quando? Meados da década de 80.;Meado;Meados;Morfologia;Substantivo
+573;O à parte da Ana é importante.;O aparte da Ana é importante.;à parte;aparte;Morfologia;Classe de palavras
+574;A Ana fez um à parte que é importante.;A Ana fez um aparte que é importante.;à parte;aparte;Morfologia;Classe de palavras
+575;Modéstia aparte, o trabalho ficou bem feito.;Modéstia à parte, o trabalho ficou bem feito.;aparte;à parte;Morfologia;Locução adverbial
+576;É uma causa civil importante.;É uma causa cível importante.;civil;cível;Semântica;Parônimo
+577;As causas civis são importantes.;As causas cíveis são importantes.;civis;cíveis;Semântica;Parônimo
+578;Temos de curar a herpes.;Temos de curar o herpes.;a herpes;o herpes;Morfologia;Artigo
+579;Gostou desta mármore?;Gostou deste mármore?;desta;deste;Morfologia;Pronome
+580;Me agradaram aquelas braceletes.;Agradaram-me aqueles braceletes.;Me agradaram,aquelas;Agradaram-me,aqueles;Sintaxe;Colocação pronominal
+581;Quanto ao estado civil, ela é sua cônjuge.;Quanto ao estado civil, ela é seu cônjuge.;sua cônjuge;seu cônjuge;Morfologia;Substantivo
+582;Existem várias centenas de milhar de militantes.;Existem várias centenas de milhares de militantes.;milhar;milhares;Morfologia;Numeral
+583;Foram afetadas duas dezenas de milhares de habitantes.;Foram afetadas duas dezenas de milhares de habitantes.;;;Morfologia;Numeral
+584;Saiu um novo decreto de lei.;Saiu um novo decreto-lei.;decreto de lei;decreto-lei;Fonologia;Emprego do hífen
+585;Vamos analisar os decretos-lei.;Vamos analisar os decretos-lei.;;;Fonologia;Emprego do hífen
+586;No passado houveram muitos acidentes.;No passado houve muitos acidentes.;houveram;houve;Sintaxe;Concordância verbal
+587;Espero haverem respostas.;Espero haver respostas.;haverem;haver;Sintaxe;Concordância verbal
+588;Achei que haveriam uns melhores.;Achei que haveria uns melhores.;haveriam;haveria;Sintaxe;Concordância verbal
+589;Enquanto houverem erros, não funcionará.;Enquanto houver erros, não funcionará.;houverem;houver;Sintaxe;Concordância verbal
+590;Haverão alguns problemas.;Haverá alguns problemas.;Haverão;Haverá;Sintaxe;Concordância verbal
+591;Haviam muitos.;Havia muitos.;Haviam;Havia;Sintaxe;Concordância verbal
+592;Haviam vários.;Havia vários.;Haviam;Havia;Sintaxe;Concordância verbal
+593;Haviam poucos.;Havia poucos.;Haviam;Havia;Sintaxe;Concordância verbal
+594;É uma minoria ética importante.;É uma minoria étnica importante.;ética;étnica;Semântica;Parônimo
+595;As minorias éticas são importantes.;As minorias étnicas são importantes.;éticas;étnicas;Semântica;Parônimo
+596;Isto aconteceu no ano 500 a.c..;Isto aconteceu no ano 500 a.C.;a.c..;a.C.;Fonologia;Maiúsculas e minúsculas
+597;Isto aconteceu no ano 500 a.d..;Isto aconteceu no ano 500 d.C.;a.d..;d.C.;Fonologia;Maiúsculas e minúsculas
+598;Vou realizar uma vídeo conferência no Skype.;Vou realizar uma videoconferência no Skype.;vídeo conferência;videoconferência;Fonologia;Emprego do hífen
+599;Vou realizar uma conferência de vídeo no Skype.;Vou realizar uma conferência de vídeo no Skype.;;;Morfologia;Preposição
+600;Isto deve-se a eu.;Isto deve-se a mim.;eu;mim;Morfologia;Pronome

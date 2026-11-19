@@ -1,0 +1,50 @@
+1151;Assim encontraremos-nos amanhã.;Assim nos encontraremos amanhã.;encontraremos-nos;nos encontraremos;Sintaxe;Colocação pronominal
+1152;Assim encontrarão-nos amanhã.;Assim nos encontrarão amanhã.;encontrarão-nos;nos encontrarão;Sintaxe;Colocação pronominal
+1153;Assim comerá-me o pão.;Assim me comerá o pão.;comerá-me;me comerá;Sintaxe;Colocação pronominal
+1154;Quanto à pizza, assim comerás-a o pão.;Quanto à pizza, assim a comerás com o pão.;comerás-a;a comerás com;Sintaxe;Colocação pronominal
+1155;Assim comerão-me o pão.;Assim me comerão o pão.;comerão-me;me comerão;Sintaxe;Colocação pronominal
+1156;Faríamos-vos um grande favor.;Far-vos-íamos um grande favor.;Faríamos-vos;Far-vos-íamos;Sintaxe;Colocação pronominal
+1157;Ontem, diria-lhes a verdade.;Ontem, dir-lhes-ia a verdade.;diria-lhes;dir-lhes-ia;Sintaxe;Colocação pronominal
+1158;Assim, traria-o sem medo.;Assim, trá-lo-ia sem medo.;traria-o;trá-lo-ia;Sintaxe;Colocação pronominal
+1159;Assim, teriam-na onde a querem.;Assim, tê-la-iam onde a querem.;teriam-na;tê-la-iam;Sintaxe;Colocação pronominal
+1160;Assim, daria-lhe um presente.;Assim, dar-lhe-ia um presente.;daria-lhe;dar-lhe-ia;Sintaxe;Colocação pronominal
+1161;Para tornar-lo mais claro.;Para torná-lo mais claro.;tornar-lo;torná-lo;Morfologia;Pronome
+1162;Quis fazer-los pagar.;Quis fazê-los pagar.;fazer-los;fazê-los;Morfologia;Pronome
+1163;Queria poder demitir-lo.;Queria poder demiti-lo.;demitir-lo;demiti-lo;Morfologia;Pronome
+1164;E fiz-lo esquecer tudo.;E fi-lo esquecer tudo.;fiz-lo;fi-lo;Morfologia;Pronome
+1165;O Mário alem de ter pedido uma indemnização, exigiu um pedido de desculpas.;O Mário, além de ter pedido uma indemnização, exigiu um pedido de desculpas.;alem;além;Fonologia;Acentuação gráfica
+1166;Alias, envie por correio registado.;Aliás, envie por correio registado.;Alias;Aliás;Fonologia;Acentuação gráfica
+1167;O avo foi de férias.;O avô foi de férias.;avo;avô;Fonologia;Acentuação gráfica
+1168;Acabou a bateira.;Acabou a bateria.;bateira;bateria;Semântica;Parônimo
+1169;O olho é composto por inúmeros censores de luz.;O olho é composto por inúmeros sensores de luz.;censores;sensores;Semântica;Homônimo
+1170;Vou mandalas por correio registado.;Vou mandá-las por correio registado.;mandalas;mandá-las;Fonologia;Emprego do hífen
+1171;Demora de 10 a 15 minutes a ler.;Demora de 10 a 15 minutos a ler.;minutes;minutos;Fonologia;Ortografia
+1172;O núncio foi pago ao jornal ontem.;O anúncio foi pago ao jornal ontem.;núncio;anúncio;Semântica;Parônimo
+1173;Para concertá-lo terá de gastar 100€.;Para consertá-lo terá de gastar 100€.;concertá-lo;consertá-lo;Semântica;Homônimo
+1174;Ele me enviou outro email.;Ele me enviou outro e-mail.;email;e-mail;Fonologia;Emprego do hífen
+1175;Não vejo emails novos.;Não vejo e-mails novos.;emails;e-mails;Fonologia;Emprego do hífen
+1176;Email: foo@bar.com;E-mail: foo@bar.com;Email;E-mail;Fonologia;Emprego do hífen
+1177;E estavam acampanhando em Brasília;E estavam acompanhando em Brasília.;acampanhando;acompanhando;Fonologia;Ortografia
+1178;Vamos-nos embora.;Vamo-nos embora.;Vamos-nos;Vamo-nos;Morfologia;Verbo
+1179;Foi uma brincadeira inconseqüente.;Foi uma brincadeira inconsequente.;inconseqüente;inconsequente;Fonologia;Ortografia
+1180;Vamos ver a juiz.;Vamos ver a juíza.;juiz;juíza;Sintaxe;Concordância nominal
+1181;O símbolo químico do ouro é o au.;O símbolo químico do ouro é o Au.;au;Au;Fonologia;Maiúsculas e minúsculas
+1182;Eu não quiz fazer o almoço.;Eu não quis fazer o almoço.;quiz;quis;Fonologia;Ortografia
+1183;Eu não quiz acordá-la.;Eu não quis acordá-la.;quiz;quis;Fonologia;Ortografia
+1184;Vou ter que tirar um raio-x.;Vou ter que tirar um raio-X.;raio-x;raio-X;Fonologia;Maiúsculas e minúsculas
+1185;Raio-x aqui é caro?;Raio-X aqui é caro?;Raio-x;Raio-X;Fonologia;Maiúsculas e minúsculas
+1186;Você vai tirar raio-x por quê?;Você vai tirar raio-X por quê?;raio-x;raio-X;Fonologia;Maiúsculas e minúsculas
+1187;Vou à auto escola.;Vou à autoescola.;auto escola;autoescola;Fonologia;Emprego do hífen
+1188;Ele auto realizou o pedido.;Ele autorrealizou o pedido.;auto realizou;autorrealizou;Fonologia;Emprego do hífen
+1189;Isso é muita auto sabotagem.;Isso é muita autossabotagem.;auto sabotagem;autossabotagem;Fonologia;Emprego do hífen
+1190;Isso é muita auto observação.;Isso é muita auto-observação.;auto observação;auto-observação;Fonologia;Emprego do hífen
+1191;Isso é auto hipótese.;Isso é auto-hipótese.;auto hipótese;auto-hipótese;Fonologia;Emprego do hífen
+1192;Os porta carros são úteis.;Os porta-carros são úteis.;porta carros;porta-carros;Fonologia;Emprego do hífen
+1193;O porta carros é útil.;O porta-carros é útil.;porta carros;porta-carros;Fonologia;Emprego do hífen
+1194;Os sem abrigo precisam de nossa atenção.;Os sem-abrigo precisam de nossa atenção.;sem abrigo;sem-abrigo;Fonologia;Emprego do hífen
+1195;O capitalismo nacional se resume a uma colecção de sem abrigo que não têm onde cair mortos!;O capitalismo nacional se resume a uma coleção de sem-abrigo que não têm onde cair mortos!;colecção, sem abrigo;coleção, sem-abrigo;Fonologia;Emprego do hífen
+1196;Lançou um contra ataque.;Lançou um contra-ataque.;contra ataque;contra-ataque;Fonologia;Emprego do hífen
+1197;Contra ataques, sua especialidade.;Contra-ataques, sua especialidade.;Contra ataques;Contra-ataques;Fonologia;Emprego do hífen
+1198;Organizamos um bota fora.;Organizamos um bota-fora.;bota fora;bota-fora;Fonologia;Emprego do hífen
+1199;Tudo feito a Deus dará.;Tudo feito ao deus-dará.;a Deus dará;ao deus-dará;Fonologia;Emprego do hífen
+1200;Compre um corta papel para isso.;Compre um corta-papel para isso.;corta papel;corta-papel;Fonologia;Emprego do hífen

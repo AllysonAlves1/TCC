@@ -1,0 +1,14 @@
+# material antigo, guardado fora do repositório
+backup/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# travas do LibreOffice/Word e lixo do sistema
+.~lock.*#
+~$*.docx
+.DS_Store
+Thumbs.db

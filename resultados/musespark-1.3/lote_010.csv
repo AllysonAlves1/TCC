@@ -1,0 +1,50 @@
+451;Pertence provavelmente a equipa dos seus amigos.;Pertence provavelmente à equipa dos seus amigos.;a;à;Sintaxe;Uso da crase
+452;Pergunte à Sua Excelência qual o modo adequado de tratamento.;Pergunte a Sua Excelência qual o modo adequado de tratamento.;à;a;Sintaxe;Uso da crase
+453;Envie o pedido às Vossas Beatitudes.;Envie o pedido a Vossas Beatitudes.;às;a;Sintaxe;Uso da crase
+454;Se digo à você deixa de ser segredo.;Se digo a você deixa de ser segredo.;à;a;Sintaxe;Uso da crase
+455;Chego as vinte e uma horas.;Chego às vinte e uma horas.;as;às;Sintaxe;Uso da crase
+456;Cheguei ao cinema as 19h50.;Cheguei ao cinema às 19h50.;as;às;Sintaxe;Uso da crase
+457;Chego a casa as 19h50.;Chego a casa às 19h50.;as;às;Sintaxe;Uso da crase
+458;A semana de trabalho é de segunda-feira à sexta-feira.;A semana de trabalho é de segunda-feira a sexta-feira.;à;a;Sintaxe;Uso da crase
+459;Os melhores meses para ir de férias é de junho à setembro.;Os melhores meses para ir de férias são de junho a setembro.;"é,à";"são,a";Sintaxe;"Concordância verbal,Uso da crase"
+460;Foi à uma corrida de cavalos, antes do almaço.;Foi a uma corrida de cavalos, antes do almoço.;"à,almaço";"a,almoço";"Sintaxe,Fonologia";"Uso da crase,Ortografia"
+461;Foi um favor que fiz à ela.;Foi um favor que fiz a ela.;à;a;Sintaxe;Uso da crase
+462;À mim não faz diferença.;A mim não faz diferença.;À;A;Sintaxe;Uso da crase
+463;Foi uma resposta à seu anúncio.;Foi uma resposta a seu anúncio.;à;a;Sintaxe;Uso da crase
+464;Não pode ser aplicada à todos os casos.;Não pode ser aplicada a todos os casos.;à;a;Sintaxe;Uso da crase
+465;Você terá acesso à conteúdos atualizados;Você terá acesso a conteúdos atualizados;à;a;Sintaxe;Uso da crase
+466;Você terá acesso à primeiros conteúdos exclusivos;Você terá acesso a primeiros conteúdos exclusivos;à;a;Sintaxe;Uso da crase
+467;A quantia equivale à R$ 35.;A quantia equivale a R$ 35.;à;a;Sintaxe;Uso da crase
+468;Poderá assistir a apresentação da gala.;Poderá assistir à apresentação da gala.;a;à;Sintaxe;Uso da crase
+469;Ele candidatou-se a posição de gestor.;Ele candidatou-se à posição de gestor.;a;à;Sintaxe;Uso da crase
+470;pode nos levar à conclusões incorretas.;pode nos levar a conclusões incorretas.;à;a;Sintaxe;Uso da crase
+471;Não é a toa que ele não veio.;Não é à toa que ele não veio.;a;à;Sintaxe;Uso da crase
+472;De frente à esta janela.;De frente a esta janela.;à;a;Sintaxe;Uso da crase
+473;Nestas regiões é possível obter ordenados superiores a média.;Nestas regiões é possível obter ordenados superiores à média.;a;à;Sintaxe;Uso da crase
+474;Novas leis restringem o acesso as armas.;Novas leis restringem o acesso às armas.;as;às;Sintaxe;Uso da crase
+475;É equivalente as alternativas existentes.;É equivalente às alternativas existentes.;as;às;Sintaxe;Uso da crase
+476;Os estacionamentos a direita do parque são reservados.;Os estacionamentos à direita do parque são reservados.;a;à;Sintaxe;Uso da crase
+477;Estou a sua disposição.;Estou à sua disposição.;a;à;Sintaxe;Uso da crase
+478;Correu em direção a saída.;Correu em direção à saída.;a;à;Sintaxe;Uso da crase
+479;Casa a venda em Aranguera.;Casa à venda em Aranguera.;a;à;Sintaxe;Uso da crase
+480;A casa está a venda em Aranguera.;A casa está à venda em Aranguera.;a;à;Sintaxe;Uso da crase
+481;Para mim estudar é um sacrifício.;Para eu estudar é um sacrifício.;mim;eu;Morfologia;Pronome
+482;Para mim querer fazer isso, é porque precisaa.;Para eu querer fazer isso, é porque precisa.;"mim,precisaa";"eu,precisa";"Morfologia,Fonologia";"Pronome,Ortografia"
+483;Para ti querer fazer isso, é porque precisaa.;Para tu quereres fazer isso, é porque precisas.;"ti,querer,precisaa";"tu,quereres,precisas";Morfologia;"Pronome,Verbo"
+484;Para si querer fazer isso, é porque precisa.;Para você querer fazer isso, é porque precisa.;si;você;Morfologia;Pronome
+485;Confesso, quem fala contigo pode ter dificuldade em acompanhar.;Confesso que quem fala contigo pode ter dificuldade em acompanhar.;",";que;Morfologia;Conjunção
+486;Confesso, quem fala de si pode ter dificuldade em acompanhar.;Confesso que quem fala de si pode ter dificuldade em acompanhar.;",";que;Morfologia;Conjunção
+487;Confesso, quem fala connosco pode ser difícil de acompanhar.;Confesso que quem fala connosco pode ser difícil de acompanhar.;",";que;Morfologia;Conjunção
+488;Confesso, quem fala convosco pode ser difícil de acompanhar.;Confesso que quem fala convosco pode ser difícil de acompanhar.;",";que;Morfologia;Conjunção
+489;Seguem anexo as imagens.;Seguem anexas as imagens.;anexo;anexas;Sintaxe;Concordância nominal
+490;Seguem em anexos os seguintes documentos:;Seguem anexos os seguintes documentos:;em anexos;anexos;Sintaxe;Concordância nominal
+491;As imagens seguem em anexas.;As imagens seguem anexas.;em anexas;anexas;Sintaxe;Concordância nominal
+492;As vaca estão no pasto.;As vacas estão no pasto.;vaca;vacas;Sintaxe;Concordância nominal
+493;O bois está no pasto.;O boi está no pasto.;bois;boi;Sintaxe;Concordância nominal
+494;Os boi estão no pasto.;Os bois estão no pasto.;boi;bois;Sintaxe;Concordância nominal
+495;Aquele artigo é mais bom que o outro.;Aquele artigo é melhor que o outro.;mais bom;melhor;Morfologia;Adjetivo
+496;Aqueles artigo são mais bons que o outros.;Aqueles artigos são melhores que os outros.;"artigo,mais bons,o outros";"artigos,melhores,os outros";"Sintaxe,Morfologia";"Concordância nominal,Adjetivo"
+497;A Ana é a mais má da turma.;A Ana é a pior da turma.;mais má;pior;Morfologia;Adjetivo
+498;A Ana e a Maria são as mais más da turma.;A Ana e a Maria são as piores da turma.;mais más;piores;Morfologia;Adjetivo
+499;Esta escola é mais pior.;Esta escola é pior.;mais pior;pior;Sintaxe;Redundância
+500;Isto acontece ao o parâmetro variar ligeiramente.;Isto acontece ao parâmetro variar ligeiramente.;ao o;ao;Sintaxe;Redundância

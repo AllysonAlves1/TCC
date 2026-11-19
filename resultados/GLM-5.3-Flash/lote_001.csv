@@ -1,0 +1,50 @@
+1;A traves de várias entrevistas...;A través de várias entrevistas...;traves;través;Fonologia;Ortografia
+2;Correram a traves do túnel.;Correram através do túnel.;a traves;através;Fonologia;Ortografia
+3;Em case de incêndio...;Em caso de incêndio...;case;caso;Fonologia;Ortografia
+4;Case eles não venham...;Caso eles não venham...;case;caso;Fonologia;Ortografia
+5;Case ganhem, vão querer um prêmio.;Caso ganhem, vão querer um prêmio.;case;caso;Fonologia;Ortografia
+6;Case quarenta ladrões roubem o tesouro...;Caso quarenta ladrões roubem o tesouro...;case;caso;Fonologia;Ortografia
+7;O que ouve com ela?;O que há com ela?;ouve;há;Sintaxe;Seleção Lexical
+8;Ouve algo com ele?;Há algo com ele?;ouve;há;Sintaxe;Seleção Lexical
+9;Você acha que ouve algo estranho conosco?;Você acha que há algo estranho conosco?;ouve;há;Sintaxe;Seleção Lexical
+10;Ouve alguns problemas...;Há alguns problemas...;ouve;há;Sintaxe;Seleção Lexical
+11;Não ouve nenhuma complicação...;Não há nenhuma complicação...;ouve;há;Sintaxe;Seleção Lexical
+12;Ouve vários erros sérios.;Há vários erros sérios.;ouve;há;Sintaxe;Seleção Lexical
+13;Já ouve novas mudanças desde aquela época.;Já houve novas mudanças desde aquela época.;ouve;houve;Sintaxe;Seleção Lexical
+14;Ouve tempo de fazer tudo?;Há tempo de fazer tudo?;ouve;há;Sintaxe;Seleção Lexical
+15;Não ouve necessidade.;Não há necessidade.;ouve;há;Sintaxe;Seleção Lexical
+16;Eu cai dentro!;Eu caio dentro!;cai;caio;Morfologia;Verbo
+17;Eu não sai de lá sem uma resposta.;Eu não saí de lá sem uma resposta.;sai;saí;Morfologia;Verbo
+18;Ela era a menina melhor educada.;Ela era a menina mais bem educada.;melhor educada;mais bem educada;Morfologia;Advérbio
+19;Os melhor-dotados da classe.;Os melhores dotados da classe.;melhor-dotados;melhores dotados;Sintaxe;Concordância nominal
+20;As casas estão melhores acabadas que os jardins.;As casas estão mais bem acabadas que os jardins.;melhores acabadas;mais bem acabadas;Morfologia;Advérbio
+21;Ficaram ainda pior humorados.;Ficaram ainda piores humorados.;pior;piores;Sintaxe;Concordância nominal
+22;Os melhores colocados ganharam um prêmio.;Os melhores colocados ganharam um prêmio.;-;-;-;-
+23;Qualificação: 2 atletas de cada bateria (Q) mais os 5 melhores qualificados (q).;Qualificação: 2 atletas de cada bateria (Q) mais os 5 melhores qualificados (q).;-;-;-;-
+24;Tão altos quantos alguns dos melhores vistos no jogo principal.;Tão altos como alguns dos melhores vistos no jogo principal.;quantos;como;Morfologia;Conjunção
+25;Os melhores classificados ganharam um prêmio.;Os melhores classificados ganharam um prêmio.;-;-;-;-
+26;Os piores colocados voltaram para Taubaté.;Os piores colocados voltaram para Taubaté.;-;-;-;-
+27;Os piores classificados voltaram para Taubaté.;Os piores classificados voltaram para Taubaté.;-;-;-;-
+28;Para mim abrir a porta será difícil.;Para eu abrir a porta será difícil.;mim;eu;Morfologia;Pronome
+29;Pra mim fechar o portão, não sei.;Pra eu fechar o portão, não sei.;mim;eu;Morfologia;Pronome
+30;Não dá para mim vir em janeiro.;Não dá para eu vir em janeiro.;mim;eu;Morfologia;Pronome
+31;Vai dar pra mim pedir um novo?;Vai dar pra eu pedir um novo?;mim;eu;Morfologia;Pronome
+32;Ainda não deu para mim entrar em contato.;Ainda não deu para eu entrar em contato.;mim;eu;Morfologia;Pronome
+33;É para mim ir como?;É para eu ir como?;mim;eu;Morfologia;Pronome
+34;Não era pra mim tentar de novo...;Não era pra eu tentar de novo...;mim;eu;Morfologia;Pronome
+35;Será um desafio para mim entrar lá sozinho.;Será um desafio para eu entrar lá sozinho.;mim;eu;Morfologia;Pronome
+36;Elas vão dormi agora.;Elas vão dormir agora.;dormi;dormir;Morfologia;Verbo
+37;Elas vão lembra-se.;Elas vão lembrar-se.;lembra-se;lembrar-se;Morfologia;Verbo
+38;Deixe está.;Deixe isso.;está;isso;Fonologia;Ortografia
+39;Já comecei a escreve o livro.;Já comecei a escrever o livro.;escreve;escrever;Morfologia;Verbo
+40;Já comecei a escrevendo o livro.;Já comecei a escrever o livro.;escrevendo;escrever;Morfologia;Verbo
+41;Logo comecei a coça-me.;Logo comecei a coçar-me.;coça-me;coçar-me;Morfologia;Verbo
+42;Logo a noite vou experimentar novamente.;Logo à noite vou experimentar novamente.;a;à;Sintaxe;Uso da crase
+43;Já bateu quatro horas.;Já deram quatro horas.;bateu;deram;Sintaxe;Concordância verbal
+44;Deu 10 h da noite e ele ainda não chegou.;Deram 10 h da noite e ele ainda não chegou.;Deu;Deram;Sintaxe;Concordância verbal
+45;Já vai bater quatro horas.;Já vão dar quatro horas.;vai bater;vão dar;Sintaxe;Concordância verbal
+46;Está dando 10 h da noite e ele ainda não chegou.;Estão dando 10 h da noite e ele ainda não chegou.;Está dando;Estão dando;Sintaxe;Concordância verbal
+47;Não tinha dado três horas da tarde.;Não tinham dado três horas da tarde.;tinha;tinham;Sintaxe;Concordância verbal
+48;Dará 10h da manhã.;Darão 10h da manhã.;Dará;Darão;Sintaxe;Concordância verbal
+49;Bateu 2:35.;Deram 2:35.;Bateu;Deram;Sintaxe;Concordância verbal
+50;Já vai bater 4h.;Já vão dar 4h.;vai bater;vão dar;Sintaxe;Concordância verbal

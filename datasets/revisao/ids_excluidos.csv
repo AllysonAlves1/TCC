@@ -1,0 +1,2 @@
+﻿id;frase_incorreta;frase_correta;justificativa;fonte_gramatica
+223;Ontem eu sai de casa.;Ontem eu saio de casa.;"A correção do LanguageTool está errada: ‘saio’ muda o tempo verbal; a forma correta seria ‘saí";"CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo"

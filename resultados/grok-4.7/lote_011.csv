@@ -1,0 +1,50 @@
+501;Ao o parâmetro variar ligeiramente.;Ao parâmetro variar ligeiramente.;ao o;ao;Morfologia;Artigo
+502;Os resultados mostraram progresso, mais não o suficiente.;Os resultados mostraram progresso, mas não o suficiente.;mais;mas;Morfologia;Conjunção
+503;Vou ao teatro des dos 10 anos.;Vou ao teatro desde os 10 anos.;des dos;desde os;Fonologia;Ortografia
+504;Isso acontece des da época em que fumava.;Isso acontece desde a época em que fumava.;des da;desde a;Fonologia;Ortografia
+505;Vou ao teatro des daquela época.;Vou ao teatro desde aquela época.;des daquela;desde aquela;Fonologia;Ortografia
+506;Isso acontece des dessa época.;Isso acontece desde essa época.;des dessa;desde essa;Fonologia;Ortografia
+507;Esta dor é demasiada real.;Esta dor é demasiado real.;demasiada;demasiado;Morfologia;Advérbio
+508;Estas dores são demasiada reais.;Estas dores são demasiado reais.;demasiada;demasiado;Morfologia;Advérbio
+509;Estes problemas são demasiados complexos.;Estes problemas são demasiado complexos.;demasiados;demasiado;Morfologia;Advérbio
+510;Ela é uma das milhares de mulheres que foi às ruas protestar.;Ela é uma das milhares de mulheres que foram às ruas protestar.;foi;foram;Sintaxe;Concordância verbal
+511;Essas milhões de formigas querem o quê?;Esses milhões de formigas querem o quê?;Essas;Esses;Sintaxe;Concordância nominal
+512;Já vimos duas milhões de coisas diferentes.;Já vimos dois milhões de coisas diferentes.;duas;dois;Morfologia;Numeral
+513;Há duzentas milhões de estrelas nesta galáxia.;Há duzentos milhões de estrelas nesta galáxia.;duzentas;duzentos;Morfologia;Numeral
+514;A boi está no pasto.;O boi está no pasto.;A;O;Morfologia;Artigo
+515;A mais boi está no pasto.;O boi a mais está no pasto.;A mais boi;O boi a mais;Morfologia;Artigo
+516;Quero come a fruta.;Quero comer a fruta.;come;comer;Morfologia;Verbo
+517;Havia o receio que causem problemas.;Havia o receio de que causem problemas.;que;de que;Sintaxe;Regência nominal
+518;É o orgulho do pais.;É o orgulho do país.;pais;país;Fonologia;Acentuação gráfica
+519;Cão e gato é animais.;Cão e gato são animais.;é;são;Sintaxe;Concordância verbal
+520;O cão e o gato é animais.;O cão e o gato são animais.;é;são;Sintaxe;Concordância verbal
+521;A maioria fazem muito pouco.;A maioria faz muito pouco.;fazem;faz;Sintaxe;Concordância verbal
+522;A maioria não sabem muito.;A maioria não sabe muito.;sabem;sabe;Sintaxe;Concordância verbal
+523;A maioria do país não sabem muito.;A maioria do país não sabe muito.;sabem;sabe;Sintaxe;Concordância verbal
+524;A maioria das mulheres pensam assim.;A maioria das mulheres pensa assim.;pensam;pensa;Sintaxe;Concordância verbal
+525;Segue as datas.;Seguem as datas.;Segue;Seguem;Sintaxe;Concordância verbal
+526;Ele vai escreve-lo amanhã.;Ele vai escrevê-lo amanhã.;escreve-lo;escrevê-lo;Fonologia;Acentuação gráfica
+527;O ímpeto de puxa-las.;O ímpeto de puxá-las.;puxa-las;puxá-las;Fonologia;Acentuação gráfica
+528;Quero abraça-la.;Quero abraçá-la.;abraça-la;abraçá-la;Fonologia;Acentuação gráfica
+529;Não quero distrai-los.;Não quero distraí-los.;distrai-los;distraí-los;Fonologia;Acentuação gráfica
+530;Assim, tira-mos as conclusões necessárias.;Assim, tiramos as conclusões necessárias.;tira-mos;tiramos;Fonologia;Emprego do hífen
+531;Escreve-se 'vemos', e não 'vê-mos'.;Escreve-se 'vemos', e não 'vemos'.;vê-mos;vemos;Fonologia;Emprego do hífen
+532;Muitos tinham-o como um bom amigo.;Muitos o tinham como um bom amigo.;tinham-o;o tinham;Sintaxe;Colocação pronominal
+533;Põe-as na primeira gaveta.;Põe-nas na primeira gaveta.;Põe-as;Põe-nas;Morfologia;Pronome
+534;ELE TEM-O NA MÃO.;ELE O TEM NA MÃO.;TEM-O;O TEM;Sintaxe;Colocação pronominal
+535;Estas entradas são deliciosas. Vá! Comer-as.;Estas entradas são deliciosas. Vá! Coma-as.;Comer-as;Coma-as;Morfologia;Verbo
+536;Você precisa partir-o em dois pedaços.;Você precisa parti-lo em dois pedaços.;partir-o;parti-lo;Morfologia;Pronome
+537;E fez-o de maneira estranha.;E o fez de maneira estranha.;fez-o;o fez;Sintaxe;Colocação pronominal
+538;Mas beber-o-ia se não contivesse cafeína.;Mas o beberia se não contivesse cafeína.;beber-o-ia;o beberia;Sintaxe;Colocação pronominal
+539;Tem muitos poucos incentivos.;Tem muito poucos incentivos.;muitos;muito;Morfologia;Advérbio
+540;Chegamos meio-dia e meio.;Chegamos ao meio-dia e meia.;meio-dia e meio;ao meio-dia e meia;Sintaxe, Morfologia;Regência verbal, Numeral
+541;Quando deu a luz a bebé, ele ficou radiante.;Quando deu à luz a bebê, ele ficou radiante.;a, bebé;à, bebê;Sintaxe, Fonologia;Uso da crase, Ortografia
+542;Todas chávenas estão partidas.;Todas as xícaras estão partidas.;Todas chávenas;Todas as xícaras;Morfologia, Semântica;Artigo, Propriedade Vocabular
+543;…uma vez que todas adversidades naturais dificultam a implantação…;…uma vez que todas as adversidades naturais dificultam a implantação…;todas;todas as;Morfologia;Artigo
+544;Os correctores gramaticais é funcionais.;Os corretores gramaticais são funcionais.;correctores, é;corretores, são;Fonologia, Sintaxe;Ortografia, Concordância verbal
+545;A gente vamos à praia.;A gente vai à praia.;vamos;vai;Sintaxe;Concordância verbal
+546;Aqui procura-se pessoas sérias.;Aqui se procuram pessoas sérias.;procura-se;se procuram;Sintaxe;Concordância verbal, Colocação pronominal
+547;Tenho de ir na praia.;Tenho de ir à praia.;na;à;Sintaxe;Regência verbal
+548;Vou na praia.;Vou à praia.;na;à;Sintaxe;Regência verbal
+549;Tenho de ir no ginásio.;Tenho de ir ao ginásio.;no;ao;Sintaxe;Regência verbal
+550;Tenho de ir no seu ginásio.;Tenho de ir ao seu ginásio.;no;ao;Sintaxe;Regência verbal

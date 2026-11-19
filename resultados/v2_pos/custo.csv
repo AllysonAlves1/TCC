@@ -1,0 +1,22 @@
+modelo;tokens_entrada;tokens_saida;fonte_preco;data_preco;custo_dataset_usd_x1;custo_livro_usd_x1;custo_dataset_usd_x3;custo_livro_usd_x3;custo_dataset_usd_x10;custo_livro_usd_x10
+GLM-5.3-Flash;37782;21614;Z.ai - docs.z.ai/guides/overview/pricing;2026-11-18;0,0165;0,1732;0,0381;0,4005;0,1137;1,1958
+MiMo-V2.6-Flash;37782;21970;Xiaomi MiMo - mimo.mi.com;2026-11-18;0,0114;0,1203;0,0237;0,2496;0,0668;0,7024
+MiMo-V2.6-Pro;37782;22346;Xiaomi MiMo - mimo.mi.com;2026-11-18;0,0359;0,3772;0,0748;0,7860;0,2108;2,2168
+MiniMax-M3;37782;22513;MiniMax - platform.minimax.io/docs/guides/pricing-paygo;2026-11-18;0,0384;0,4032;0,0924;0,9713;0,2815;2,9596
+beam;37782;22104;OpenRouter (Reflection nao publica tabela propria);2026-11-18;0,0315;0,3317;0,0758;0,7965;0,2305;2,4233
+claude-haiku-5.5;37782;21277;Anthropic - platform.claude.com/docs/en/about-claude/pricing;2026-11-18;0,0144;0,1516;0,0357;0,3753;0,1102;1,1582
+claude-opus-5.5;37782;22381;Anthropic - platform.claude.com/docs/en/about-claude/pricing;2026-11-18;0,5987;6,2952;1,4940;15,7076;4,6273;48,6511
+claude-sonnet-5.5;37782;22533;Anthropic - platform.claude.com/docs/en/about-claude/pricing;2026-11-18;0,3009;3,1636;0,7516;7,9017;2,3289;24,4854
+deepseek-v4.1-flash;37782;22715;DeepSeek - api-docs.deepseek.com/quick_start/pricing;2026-11-18;0,0386;0,4058;0,0931;0,9789;0,2839;2,9850
+gemini-3.8-flash;37782;22352;Google - ai.google.dev/gemini-api/docs/pricing;2026-11-18;0,1122;1,1792;0,2798;2,9417;0,8665;9,1106
+gemini-4-argon;37782;22150;Google - ai.google.dev/gemini-api/docs/pricing;2026-11-18;0,2971;3,1233;0,7401;7,7809;2,2906;24,0827
+gemini-4-hydrogen;37782;22199;Google - ai.google.dev/gemini-api/docs/pricing;2026-11-18;0,2232;2,3463;0,5562;5,8473;1,7216;18,1006
+gpt-6-luna;37782;22377;OpenAI - developers.openai.com/api/docs/pricing;2026-11-18;0,0150;0,1574;0,0373;0,3926;0,1157;1,2161
+gpt-6.1-sol;37782;22483;OpenAI - developers.openai.com/api/docs/pricing;2026-11-18;0,3004;3,1583;0,7501;7,8860;2,3239;24,4328
+gpt-6.1-terra;37782;22686;OpenAI - developers.openai.com/api/docs/pricing;2026-11-18;0,1512;1,5898;0,3781;3,9750;1,1721;12,3231
+grok-4.7;37782;23649;xAI - docs.x.ai/docs/models;2026-11-18;0,2175;2,2863;0,5012;5,2700;1,4945;15,7130
+kimi-k3.1-pro;37782;21901;Moonshot AI - platform.kimi.ai/docs/pricing/chat;2026-11-18;0,2946;3,0971;0,7326;7,7024;2,2657;23,8209
+minimax-m3.1-flash;37782;22757;MiniMax - platform.minimax.io/docs/guides/pricing-paygo;2026-11-18;0,0193;0,2031;0,0466;0,4903;0,1422;1,4952
+musespark-1.3;37782;22474;Meta - dev.meta.ai/docs/pricing-rate-limits;2026-11-18;0,1427;1,5008;0,3338;3,5092;1,0024;10,5388
+qwen3.8-flash;37782;22684;Alibaba Cloud Model Studio (Singapura) - alibabacloud.com/help/en/model-studio/model-pricing;2026-11-18;0,0163;0,1717;0,0377;0,3959;0,1123;1,1805
+qwen3.8-max;37782;22432;Alibaba Cloud Model Studio (Singapura) - alibabacloud.com/help/en/model-studio/model-pricing;2026-11-18;0,2102;2,2096;0,4793;5,0397;1,4215;14,9453

@@ -1,0 +1,50 @@
+1;A traves de várias entrevistas...;Através de várias entrevistas...;traves;través;Fonologia;Acentuação gráfica
+2;Correram a traves do túnel.;Correram a través do túnel.;traves;través;Fonologia;Acentuação gráfica
+3;Em case de incêndio...;Em caso de incêndio...;case;caso;Morfologia;Substantivo
+4;Case eles não venham...;Caso eles não venham...;Case;Caso;Morfologia;Conjunção
+5;Case ganhem, vão querer um prêmio.;Caso ganhem, vão querer um prêmio.;Case;Caso;Morfologia;Conjunção
+6;Case quarenta ladrões roubem o tesouro...;Caso quarenta ladrões roubem o tesouro...;Case;Caso;Morfologia;Conjunção
+7;O que ouve com ela?;O que se ouve com ela?;ouve;se ouve;Sintaxe;Colocação pronominal
+8;Ouve algo com ele?;Se ouve algo com ele?;ouve;se ouve;Sintaxe;Colocação pronominal
+9;Você acha que ouve algo estranho conosco?;Você acha que se ouve algo estranho conosco?;ouve;se ouve;Sintaxe;Colocação pronominal
+10;Ouve alguns problemas...;Se ouvem alguns problemas...;ouve;se ouvem;Sintaxe;Colocação pronominal
+11;Não ouve nenhuma complicação...;Não se ouve nenhuma complicação...;ouve;se ouve;Sintaxe;Colocação pronominal
+12;Ouve vários erros sérios.;Se ouvem vários erros sérios.;ouve;se ouvem;Sintaxe;Colocação pronominal
+13;Já ouve novas mudanças desde aquela época.;Já houve novas mudanças desde aquela época.;ouve;houve;Semântica;Parônimo
+14;Ouve tempo de fazer tudo?;Houve tempo de fazer tudo?;Ouve;Houve;Semântica;Parônimo
+15;Não ouve necessidade.;Não há necessidade.;ouve;há;Semântica;Propriedade Vocabular
+16;Eu cai dentro!;Eu caí dentro!;cai;caí;Fonologia;Acentuação gráfica
+17;Eu não sai de lá sem uma resposta.;Eu não saí de lá sem uma resposta.;sai;saí;Fonologia;Acentuação gráfica
+18;Ela era a menina melhor educada.;Ela era a menina mais bem educada.;melhor educada;mais bem educada;Morfologia;Advérbio
+19;Os melhor-dotados da classe.;Os mais bem-dotados da classe.;melhor-dotados;mais bem-dotados;Morfologia;Advérbio
+20;As casas estão melhores acabadas que os jardins.;As casas estão mais bem acabadas que os jardins.;melhores acabadas;mais bem acabadas;Morfologia;Advérbio
+21;Ficaram ainda pior humorados.;Ficaram ainda mais mal humorados.;pior humorados;mais mal humorados;Morfologia;Advérbio
+22;Os melhores colocados ganharam um prêmio.;Os melhor colocados ganharam um prêmio.;melhores colocados;melhor colocados;Morfologia;Adjetivo
+23;Qualificação: 2 atletas de cada bateria (Q) mais os 5 melhores qualificados (q).;Qualificação: 2 atletas de cada bateria (Q) mais os 5 melhor qualificados (q).;melhores qualificados;melhor qualificados;Morfologia;Adjetivo
+24;Tão altos quantos alguns dos melhores vistos no jogo principal.;Tão altos quanto alguns dos melhores vistos no jogo principal.;quantos;quanto;Morfologia;Numeral
+25;Os melhores classificados ganharam um prêmio.;Os melhor classificados ganharam um prêmio.;melhores classificados;melhor classificados;Morfologia;Adjetivo
+26;Os piores colocados voltaram para Taubaté.;Os pior colocados voltaram para Taubaté.;piores colocados;pior colocados;Morfologia;Adjetivo
+27;Os piores classificados voltaram para Taubaté.;Os pior classificados voltaram para Taubaté.;piores classificados;pior classificados;Morfologia;Adjetivo
+28;Para mim abrir a porta será difícil.;Para eu abrir a porta será difícil.;mim;eu;Sintaxe;Uso da crase
+29;Pra mim fechar o portão, não sei.;Para eu fechar o portão, não sei.;pra mim;para eu;Sintaxe;Uso da crase
+30;Não dá para mim vir em janeiro.;Não dá para eu vir em janeiro.;para mim;para eu;Sintaxe;Uso da crase
+31;Vai dar pra mim pedir um novo?;Vai dar para eu pedir um novo?;pra mim;para eu;Sintaxe;Uso da crase
+32;Ainda não deu para mim entrar em contato.;Ainda não deu para eu entrar em contato.;para mim;para eu;Sintaxe;Uso da crase
+33;É para mim ir como?;É para eu ir como?;para mim;para eu;Sintaxe;Uso da crase
+34;Não era pra mim tentar de novo...;Não era para eu tentar de novo...;pra mim;para eu;Sintaxe;Uso da crase
+35;Será um desafio para mim entrar lá sozinho.;Será um desafio para eu entrar lá sozinho.;para mim;para eu;Morfologia;Pronome
+36;Elas vão dormi agora.;Elas vão dormir agora.;dormi;dormir;Morfologia;Verbo
+37;Elas vão lembra-se.;Elas vão se lembrar.;lembra-se;se lembrar;Sintaxe;Colocação pronominal
+38;Deixe está.;Deixe estar.;está;estar;Morfologia;Verbo
+39;Já comecei a escreve o livro.;Já comecei a escrever o livro.;escreve;escrever;Morfologia;Verbo
+40;Já comecei a escrevendo o livro.;Já comecei a escrever o livro.;escrevendo;escrever;Morfologia;Verbo
+41;Logo comecei a coça-me.;Logo comecei a coçar-me.;coça-me;coçar-me;Morfologia;Verbo
+42;Logo a noite vou experimentar novamente.;Logo à noite vou experimentar novamente.;a noite;à noite;Sintaxe;Uso da crase
+43;Já bateu quatro horas.;Já bateu às quatro horas.;quatro horas;às quatro horas;Sintaxe;Uso da crase
+44;Deu 10 h da noite e ele ainda não chegou.;Deu às 10 h da noite e ele ainda não chegou.;10 h;às 10 h;Sintaxe;Uso da crase
+45;Já vai bater quatro horas.;Já vai bater às quatro horas.;quatro horas;às quatro horas;Sintaxe;Uso da crase
+46;Está dando 10 h da noite e ele ainda não chegou.;Está dando às 10 h da noite e ele ainda não chegou.;10 h;às 10 h;Sintaxe;Uso da crase
+47;Não tinha dado três horas da tarde.;Não tinha dado às três horas da tarde.;três horas;às três horas;Sintaxe;Uso da crase
+48;Dará 10h da manhã.;Dará às 10h da manhã.;10h;às 10h;Sintaxe;Uso da crase
+49;Bateu 2:35.;Bateu às 2:35.;2:35;às 2:35;Sintaxe;Uso da crase
+50;Já vai bater 4h.;Já vai bater às 4h.;4h;às 4h;Sintaxe;Uso da crase

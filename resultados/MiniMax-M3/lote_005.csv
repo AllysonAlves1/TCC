@@ -1,0 +1,50 @@
+201;É os minha casa.;É a minha casa.;os minha;a minha;Morfologia;Artigo
+202;Vem do sua casa.;Vem da sua casa.;do sua;da sua;Morfologia;Artigo
+203;É as teu carro.;É o teu carro.;as teu;o teu;Morfologia;Artigo
+204;Vem da seu carro.;Vem do teu carro.;da seu;do teu;Morfologia;Artigo
+205;É as seus braços.;São os seus braços.;É as;São os;Sintaxe;Concordância verbal
+206;Vem da meus braços.;Vem dos meus braços.;da meus;dos meus;Morfologia;Artigo
+207;É realmente louvável os esforços que fizeram ontem.;É realmente louvável o esforço que fizeram ontem.;os esforços;o esforço;Sintaxe;Concordância nominal
+208;É bonito as flores do campo.;São bonitas as flores do campo.;É bonito as;São bonitas as;Sintaxe;Concordância verbal
+209;É bonita os lugares paradisíacos.;São bonitos os lugares paradisíacos.;É bonita os;São bonitos os;Sintaxe;Concordância verbal
+210;É proibido essas cartas enviadas.;São proibidas essas cartas enviadas.;É proibido essas;São proibidas essas;Sintaxe;Concordância verbal
+211;É proibido as cartas enviadas.;São proibidas as cartas enviadas.;É proibido as;São proibidas as;Sintaxe;Concordância verbal
+212;É proibido os jogos de baralho.;São proibidos os jogos de baralho.;É proibido os;São proibidos os;Sintaxe;Concordância verbal
+213;É proibido a entrada de pessoas não autorizadas.;É proibida a entrada de pessoas não autorizadas.;proibido;proibida;Sintaxe;Concordância nominal
+214;É proibida o acesso de pessoas não autorizadas.;É proibido o acesso de pessoas não autorizadas.;proibida;proibido;Sintaxe;Concordância nominal
+215;São proibidos as entradas de pessoas não autorizadas.;São proibidas as entradas de pessoas não autorizadas.;proibidos;proibidas;Sintaxe;Concordância nominal
+216;São proibidas os acessos de pessoas não autorizadas.;São proibidos os acessos de pessoas não autorizadas.;proibidas;proibidos;Sintaxe;Concordância nominal
+217;portanto, qualquer que sejam os resultados, agradecemos muito.;portanto, quaisquer que sejam os resultados, agradecemos muito.;qualquer que sejam;quaisquer que sejam;Morfologia;Pronome
+218;portanto, qualquer que seja os resultados, agradecemos muito.;portanto, quaisquer que sejam os resultados, agradecemos muito.;qualquer que seja os;quaisquer que sejam os;Morfologia;Pronome
+219;portanto, quaisquer que seja os resultados, agradecemos muito.;portanto, quaisquer que sejam os resultados, agradecemos muito.;seja;sejam;Morfologia;Verbo
+220;portanto, quaisquer que seja o resultado, agradecemos muito.;portanto, quaisquer que seja o resultado, agradecemos muito.;seja;seja;Morfologia;Verbo
+221;Eu passeiam na praia.;Eu passeio na praia.;passeiam;passeio;Sintaxe;Concordância verbal
+222;Apesar de eu já sabem quem foi, fiquei em silêncio.;Apesar de eu já saber quem foi, fiquei em silêncio.;sabem;saber;Sintaxe;Concordância verbal
+223;Ontem eu sai de casa.;Ontem eu saí de casa.;sai;saí;Morfologia;Verbo
+224;Tu não passeiam na praia.;Tu não passeias na praia.;passeiam;passeias;Sintaxe;Concordância verbal
+225;Ele não passeiam na praia.;Ele não passeia na praia.;passeiam;passeia;Sintaxe;Concordância verbal
+226;Nós não passeia na praia.;Nós não passeamos na praia.;passeia;passeamos;Sintaxe;Concordância verbal
+227;Eu e Rita passeiam na praia.;Eu e Rita passeamos na praia.;passeiam;passeamos;Sintaxe;Concordância verbal
+228;Tu e eu passeio na praia.;Tu e eu passeamos na praia.;passeio;passeamos;Sintaxe;Concordância verbal
+229;Vós passeiam na praia.;Vós passeais na praia.;passeiam;passeais;Sintaxe;Concordância verbal
+230;Eles e elas passeamos na praia.;Eles e elas passeiam na praia.;passeamos;passeiam;Sintaxe;Concordância verbal
+231;Vocês não leu as notícias?;Vocês não leram as notícias?;leu;leram;Sintaxe;Concordância verbal
+232;Nós é legal.;Nós é legal.;Nós é legal.;Nós é legal.;Sintaxe;Concordância verbal
+233;Os médicos saíra sem saber como dar a notícia.;Os médicos saíram sem saber como dar a notícia.;saíra;saíram;Sintaxe;Concordância verbal
+234;Os meus amigos não bebe café.;Os meus amigos não bebem café.;bebe;bebem;Sintaxe;Concordância verbal
+235;Os meus amigos ainda não bebe café.;Os meus amigos ainda não bebem café.;bebe;bebem;Sintaxe;Concordância verbal
+236;Estas provas tornava-as por vezes frustrada.;Estas provas tornavam-se por vezes frustradas.;tornava-as;tornavam-se;Sintaxe;Colocação pronominal
+237;Os médicos havia saído sem saber como dar a notícia.;Os médicos saíram sem saber como dar a notícia.;havia saído;saíram;Sintaxe;Concordância verbal
+238;Os meninos dança.;Os meninos dançam.;dança;dançam;Sintaxe;Concordância verbal
+239;Os meninos canta bem.;Os meninos cantam bem.;canta;cantam;Sintaxe;Concordância verbal
+240;Os meninos sabe muito.;Os meninos sabem muito.;sabe;sabem;Sintaxe;Concordância verbal
+241;Os meninos escreve textos.;Os meninos escrevem textos.;escreve;escrevem;Sintaxe;Concordância verbal
+242;Os meninos gosta de água.;Os meninos gostam de água.;gosta;gostam;Sintaxe;Concordância verbal
+243;Os meninos é alguns dos alunos.;Os meninos são alguns dos alunos.;é;são;Sintaxe;Concordância verbal
+244;Os meninos precisava dos pais.;Os meninos precisavam dos pais.;precisava;precisavam;Sintaxe;Concordância verbal
+245;Os meninos gosta das tias.;Os meninos gostam das tias.;gosta;gostam;Sintaxe;Concordância verbal
+246;Os meninos é nesta questão.;Os meninos estão nesta questão.;é;estão;Sintaxe;Concordância verbal
+247;Os meninos precisa das mães.;Os meninos precisam das mães.;precisa;precisam;Sintaxe;Concordância verbal
+248;O leão correm.;O leão corre.;correm;corre;Sintaxe;Concordância verbal
+249;O jaguar comem um osso.;O jaguar come um osso.;comem;come;Sintaxe;Concordância verbal
+250;Essa hiena perseguem de gente feia.;Essa hiena persegue gente feia.;perseguem;persegue;Sintaxe;Concordância verbal

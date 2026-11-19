@@ -1,0 +1,5726 @@
+{
+  "base": "datasets/dataset_erros_gramaticais.csv",
+  "excluidos": [
+    "deepseek-v4-pro"
+  ],
+  "ids_excluidos": [
+    223,
+    961,
+    982
+  ],
+  "n_frases": 1203,
+  "bootstrap": 1000,
+  "semente": 42,
+  "tokenizador_custo": "tiktoken o200k_base",
+  "palavras_livro": 80000,
+  "resumo": [
+    {
+      "modelo": "claude-sonnet-5.5",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1094,
+      "FP": 225,
+      "FN": 186,
+      "P": 0.8294,
+      "R": 0.8547,
+      "F05": 0.8344,
+      "Exata": 0.8096,
+      "Acc_cat": 0.65,
+      "Acc_sub": 0.5586,
+      "F1macro_cat": 0.6454,
+      "F1macro_sub": 0.4221,
+      "F05_IC_inf": 0.8132,
+      "F05_IC_sup": 0.8545,
+      "Exata_IC_inf": 0.7864,
+      "Exata_IC_sup": 0.8313,
+      "Acc_cat_IC_inf": 0.6201,
+      "Acc_cat_IC_sup": 0.6758,
+      "Acc_sub_IC_inf": 0.5287,
+      "Acc_sub_IC_sup": 0.5869
+    },
+    {
+      "modelo": "musespark-1.3",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1084,
+      "FP": 226,
+      "FN": 196,
+      "P": 0.8275,
+      "R": 0.8469,
+      "F05": 0.8313,
+      "Exata": 0.8055,
+      "Acc_cat": 0.5611,
+      "Acc_sub": 0.5004,
+      "F1macro_cat": 0.5217,
+      "F1macro_sub": 0.3577,
+      "F05_IC_inf": 0.8088,
+      "F05_IC_sup": 0.8504,
+      "Exata_IC_inf": 0.783,
+      "Exata_IC_sup": 0.8263,
+      "Acc_cat_IC_inf": 0.5312,
+      "Acc_cat_IC_sup": 0.5894,
+      "Acc_sub_IC_inf": 0.4722,
+      "Acc_sub_IC_sup": 0.5295
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1063,
+      "FP": 217,
+      "FN": 217,
+      "P": 0.8305,
+      "R": 0.8305,
+      "F05": 0.8305,
+      "Exata": 0.7889,
+      "Acc_cat": 0.5287,
+      "Acc_sub": 0.473,
+      "F1macro_cat": 0.4656,
+      "F1macro_sub": 0.3889,
+      "F05_IC_inf": 0.8117,
+      "F05_IC_sup": 0.8506,
+      "Exata_IC_inf": 0.7656,
+      "Exata_IC_sup": 0.8113,
+      "Acc_cat_IC_inf": 0.5004,
+      "Acc_cat_IC_sup": 0.5553,
+      "Acc_sub_IC_inf": 0.4439,
+      "Acc_sub_IC_sup": 0.5004
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1090,
+      "FP": 240,
+      "FN": 190,
+      "P": 0.8195,
+      "R": 0.8516,
+      "F05": 0.8258,
+      "Exata": 0.8188,
+      "Acc_cat": 0.68,
+      "Acc_sub": 0.6301,
+      "F1macro_cat": 0.6202,
+      "F1macro_sub": 0.4519,
+      "F05_IC_inf": 0.8029,
+      "F05_IC_sup": 0.8473,
+      "Exata_IC_inf": 0.7963,
+      "Exata_IC_sup": 0.8404,
+      "Acc_cat_IC_inf": 0.6525,
+      "Acc_cat_IC_sup": 0.7074,
+      "Acc_sub_IC_inf": 0.6027,
+      "Acc_sub_IC_sup": 0.6567
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1124,
+      "FP": 262,
+      "FN": 156,
+      "P": 0.811,
+      "R": 0.8781,
+      "F05": 0.8236,
+      "Exata": 0.8121,
+      "Acc_cat": 0.7091,
+      "Acc_sub": 0.6492,
+      "F1macro_cat": 0.642,
+      "F1macro_sub": 0.51,
+      "F05_IC_inf": 0.8029,
+      "F05_IC_sup": 0.842,
+      "Exata_IC_inf": 0.7905,
+      "Exata_IC_sup": 0.8329,
+      "Acc_cat_IC_inf": 0.6841,
+      "Acc_cat_IC_sup": 0.734,
+      "Acc_sub_IC_inf": 0.6226,
+      "Acc_sub_IC_sup": 0.6766
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1096,
+      "FP": 251,
+      "FN": 184,
+      "P": 0.8137,
+      "R": 0.8562,
+      "F05": 0.8218,
+      "Exata": 0.8221,
+      "Acc_cat": 0.6642,
+      "Acc_sub": 0.5885,
+      "F1macro_cat": 0.5939,
+      "F1macro_sub": 0.4984,
+      "F05_IC_inf": 0.7985,
+      "F05_IC_sup": 0.8427,
+      "Exata_IC_inf": 0.7988,
+      "Exata_IC_sup": 0.8429,
+      "Acc_cat_IC_inf": 0.6384,
+      "Acc_cat_IC_sup": 0.6899,
+      "Acc_sub_IC_inf": 0.5611,
+      "Acc_sub_IC_sup": 0.616
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1023,
+      "FP": 234,
+      "FN": 257,
+      "P": 0.8138,
+      "R": 0.7992,
+      "F05": 0.8109,
+      "Exata": 0.7623,
+      "Acc_cat": 0.6725,
+      "Acc_sub": 0.616,
+      "F1macro_cat": 0.6318,
+      "F1macro_sub": 0.489,
+      "F05_IC_inf": 0.7883,
+      "F05_IC_sup": 0.8315,
+      "Exata_IC_inf": 0.7382,
+      "Exata_IC_sup": 0.7847,
+      "Acc_cat_IC_inf": 0.6442,
+      "Acc_cat_IC_sup": 0.6983,
+      "Acc_sub_IC_inf": 0.586,
+      "Acc_sub_IC_sup": 0.6451
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1097,
+      "FP": 280,
+      "FN": 183,
+      "P": 0.7967,
+      "R": 0.857,
+      "F05": 0.808,
+      "Exata": 0.7963,
+      "Acc_cat": 0.6933,
+      "Acc_sub": 0.6076,
+      "F1macro_cat": 0.5818,
+      "F1macro_sub": 0.4439,
+      "F05_IC_inf": 0.7853,
+      "F05_IC_sup": 0.8293,
+      "Exata_IC_inf": 0.7731,
+      "Exata_IC_sup": 0.818,
+      "Acc_cat_IC_inf": 0.6675,
+      "Acc_cat_IC_sup": 0.7182,
+      "Acc_sub_IC_inf": 0.5786,
+      "Acc_sub_IC_sup": 0.6334
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "cobertura": 1.0,
+      "taxa_formato": 0.9867,
+      "TP": 1080,
+      "FP": 285,
+      "FN": 200,
+      "P": 0.7912,
+      "R": 0.8438,
+      "F05": 0.8012,
+      "Exata": 0.7972,
+      "Acc_cat": 0.6251,
+      "Acc_sub": 0.5702,
+      "F1macro_cat": 0.5774,
+      "F1macro_sub": 0.4504,
+      "F05_IC_inf": 0.7782,
+      "F05_IC_sup": 0.8217,
+      "Exata_IC_inf": 0.7756,
+      "Exata_IC_sup": 0.818,
+      "Acc_cat_IC_inf": 0.5968,
+      "Acc_cat_IC_sup": 0.6525,
+      "Acc_sub_IC_inf": 0.542,
+      "Acc_sub_IC_sup": 0.5993
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1085,
+      "FP": 302,
+      "FN": 195,
+      "P": 0.7823,
+      "R": 0.8477,
+      "F05": 0.7945,
+      "Exata": 0.7914,
+      "Acc_cat": 0.6908,
+      "Acc_sub": 0.6392,
+      "F1macro_cat": 0.6195,
+      "F1macro_sub": 0.505,
+      "F05_IC_inf": 0.7707,
+      "F05_IC_sup": 0.8181,
+      "Exata_IC_inf": 0.7681,
+      "Exata_IC_sup": 0.8155,
+      "Acc_cat_IC_inf": 0.665,
+      "Acc_cat_IC_sup": 0.7182,
+      "Acc_sub_IC_inf": 0.6126,
+      "Acc_sub_IC_sup": 0.6667
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1033,
+      "FP": 283,
+      "FN": 247,
+      "P": 0.785,
+      "R": 0.807,
+      "F05": 0.7893,
+      "Exata": 0.7481,
+      "Acc_cat": 0.6434,
+      "Acc_sub": 0.5993,
+      "F1macro_cat": 0.57,
+      "F1macro_sub": 0.4639,
+      "F05_IC_inf": 0.7676,
+      "F05_IC_sup": 0.8112,
+      "Exata_IC_inf": 0.724,
+      "Exata_IC_sup": 0.7714,
+      "Acc_cat_IC_inf": 0.616,
+      "Acc_cat_IC_sup": 0.6708,
+      "Acc_sub_IC_inf": 0.5744,
+      "Acc_sub_IC_sup": 0.6276
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 947,
+      "FP": 239,
+      "FN": 333,
+      "P": 0.7985,
+      "R": 0.7398,
+      "F05": 0.786,
+      "Exata": 0.7224,
+      "Acc_cat": 0.5935,
+      "Acc_sub": 0.5195,
+      "F1macro_cat": 0.4927,
+      "F1macro_sub": 0.3879,
+      "F05_IC_inf": 0.7643,
+      "F05_IC_sup": 0.8093,
+      "Exata_IC_inf": 0.6999,
+      "Exata_IC_sup": 0.7481,
+      "Acc_cat_IC_inf": 0.5661,
+      "Acc_cat_IC_sup": 0.6218,
+      "Acc_sub_IC_inf": 0.4913,
+      "Acc_sub_IC_sup": 0.5478
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1035,
+      "FP": 294,
+      "FN": 245,
+      "P": 0.7788,
+      "R": 0.8086,
+      "F05": 0.7846,
+      "Exata": 0.7789,
+      "Acc_cat": 0.5528,
+      "Acc_sub": 0.4855,
+      "F1macro_cat": 0.4793,
+      "F1macro_sub": 0.3981,
+      "F05_IC_inf": 0.7611,
+      "F05_IC_sup": 0.8084,
+      "Exata_IC_inf": 0.7564,
+      "Exata_IC_sup": 0.803,
+      "Acc_cat_IC_inf": 0.527,
+      "Acc_cat_IC_sup": 0.5802,
+      "Acc_sub_IC_inf": 0.4589,
+      "Acc_sub_IC_sup": 0.5121
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1014,
+      "FP": 287,
+      "FN": 266,
+      "P": 0.7794,
+      "R": 0.7922,
+      "F05": 0.7819,
+      "Exata": 0.7398,
+      "Acc_cat": 0.6318,
+      "Acc_sub": 0.5677,
+      "F1macro_cat": 0.5534,
+      "F1macro_sub": 0.4543,
+      "F05_IC_inf": 0.7595,
+      "F05_IC_sup": 0.804,
+      "Exata_IC_inf": 0.7157,
+      "Exata_IC_sup": 0.7639,
+      "Acc_cat_IC_inf": 0.6035,
+      "Acc_cat_IC_sup": 0.6592,
+      "Acc_sub_IC_inf": 0.5403,
+      "Acc_sub_IC_sup": 0.5952
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 1044,
+      "FP": 306,
+      "FN": 236,
+      "P": 0.7733,
+      "R": 0.8156,
+      "F05": 0.7814,
+      "Exata": 0.7639,
+      "Acc_cat": 0.68,
+      "Acc_sub": 0.5993,
+      "F1macro_cat": 0.5772,
+      "F1macro_sub": 0.4764,
+      "F05_IC_inf": 0.7561,
+      "F05_IC_sup": 0.8048,
+      "Exata_IC_inf": 0.739,
+      "Exata_IC_sup": 0.7889,
+      "Acc_cat_IC_inf": 0.6542,
+      "Acc_cat_IC_sup": 0.7074,
+      "Acc_sub_IC_inf": 0.5727,
+      "Acc_sub_IC_sup": 0.6284
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "cobertura": 1.0,
+      "taxa_formato": 0.9975,
+      "TP": 986,
+      "FP": 313,
+      "FN": 294,
+      "P": 0.759,
+      "R": 0.7703,
+      "F05": 0.7613,
+      "Exata": 0.724,
+      "Acc_cat": 0.655,
+      "Acc_sub": 0.5179,
+      "F1macro_cat": 0.5432,
+      "F1macro_sub": 0.3388,
+      "F05_IC_inf": 0.739,
+      "F05_IC_sup": 0.7844,
+      "Exata_IC_inf": 0.6983,
+      "Exata_IC_sup": 0.7481,
+      "Acc_cat_IC_inf": 0.6276,
+      "Acc_cat_IC_sup": 0.6808,
+      "Acc_sub_IC_inf": 0.4888,
+      "Acc_sub_IC_sup": 0.5453
+    },
+    {
+      "modelo": "grok-4.7",
+      "cobertura": 1.0,
+      "taxa_formato": 0.9859,
+      "TP": 1053,
+      "FP": 361,
+      "FN": 227,
+      "P": 0.7447,
+      "R": 0.8227,
+      "F05": 0.7591,
+      "Exata": 0.7581,
+      "Acc_cat": 0.5677,
+      "Acc_sub": 0.4954,
+      "F1macro_cat": 0.5306,
+      "F1macro_sub": 0.451,
+      "F05_IC_inf": 0.7355,
+      "F05_IC_sup": 0.7813,
+      "Exata_IC_inf": 0.734,
+      "Exata_IC_sup": 0.7814,
+      "Acc_cat_IC_inf": 0.5387,
+      "Acc_cat_IC_sup": 0.5968,
+      "Acc_sub_IC_inf": 0.468,
+      "Acc_sub_IC_sup": 0.5245
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 915,
+      "FP": 299,
+      "FN": 365,
+      "P": 0.7537,
+      "R": 0.7148,
+      "F05": 0.7456,
+      "Exata": 0.6791,
+      "Acc_cat": 0.5677,
+      "Acc_sub": 0.5004,
+      "F1macro_cat": 0.5767,
+      "F1macro_sub": 0.3599,
+      "F05_IC_inf": 0.7203,
+      "F05_IC_sup": 0.7692,
+      "Exata_IC_inf": 0.6525,
+      "Exata_IC_sup": 0.7041,
+      "Acc_cat_IC_inf": 0.5395,
+      "Acc_cat_IC_sup": 0.596,
+      "Acc_sub_IC_inf": 0.4722,
+      "Acc_sub_IC_sup": 0.5295
+    },
+    {
+      "modelo": "beam",
+      "cobertura": 1.0,
+      "taxa_formato": 0.9268,
+      "TP": 942,
+      "FP": 415,
+      "FN": 338,
+      "P": 0.6942,
+      "R": 0.7359,
+      "F05": 0.7021,
+      "Exata": 0.675,
+      "Acc_cat": 0.6002,
+      "Acc_sub": 0.468,
+      "F1macro_cat": 0.5193,
+      "F1macro_sub": 0.2882,
+      "F05_IC_inf": 0.6762,
+      "F05_IC_sup": 0.7286,
+      "Exata_IC_inf": 0.6475,
+      "Exata_IC_sup": 0.7016,
+      "Acc_cat_IC_inf": 0.5702,
+      "Acc_cat_IC_sup": 0.6268,
+      "Acc_sub_IC_inf": 0.4397,
+      "Acc_sub_IC_sup": 0.4954
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "cobertura": 1.0,
+      "taxa_formato": 1.0,
+      "TP": 865,
+      "FP": 485,
+      "FN": 415,
+      "P": 0.6407,
+      "R": 0.6758,
+      "F05": 0.6475,
+      "Exata": 0.6442,
+      "Acc_cat": 0.5611,
+      "Acc_sub": 0.414,
+      "F1macro_cat": 0.5379,
+      "F1macro_sub": 0.3285,
+      "F05_IC_inf": 0.6212,
+      "F05_IC_sup": 0.674,
+      "Exata_IC_inf": 0.6176,
+      "Exata_IC_sup": 0.6708,
+      "Acc_cat_IC_inf": 0.5328,
+      "Acc_cat_IC_sup": 0.5894,
+      "Acc_sub_IC_inf": 0.3874,
+      "Acc_sub_IC_sup": 0.4431
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "cobertura": 1.0,
+      "taxa_formato": 0.9875,
+      "TP": 807,
+      "FP": 465,
+      "FN": 473,
+      "P": 0.6344,
+      "R": 0.6305,
+      "F05": 0.6336,
+      "Exata": 0.5877,
+      "Acc_cat": 0.5204,
+      "Acc_sub": 0.3475,
+      "F1macro_cat": 0.4219,
+      "F1macro_sub": 0.2321,
+      "F05_IC_inf": 0.6083,
+      "F05_IC_sup": 0.6596,
+      "Exata_IC_inf": 0.5594,
+      "Exata_IC_sup": 0.6143,
+      "Acc_cat_IC_inf": 0.4938,
+      "Acc_cat_IC_sup": 0.5495,
+      "Acc_sub_IC_inf": 0.32,
+      "Acc_sub_IC_sup": 0.3749
+    }
+  ],
+  "por_subcategoria": [
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8629,
+      "Exata": 0.8605,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5556,
+      "Exata": 0.4583,
+      "Acc_sub": 0.125
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8025,
+      "Exata": 0.7647,
+      "Acc_sub": 0.4118
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.7389,
+      "Exata": 0.6087,
+      "Acc_sub": 0.087
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7125,
+      "Exata": 0.6863,
+      "Acc_sub": 0.5294
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.8,
+      "Exata": 0.7949,
+      "Acc_sub": 0.4359
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.5263,
+      "Exata": 0.6667,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.5909,
+      "Exata": 0.5909,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8,
+      "Exata": 0.8,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.3704,
+      "Exata": 0.2857,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.6349,
+      "Exata": 0.5556,
+      "Acc_sub": 0.8889
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.7959,
+      "Exata": 0.7671,
+      "Acc_sub": 0.79
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6557,
+      "Exata": 0.6154,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7063,
+      "Exata": 0.6735,
+      "Acc_sub": 0.8265
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6878,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.823,
+      "Exata": 0.7273,
+      "Acc_sub": 0.2386
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.3571,
+      "Exata": 0.25,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.6731,
+      "Exata": 0.5833,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8511,
+      "Exata": 0.7273,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.5319,
+      "Exata": 0.4545,
+      "Acc_sub": 0.2727
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8929,
+      "Exata": 0.8654,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "GLM-5.3-Flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7459,
+      "Exata": 0.7152,
+      "Acc_sub": 0.8242
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8499,
+      "Exata": 0.8372,
+      "Acc_sub": 0.6202
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5603,
+      "Exata": 0.5,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.6471,
+      "Exata": 0.6471,
+      "Acc_sub": 0.8235
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.3448,
+      "Exata": 0.1304,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7234,
+      "Exata": 0.6863,
+      "Acc_sub": 0.8824
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.975,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7179
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8889,
+      "Exata": 0.6818,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.812,
+      "Exata": 0.76,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.4348,
+      "Exata": 0.2857,
+      "Acc_sub": 0.7143
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.8182,
+      "Exata": 0.6667,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8105,
+      "Exata": 0.7443,
+      "Acc_sub": 0.2374
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.4717,
+      "Exata": 0.3846,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.743,
+      "Exata": 0.6939,
+      "Acc_sub": 0.8163
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7225,
+      "Exata": 0.697,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9146,
+      "Exata": 0.8864,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.3846,
+      "Exata": 0.2,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.625,
+      "Exata": 0.5,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.625,
+      "Exata": 0.5,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7778,
+      "Exata": 0.6364,
+      "Acc_sub": 0.8636
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.5128,
+      "Exata": 0.3636,
+      "Acc_sub": 0.1818
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.928,
+      "Exata": 0.9038,
+      "Acc_sub": 0.9423
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.757,
+      "Exata": 0.703,
+      "Acc_sub": 0.3939
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8699,
+      "Exata": 0.8682,
+      "Acc_sub": 0.7519
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.7197,
+      "Exata": 0.7083,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.9412,
+      "Exata": 0.9412,
+      "Acc_sub": 0.8235
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7971,
+      "Exata": 0.8462,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.7488,
+      "Exata": 0.6087,
+      "Acc_sub": 0.8696
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7478,
+      "Exata": 0.7255,
+      "Acc_sub": 0.9542
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.975,
+      "Exata": 0.9744,
+      "Acc_sub": 0.8718
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.7627,
+      "Exata": 0.7727,
+      "Acc_sub": 0.8182
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.92,
+      "Exata": 0.92,
+      "Acc_sub": 0.8
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5714,
+      "Exata": 0.5714,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.7143,
+      "Exata": 0.7778,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8795,
+      "Exata": 0.8721,
+      "Acc_sub": 0.5936
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.8696,
+      "Exata": 0.8462,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7368,
+      "Exata": 0.7551,
+      "Acc_sub": 0.8367
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.8382,
+      "Exata": 0.8182,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9299,
+      "Exata": 0.9091,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.4,
+      "Exata": 0.4,
+      "Acc_sub": 0.4
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.5,
+      "Exata": 0.5,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7895,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9007,
+      "Exata": 0.9038,
+      "Acc_sub": 0.9038
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7947,
+      "Exata": 0.7939,
+      "Acc_sub": 0.4061
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.7839,
+      "Exata": 0.7597,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5556,
+      "Exata": 0.4583,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.7303,
+      "Exata": 0.6471,
+      "Acc_sub": 0.5882
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.5385,
+      "Exata": 0.5385,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.2139,
+      "Exata": 0.1739,
+      "Acc_sub": 0.6087
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.5767,
+      "Exata": 0.5556,
+      "Acc_sub": 0.2092
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.7955,
+      "Exata": 0.6667,
+      "Acc_sub": 0.5128
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.4464,
+      "Exata": 0.4167,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.6356,
+      "Exata": 0.6364,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.4959,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.3704,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.4762,
+      "Exata": 0.4444,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.6844,
+      "Exata": 0.6256,
+      "Acc_sub": 0.4247
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.3774,
+      "Exata": 0.3077,
+      "Acc_sub": 0.0769
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.4947,
+      "Exata": 0.4796,
+      "Acc_sub": 0.6837
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6647,
+      "Exata": 0.6061,
+      "Acc_sub": 0.303
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.6522,
+      "Exata": 0.5682,
+      "Acc_sub": 0.2045
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.2941,
+      "Exata": 0.2,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.25,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.6731,
+      "Exata": 0.5833,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7558,
+      "Exata": 0.5909,
+      "Acc_sub": 0.1364
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.8333,
+      "Exata": 0.5,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.2564,
+      "Exata": 0.1818,
+      "Acc_sub": 0.3636
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.7904,
+      "Exata": 0.7115,
+      "Acc_sub": 0.8077
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.6792,
+      "Exata": 0.6606,
+      "Acc_sub": 0.3697
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8098,
+      "Exata": 0.8062,
+      "Acc_sub": 0.2248
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.4688,
+      "Exata": 0.4583,
+      "Acc_sub": 0.2083
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.6452,
+      "Exata": 0.5882,
+      "Acc_sub": 0.4118
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.4795,
+      "Exata": 0.4348,
+      "Acc_sub": 0.7391
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.687,
+      "Exata": 0.6732,
+      "Acc_sub": 0.6209
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.4657,
+      "Exata": 0.4615,
+      "Acc_sub": 0.6923
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9434,
+      "Exata": 0.8636,
+      "Acc_sub": 0.8636
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7752,
+      "Exata": 0.72,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5128,
+      "Exata": 0.5714,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5455,
+      "Exata": 0.4444,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.7775,
+      "Exata": 0.7626,
+      "Acc_sub": 0.7534
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.5797,
+      "Exata": 0.5385,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.4805,
+      "Exata": 0.4082,
+      "Acc_sub": 0.5612
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7345,
+      "Exata": 0.697,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8488,
+      "Exata": 0.7614,
+      "Acc_sub": 0.1591
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.75,
+      "Exata": 0.75,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.7692,
+      "Exata": 0.6667,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.8182
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.3922,
+      "Exata": 0.2727,
+      "Acc_sub": 0.1818
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8088,
+      "Exata": 0.7308,
+      "Acc_sub": 0.8077
+    },
+    {
+      "modelo": "beam",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.6733,
+      "Exata": 0.6606,
+      "Acc_sub": 0.297
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.847,
+      "Exata": 0.8295,
+      "Acc_sub": 0.845
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.55,
+      "Exata": 0.4167,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.6173,
+      "Exata": 0.5882,
+      "Acc_sub": 0.7647
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.5797,
+      "Exata": 0.6154,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.1397,
+      "Exata": 0.087,
+      "Acc_sub": 0.7391
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.6783,
+      "Exata": 0.6536,
+      "Acc_sub": 0.6405
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.75,
+      "Exata": 0.4872,
+      "Acc_sub": 0.4103
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.3333,
+      "Exata": 0.3333,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.7778,
+      "Exata": 0.5909,
+      "Acc_sub": 0.5909
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8547,
+      "Exata": 0.76,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.2632,
+      "Exata": 0.1429,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5455,
+      "Exata": 0.4444,
+      "Acc_sub": 0.5556
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8238,
+      "Exata": 0.758,
+      "Acc_sub": 0.379
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6154,
+      "Exata": 0.4615,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7469,
+      "Exata": 0.6429,
+      "Acc_sub": 0.6939
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6509,
+      "Exata": 0.6061,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8805,
+      "Exata": 0.8523,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.3846,
+      "Exata": 0.2,
+      "Acc_sub": 0.2
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.8333,
+      "Exata": 0.75,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.3846,
+      "Exata": 0.25,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7979,
+      "Exata": 0.6818,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.7143,
+      "Exata": 0.4545,
+      "Acc_sub": 0.3636
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.864,
+      "Exata": 0.7885,
+      "Acc_sub": 0.8654
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7494,
+      "Exata": 0.7152,
+      "Acc_sub": 0.3758
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8419,
+      "Exata": 0.8295,
+      "Acc_sub": 0.9147
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.4545,
+      "Exata": 0.4583,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8427,
+      "Exata": 0.8824,
+      "Acc_sub": 0.7059
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.5814,
+      "Exata": 0.6087,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7194,
+      "Exata": 0.6993,
+      "Acc_sub": 0.915
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9804,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7179
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8636,
+      "Exata": 0.8182,
+      "Acc_sub": 0.9091
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8915,
+      "Exata": 0.84,
+      "Acc_sub": 0.76
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5814,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5333,
+      "Exata": 0.6667,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8836,
+      "Exata": 0.8767,
+      "Acc_sub": 0.2968
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7534,
+      "Exata": 0.6923,
+      "Acc_sub": 0.6154
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6004,
+      "Exata": 0.5918,
+      "Acc_sub": 0.6837
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7027,
+      "Exata": 0.7273,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9161,
+      "Exata": 0.8864,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.8333,
+      "Exata": 0.75,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.7353,
+      "Exata": 0.75,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.6818
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.9091,
+      "Exata": 0.9091,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8929,
+      "Exata": 0.8654,
+      "Acc_sub": 0.9423
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8238,
+      "Exata": 0.8242,
+      "Acc_sub": 0.3879
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8872,
+      "Exata": 0.876,
+      "Acc_sub": 0.8682
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5682,
+      "Exata": 0.5833,
+      "Acc_sub": 0.375
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8235,
+      "Exata": 0.8235,
+      "Acc_sub": 0.9412
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.8447,
+      "Exata": 0.7826,
+      "Acc_sub": 0.8261
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7143,
+      "Exata": 0.6928,
+      "Acc_sub": 0.4837
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9559,
+      "Exata": 0.9487,
+      "Acc_sub": 0.8718
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9211,
+      "Exata": 0.8636,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8915,
+      "Exata": 0.84,
+      "Acc_sub": 0.52
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.6452,
+      "Exata": 0.5714,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5556,
+      "Exata": 0.4444,
+      "Acc_sub": 0.8889
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.9128,
+      "Exata": 0.9041,
+      "Acc_sub": 0.3973
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7534,
+      "Exata": 0.6923,
+      "Acc_sub": 0.6154
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7471,
+      "Exata": 0.6837,
+      "Acc_sub": 0.8878
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7297,
+      "Exata": 0.7576,
+      "Acc_sub": 0.1212
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9491,
+      "Exata": 0.9432,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.8333,
+      "Exata": 0.75,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.7692,
+      "Exata": 0.6667,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7843,
+      "Exata": 0.7273,
+      "Acc_sub": 0.6818
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.9302,
+      "Exata": 0.7273,
+      "Acc_sub": 0.2727
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9191,
+      "Exata": 0.8846,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8218,
+      "Exata": 0.8182,
+      "Acc_sub": 0.4061
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8098,
+      "Exata": 0.814,
+      "Acc_sub": 0.8062
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5303,
+      "Exata": 0.5417,
+      "Acc_sub": 0.2917
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8427,
+      "Exata": 0.8235,
+      "Acc_sub": 0.9412
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.814,
+      "Exata": 0.8261,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7491,
+      "Exata": 0.7255,
+      "Acc_sub": 0.7582
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9559,
+      "Exata": 0.9487,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8333,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8271,
+      "Exata": 0.8,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.7143,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.6349,
+      "Exata": 0.5556,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8591,
+      "Exata": 0.8584,
+      "Acc_sub": 0.7626
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7792,
+      "Exata": 0.7692,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7353,
+      "Exata": 0.7449,
+      "Acc_sub": 0.8673
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7568,
+      "Exata": 0.7273,
+      "Acc_sub": 0.0303
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9024,
+      "Exata": 0.8636,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.3448,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.25,
+      "Exata": 0.25,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.7812,
+      "Exata": 0.75,
+      "Acc_sub": 0.5833
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8636,
+      "Exata": 0.8636,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.7273,
+      "Exata": 0.7273,
+      "Acc_sub": 0.4545
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8904,
+      "Exata": 0.8462,
+      "Acc_sub": 0.8269
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7809,
+      "Exata": 0.7697,
+      "Acc_sub": 0.3455
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.885,
+      "Exata": 0.876,
+      "Acc_sub": 0.8992
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5859,
+      "Exata": 0.5833,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8989,
+      "Exata": 0.8824,
+      "Acc_sub": 0.7059
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.3425,
+      "Exata": 0.3478,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7516,
+      "Exata": 0.732,
+      "Acc_sub": 0.9216
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.975,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7436
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8475,
+      "Exata": 0.8636,
+      "Acc_sub": 0.9091
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.969,
+      "Exata": 0.96,
+      "Acc_sub": 0.64
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.8065,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5556,
+      "Exata": 0.5556,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.9243,
+      "Exata": 0.9178,
+      "Acc_sub": 0.3699
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7792,
+      "Exata": 0.7692,
+      "Acc_sub": 0.6154
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6529,
+      "Exata": 0.6429,
+      "Acc_sub": 0.8163
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7735,
+      "Exata": 0.7576,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9202,
+      "Exata": 0.9091,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.8
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.75
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.6618,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8051,
+      "Exata": 0.8182,
+      "Acc_sub": 0.6818
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9515,
+      "Exata": 0.9423,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8238,
+      "Exata": 0.8182,
+      "Acc_sub": 0.3455
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8894,
+      "Exata": 0.8837,
+      "Acc_sub": 0.938
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5682,
+      "Exata": 0.5833,
+      "Acc_sub": 0.2083
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8427,
+      "Exata": 0.8235,
+      "Acc_sub": 0.7059
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.5814,
+      "Exata": 0.6087,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.766,
+      "Exata": 0.7451,
+      "Acc_sub": 0.9673
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9804,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7436
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.7895,
+      "Exata": 0.6667,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8333,
+      "Exata": 0.8182,
+      "Acc_sub": 0.9545
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8156,
+      "Exata": 0.76,
+      "Acc_sub": 0.64
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.7143,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.7463,
+      "Exata": 0.5556,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.904,
+      "Exata": 0.8904,
+      "Acc_sub": 0.5571
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7792,
+      "Exata": 0.7692,
+      "Acc_sub": 0.6923
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7358,
+      "Exata": 0.7449,
+      "Acc_sub": 0.8571
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7407,
+      "Exata": 0.7273,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8854,
+      "Exata": 0.8295,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.8
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.625,
+      "Exata": 0.5,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.625,
+      "Exata": 0.5833,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.9091,
+      "Exata": 0.9091,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8979,
+      "Exata": 0.8654,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8038,
+      "Exata": 0.7939,
+      "Acc_sub": 0.4182
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8346,
+      "Exata": 0.8217,
+      "Acc_sub": 0.8915
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.4924,
+      "Exata": 0.5,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8427,
+      "Exata": 0.8824,
+      "Acc_sub": 0.7059
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.1538
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.3953,
+      "Exata": 0.4348,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.6949,
+      "Exata": 0.6797,
+      "Acc_sub": 0.9542
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.975,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7179
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9091,
+      "Exata": 0.8636,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8271,
+      "Exata": 0.8,
+      "Acc_sub": 0.52
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.814,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.6349,
+      "Exata": 0.5556,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.9158,
+      "Exata": 0.9041,
+      "Acc_sub": 0.5571
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7792,
+      "Exata": 0.7692,
+      "Acc_sub": 0.6154
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.627,
+      "Exata": 0.6327,
+      "Acc_sub": 0.9082
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7568,
+      "Exata": 0.7273,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8757,
+      "Exata": 0.8182,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.8
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.625,
+      "Exata": 0.5,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.5882,
+      "Exata": 0.5833,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7895,
+      "Exata": 0.8182,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.5455
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9107,
+      "Exata": 0.8846,
+      "Acc_sub": 0.9423
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8126,
+      "Exata": 0.8182,
+      "Acc_sub": 0.4
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8321,
+      "Exata": 0.8217,
+      "Acc_sub": 0.7132
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5682,
+      "Exata": 0.5833,
+      "Acc_sub": 0.375
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8989,
+      "Exata": 0.8824,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.8372,
+      "Exata": 0.7826,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.6596,
+      "Exata": 0.6471,
+      "Acc_sub": 0.8366
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9559,
+      "Exata": 0.9487,
+      "Acc_sub": 0.8205
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.7895,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7519,
+      "Exata": 0.76,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5556,
+      "Exata": 0.4286,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5556,
+      "Exata": 0.4444,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8834,
+      "Exata": 0.8676,
+      "Acc_sub": 0.5845
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.5072,
+      "Exata": 0.4615,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6143,
+      "Exata": 0.5918,
+      "Acc_sub": 0.8673
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6215,
+      "Exata": 0.6364,
+      "Acc_sub": 0.0606
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8696,
+      "Exata": 0.8409,
+      "Acc_sub": 0.2614
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7143,
+      "Exata": 0.6,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.75,
+      "Exata": 0.5,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.5469,
+      "Exata": 0.5,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.7447,
+      "Exata": 0.6364,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9191,
+      "Exata": 0.8846,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7859,
+      "Exata": 0.7758,
+      "Acc_sub": 0.3939
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8321,
+      "Exata": 0.8217,
+      "Acc_sub": 0.8837
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.65,
+      "Exata": 0.5,
+      "Acc_sub": 0.0417
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8824,
+      "Exata": 0.8824,
+      "Acc_sub": 0.7059
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7246,
+      "Exata": 0.7692,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.3555,
+      "Exata": 0.3478,
+      "Acc_sub": 0.7826
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.6996,
+      "Exata": 0.6601,
+      "Acc_sub": 0.9542
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9559,
+      "Exata": 0.9487,
+      "Acc_sub": 0.8718
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.9167,
+      "Exata": 0.9167,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9091,
+      "Exata": 0.8636,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8647,
+      "Exata": 0.8,
+      "Acc_sub": 0.32
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5556,
+      "Exata": 0.4286,
+      "Acc_sub": 0.4286
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.678,
+      "Exata": 0.5556,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8991,
+      "Exata": 0.8721,
+      "Acc_sub": 0.5297
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6154,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6509,
+      "Exata": 0.602,
+      "Acc_sub": 0.7653
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6647,
+      "Exata": 0.6061,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.881,
+      "Exata": 0.8182,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.4167,
+      "Exata": 0.25,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.4808,
+      "Exata": 0.3333,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.6977,
+      "Exata": 0.5455,
+      "Acc_sub": 0.5909
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.9804,
+      "Exata": 0.9091,
+      "Acc_sub": 0.5455
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8803,
+      "Exata": 0.8077,
+      "Acc_sub": 0.8846
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.791,
+      "Exata": 0.7636,
+      "Acc_sub": 0.3758
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8722,
+      "Exata": 0.8605,
+      "Acc_sub": 0.8295
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.7292,
+      "Exata": 0.5417,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8427,
+      "Exata": 0.8235,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.6806,
+      "Exata": 0.6087,
+      "Acc_sub": 0.8696
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7355,
+      "Exata": 0.7059,
+      "Acc_sub": 0.9216
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.8824,
+      "Exata": 0.8718,
+      "Acc_sub": 0.9744
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.9821,
+      "Exata": 0.9167,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8962,
+      "Exata": 0.8182,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8416,
+      "Exata": 0.64,
+      "Acc_sub": 0.36
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.4348,
+      "Exata": 0.2857,
+      "Acc_sub": 0.2857
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5556,
+      "Exata": 0.5556,
+      "Acc_sub": 0.8889
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.9398,
+      "Exata": 0.9224,
+      "Acc_sub": 0.6347
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.5385,
+      "Exata": 0.4615,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6559,
+      "Exata": 0.6122,
+      "Acc_sub": 0.7959
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6667,
+      "Exata": 0.6061,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9084,
+      "Exata": 0.8523,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.8333,
+      "Exata": 0.5,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.625,
+      "Exata": 0.4167,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.6707,
+      "Exata": 0.5,
+      "Acc_sub": 0.5455
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.8974,
+      "Exata": 0.6364,
+      "Acc_sub": 0.2727
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9239,
+      "Exata": 0.8846,
+      "Acc_sub": 0.9038
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7518,
+      "Exata": 0.7273,
+      "Acc_sub": 0.3455
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8345,
+      "Exata": 0.8217,
+      "Acc_sub": 0.7984
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.6439,
+      "Exata": 0.6667,
+      "Acc_sub": 0.2917
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8989,
+      "Exata": 0.8824,
+      "Acc_sub": 0.9412
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.5479,
+      "Exata": 0.6154,
+      "Acc_sub": 0.3846
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.2511,
+      "Exata": 0.2609,
+      "Acc_sub": 0.8696
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.6911,
+      "Exata": 0.6863,
+      "Acc_sub": 0.451
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.8726,
+      "Exata": 0.8974,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.8594,
+      "Exata": 0.9167,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.8772,
+      "Exata": 0.8636,
+      "Acc_sub": 0.9091
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7664,
+      "Exata": 0.8,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.5714,
+      "Exata": 0.5714,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.597,
+      "Exata": 0.5556,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8892,
+      "Exata": 0.8813,
+      "Acc_sub": 0.4475
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.7534,
+      "Exata": 0.6923,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.5928,
+      "Exata": 0.602,
+      "Acc_sub": 0.6531
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.6716,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0303
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8576,
+      "Exata": 0.7955,
+      "Acc_sub": 0.2386
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.2083,
+      "Exata": 0.25,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.625,
+      "Exata": 0.5833,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.6746,
+      "Exata": 0.7273,
+      "Acc_sub": 0.6818
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.9091,
+      "Exata": 0.9091,
+      "Acc_sub": 0.7273
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.7753,
+      "Exata": 0.7115,
+      "Acc_sub": 0.7308
+    },
+    {
+      "modelo": "grok-4.7",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7739,
+      "Exata": 0.7758,
+      "Acc_sub": 0.3394
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8172,
+      "Exata": 0.8062,
+      "Acc_sub": 0.845
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.7692,
+      "Exata": 0.625,
+      "Acc_sub": 0.2917
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8247,
+      "Exata": 0.7647,
+      "Acc_sub": 0.8235
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.782,
+      "Exata": 0.7826,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7057,
+      "Exata": 0.6797,
+      "Acc_sub": 0.915
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.8841,
+      "Exata": 0.6923,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.3333
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9091,
+      "Exata": 0.8636,
+      "Acc_sub": 0.8182
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.812,
+      "Exata": 0.72,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.6452,
+      "Exata": 0.5714,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5556,
+      "Exata": 0.5556,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8495,
+      "Exata": 0.8265,
+      "Acc_sub": 0.4429
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6154,
+      "Exata": 0.5385,
+      "Acc_sub": 0.5385
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.5735,
+      "Exata": 0.5306,
+      "Acc_sub": 0.7653
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7514,
+      "Exata": 0.7576,
+      "Acc_sub": 0.0303
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.9172,
+      "Exata": 0.8068,
+      "Acc_sub": 0.2273
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.5882,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.625,
+      "Exata": 0.5,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.4808,
+      "Exata": 0.3333,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7895,
+      "Exata": 0.7727,
+      "Acc_sub": 0.8636
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.7843,
+      "Exata": 0.7273,
+      "Acc_sub": 0.3636
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9375,
+      "Exata": 0.9231,
+      "Acc_sub": 0.8846
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.7388,
+      "Exata": 0.7152,
+      "Acc_sub": 0.3758
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8272,
+      "Exata": 0.814,
+      "Acc_sub": 0.7442
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.6439,
+      "Exata": 0.6667,
+      "Acc_sub": 0.5417
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.6742,
+      "Exata": 0.6471,
+      "Acc_sub": 0.5882
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.6923
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.2,
+      "Exata": 0.1739,
+      "Acc_sub": 0.7826
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.636,
+      "Exata": 0.6405,
+      "Acc_sub": 0.3856
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.4,
+      "Exata": 0.359,
+      "Acc_sub": 0.3077
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.7627,
+      "Exata": 0.7727,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7752,
+      "Exata": 0.8,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.7143,
+      "Exata": 0.7143,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5085,
+      "Exata": 0.4444,
+      "Acc_sub": 0.5556
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.6094,
+      "Exata": 0.5982,
+      "Acc_sub": 0.2009
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.5556,
+      "Exata": 0.6923,
+      "Acc_sub": 0.2308
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.723,
+      "Exata": 0.7041,
+      "Acc_sub": 0.8367
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.3968,
+      "Exata": 0.4242,
+      "Acc_sub": 0.0606
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.6325,
+      "Exata": 0.5795,
+      "Acc_sub": 0.1705
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.2,
+      "Exata": 0.2,
+      "Acc_sub": 0.2
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.75,
+      "Exata": 0.75,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.1667
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7456,
+      "Exata": 0.7727,
+      "Acc_sub": 0.6818
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.4255,
+      "Exata": 0.3636,
+      "Acc_sub": 0.1818
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.8152,
+      "Exata": 0.7885,
+      "Acc_sub": 0.8846
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.6465,
+      "Exata": 0.6545,
+      "Acc_sub": 0.2182
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8544,
+      "Exata": 0.8372,
+      "Acc_sub": 0.814
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5682,
+      "Exata": 0.5833,
+      "Acc_sub": 0.7083
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.9412,
+      "Exata": 0.9412,
+      "Acc_sub": 0.8824
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7971,
+      "Exata": 0.8462,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.9716,
+      "Exata": 0.9565,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7329,
+      "Exata": 0.7059,
+      "Acc_sub": 0.4902
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9069,
+      "Exata": 0.8974,
+      "Acc_sub": 0.6923
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9211,
+      "Exata": 0.9091,
+      "Acc_sub": 0.8636
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.8527,
+      "Exata": 0.8,
+      "Acc_sub": 0.4
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.6452,
+      "Exata": 0.5714,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.5085,
+      "Exata": 0.5556,
+      "Acc_sub": 0.6667
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8903,
+      "Exata": 0.8676,
+      "Acc_sub": 0.3425
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6923,
+      "Exata": 0.5385,
+      "Acc_sub": 0.3846
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7143,
+      "Exata": 0.6939,
+      "Acc_sub": 0.7755
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7062,
+      "Exata": 0.6667,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8773,
+      "Exata": 0.8409,
+      "Acc_sub": 0.2841
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.5882,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.5,
+      "Exata": 0.5,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.7692,
+      "Exata": 0.6667,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7547,
+      "Exata": 0.7273,
+      "Acc_sub": 0.5455
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.8182,
+      "Exata": 0.8182,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9515,
+      "Exata": 0.9231,
+      "Acc_sub": 0.9231
+    },
+    {
+      "modelo": "musespark-1.3",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8741,
+      "Exata": 0.8667,
+      "Acc_sub": 0.4121
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8295,
+      "Exata": 0.8217,
+      "Acc_sub": 0.7519
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5078,
+      "Exata": 0.5,
+      "Acc_sub": 0.7917
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8235,
+      "Exata": 0.8235,
+      "Acc_sub": 0.8235
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.6522,
+      "Exata": 0.6923,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.4419,
+      "Exata": 0.4348,
+      "Acc_sub": 0.6957
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7633,
+      "Exata": 0.7582,
+      "Acc_sub": 0.2026
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.975,
+      "Exata": 0.9744,
+      "Acc_sub": 0.7179
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.0833
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7752,
+      "Exata": 0.76,
+      "Acc_sub": 0.04
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.4651,
+      "Exata": 0.5714,
+      "Acc_sub": 0.5714
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.6349,
+      "Exata": 0.5556,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.8973,
+      "Exata": 0.8904,
+      "Acc_sub": 0.4201
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.679,
+      "Exata": 0.6923,
+      "Acc_sub": 0.3846
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.6707,
+      "Exata": 0.6224,
+      "Acc_sub": 0.8469
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.7182,
+      "Exata": 0.697,
+      "Acc_sub": 0.0606
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8773,
+      "Exata": 0.8409,
+      "Acc_sub": 0.2841
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.5357,
+      "Exata": 0.5,
+      "Acc_sub": 0.25
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.5833,
+      "Exata": 0.5833,
+      "Acc_sub": 0.5833
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.7203,
+      "Exata": 0.7727,
+      "Acc_sub": 0.7727
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.7843,
+      "Exata": 0.7273,
+      "Acc_sub": 0.3636
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.9239,
+      "Exata": 0.9038,
+      "Acc_sub": 0.7692
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.737,
+      "Exata": 0.7455,
+      "Acc_sub": 0.3576
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Acentuação gráfica",
+      "n": 129,
+      "F05": 0.8618,
+      "Exata": 0.845,
+      "Acc_sub": 0.8295
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Adjetivo",
+      "n": 24,
+      "F05": 0.5859,
+      "Exata": 0.5833,
+      "Acc_sub": 0.2917
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Advérbio",
+      "n": 17,
+      "F05": 0.8824,
+      "Exata": 0.8824,
+      "Acc_sub": 0.9412
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Artigo",
+      "n": 13,
+      "F05": 0.7692,
+      "Exata": 0.7692,
+      "Acc_sub": 0.4615
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Classe de Palavras",
+      "n": 2,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Colocação Pronominal",
+      "n": 23,
+      "F05": 0.8744,
+      "Exata": 0.8696,
+      "Acc_sub": 0.9565
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Concordância Nominal",
+      "n": 153,
+      "F05": 0.7453,
+      "Exata": 0.7124,
+      "Acc_sub": 0.2092
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Concordância Verbal",
+      "n": 39,
+      "F05": 0.9559,
+      "Exata": 0.9487,
+      "Acc_sub": 0.6923
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Conjunção",
+      "n": 12,
+      "F05": 0.6667,
+      "Exata": 0.6667,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Contração",
+      "n": 3,
+      "F05": 1.0,
+      "Exata": 1.0,
+      "Acc_sub": 1.0
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Emprego do Hífen",
+      "n": 22,
+      "F05": 0.9091,
+      "Exata": 0.8636,
+      "Acc_sub": 0.9091
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Homônimo",
+      "n": 25,
+      "F05": 0.7522,
+      "Exata": 0.68,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Locução adjetiva",
+      "n": 1,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Locução conjuntiva",
+      "n": 7,
+      "F05": 0.4348,
+      "Exata": 0.2857,
+      "Acc_sub": 0.2857
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Maiúsculas e minúsculas",
+      "n": 9,
+      "F05": 0.7143,
+      "Exata": 0.6667,
+      "Acc_sub": 0.7778
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Ortografia",
+      "n": 219,
+      "F05": 0.9182,
+      "Exata": 0.895,
+      "Acc_sub": 0.379
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Parônimo",
+      "n": 13,
+      "F05": 0.6154,
+      "Exata": 0.3846,
+      "Acc_sub": 0.1538
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Pontuação",
+      "n": 98,
+      "F05": 0.7358,
+      "Exata": 0.6939,
+      "Acc_sub": 0.7959
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Preposição",
+      "n": 33,
+      "F05": 0.8092,
+      "Exata": 0.7879,
+      "Acc_sub": 0.0909
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Pronome",
+      "n": 88,
+      "F05": 0.8833,
+      "Exata": 0.8068,
+      "Acc_sub": 0.2727
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Propriedade Vocabular",
+      "n": 5,
+      "F05": 0.7692,
+      "Exata": 0.4,
+      "Acc_sub": 0.2
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Redundância",
+      "n": 4,
+      "F05": 0.3125,
+      "Exata": 0.25,
+      "Acc_sub": 0.5
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Regência Nominal",
+      "n": 12,
+      "F05": 0.6731,
+      "Exata": 0.5,
+      "Acc_sub": 0.4167
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Regência Verbal",
+      "n": 22,
+      "F05": 0.9043,
+      "Exata": 0.7727,
+      "Acc_sub": 0.6364
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Seleção Lexical",
+      "n": 2,
+      "F05": 0.0,
+      "Exata": 0.0,
+      "Acc_sub": 0.0
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Substantivo",
+      "n": 11,
+      "F05": 0.814,
+      "Exata": 0.6364,
+      "Acc_sub": 0.4545
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Uso da crase",
+      "n": 52,
+      "F05": 0.875,
+      "Exata": 0.8269,
+      "Acc_sub": 0.7885
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "subcategoria": "Verbo",
+      "n": 165,
+      "F05": 0.8372,
+      "Exata": 0.8242,
+      "Acc_sub": 0.3455
+    }
+  ],
+  "mcnemar_topo": [
+    {
+      "modelo_A": "claude-sonnet-5.5",
+      "modelo_B": "musespark-1.3",
+      "so_A_acerta": 66,
+      "so_B_acerta": 61,
+      "p_valor": 0.7228,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "claude-sonnet-5.5",
+      "modelo_B": "qwen3.8-max",
+      "so_A_acerta": 66,
+      "so_B_acerta": 41,
+      "p_valor": 0.0199,
+      "p_holm": 0.2587,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "claude-sonnet-5.5",
+      "modelo_B": "MiMo-V2.6-Pro",
+      "so_A_acerta": 65,
+      "so_B_acerta": 76,
+      "p_valor": 0.3998,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "claude-sonnet-5.5",
+      "modelo_B": "gemini-4-argon",
+      "so_A_acerta": 58,
+      "so_B_acerta": 61,
+      "p_valor": 0.8546,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "claude-sonnet-5.5",
+      "modelo_B": "gemini-3.8-flash",
+      "so_A_acerta": 58,
+      "so_B_acerta": 73,
+      "p_valor": 0.2211,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "musespark-1.3",
+      "modelo_B": "qwen3.8-max",
+      "so_A_acerta": 73,
+      "so_B_acerta": 53,
+      "p_valor": 0.0901,
+      "p_holm": 0.9914,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "musespark-1.3",
+      "modelo_B": "MiMo-V2.6-Pro",
+      "so_A_acerta": 60,
+      "so_B_acerta": 76,
+      "p_valor": 0.1982,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "musespark-1.3",
+      "modelo_B": "gemini-4-argon",
+      "so_A_acerta": 66,
+      "so_B_acerta": 74,
+      "p_valor": 0.5543,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "musespark-1.3",
+      "modelo_B": "gemini-3.8-flash",
+      "so_A_acerta": 55,
+      "so_B_acerta": 75,
+      "p_valor": 0.0953,
+      "p_holm": 0.9914,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "qwen3.8-max",
+      "modelo_B": "MiMo-V2.6-Pro",
+      "so_A_acerta": 55,
+      "so_B_acerta": 91,
+      "p_valor": 0.0036,
+      "p_holm": 0.0507,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "qwen3.8-max",
+      "modelo_B": "gemini-4-argon",
+      "so_A_acerta": 57,
+      "so_B_acerta": 85,
+      "p_valor": 0.0231,
+      "p_holm": 0.2775,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "qwen3.8-max",
+      "modelo_B": "gemini-3.8-flash",
+      "so_A_acerta": 53,
+      "so_B_acerta": 93,
+      "p_valor": 0.0012,
+      "p_holm": 0.0176,
+      "diferenca_significativa_5pct": true
+    },
+    {
+      "modelo_A": "MiMo-V2.6-Pro",
+      "modelo_B": "gemini-4-argon",
+      "so_A_acerta": 79,
+      "so_B_acerta": 71,
+      "p_valor": 0.5678,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "MiMo-V2.6-Pro",
+      "modelo_B": "gemini-3.8-flash",
+      "so_A_acerta": 63,
+      "so_B_acerta": 67,
+      "p_valor": 0.7926,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    },
+    {
+      "modelo_A": "gemini-4-argon",
+      "modelo_B": "gemini-3.8-flash",
+      "so_A_acerta": 41,
+      "so_B_acerta": 53,
+      "p_valor": 0.2564,
+      "p_holm": 1.0,
+      "diferenca_significativa_5pct": false
+    }
+  ],
+  "integridade": [
+    {
+      "modelo": "GLM-5.3-Flash",
+      "linhas_identicas_gabarito": 0.1654
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "linhas_identicas_gabarito": 0.1588
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "linhas_identicas_gabarito": 0.2136
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "linhas_identicas_gabarito": 0.0906
+    },
+    {
+      "modelo": "beam",
+      "linhas_identicas_gabarito": 0.1563
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "linhas_identicas_gabarito": 0.1837
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "linhas_identicas_gabarito": 0.2128
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "linhas_identicas_gabarito": 0.2145
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "linhas_identicas_gabarito": 0.2352
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "linhas_identicas_gabarito": 0.212
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "linhas_identicas_gabarito": 0.2303
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "linhas_identicas_gabarito": 0.2228
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "linhas_identicas_gabarito": 0.202
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "linhas_identicas_gabarito": 0.1937
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "linhas_identicas_gabarito": 0.197
+    },
+    {
+      "modelo": "grok-4.7",
+      "linhas_identicas_gabarito": 0.1904
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "linhas_identicas_gabarito": 0.2195
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "linhas_identicas_gabarito": 0.1421
+    },
+    {
+      "modelo": "musespark-1.3",
+      "linhas_identicas_gabarito": 0.212
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "linhas_identicas_gabarito": 0.182
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "linhas_identicas_gabarito": 0.217
+    }
+  ],
+  "custo": [
+    {
+      "modelo": "GLM-5.3-Flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 21614,
+      "fonte_preco": "Z.ai - docs.z.ai/guides/overview/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0165,
+      "custo_livro_usd_x1": 0.1732,
+      "custo_dataset_usd_x3": 0.0381,
+      "custo_livro_usd_x3": 0.4005,
+      "custo_dataset_usd_x10": 0.1137,
+      "custo_livro_usd_x10": 1.1958
+    },
+    {
+      "modelo": "MiMo-V2.6-Flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 21970,
+      "fonte_preco": "Xiaomi MiMo - mimo.mi.com",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0114,
+      "custo_livro_usd_x1": 0.1203,
+      "custo_dataset_usd_x3": 0.0237,
+      "custo_livro_usd_x3": 0.2496,
+      "custo_dataset_usd_x10": 0.0668,
+      "custo_livro_usd_x10": 0.7024
+    },
+    {
+      "modelo": "MiMo-V2.6-Pro",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22346,
+      "fonte_preco": "Xiaomi MiMo - mimo.mi.com",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0359,
+      "custo_livro_usd_x1": 0.3772,
+      "custo_dataset_usd_x3": 0.0748,
+      "custo_livro_usd_x3": 0.786,
+      "custo_dataset_usd_x10": 0.2108,
+      "custo_livro_usd_x10": 2.2168
+    },
+    {
+      "modelo": "MiniMax-M3",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22513,
+      "fonte_preco": "MiniMax - platform.minimax.io/docs/guides/pricing-paygo",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0384,
+      "custo_livro_usd_x1": 0.4032,
+      "custo_dataset_usd_x3": 0.0924,
+      "custo_livro_usd_x3": 0.9713,
+      "custo_dataset_usd_x10": 0.2815,
+      "custo_livro_usd_x10": 2.9596
+    },
+    {
+      "modelo": "beam",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22104,
+      "fonte_preco": "OpenRouter (Reflection nao publica tabela propria)",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0315,
+      "custo_livro_usd_x1": 0.3317,
+      "custo_dataset_usd_x3": 0.0758,
+      "custo_livro_usd_x3": 0.7965,
+      "custo_dataset_usd_x10": 0.2305,
+      "custo_livro_usd_x10": 2.4233
+    },
+    {
+      "modelo": "claude-haiku-5.5",
+      "tokens_entrada": 37782,
+      "tokens_saida": 21277,
+      "fonte_preco": "Anthropic - platform.claude.com/docs/en/about-claude/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0144,
+      "custo_livro_usd_x1": 0.1516,
+      "custo_dataset_usd_x3": 0.0357,
+      "custo_livro_usd_x3": 0.3753,
+      "custo_dataset_usd_x10": 0.1102,
+      "custo_livro_usd_x10": 1.1582
+    },
+    {
+      "modelo": "claude-opus-5.5",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22381,
+      "fonte_preco": "Anthropic - platform.claude.com/docs/en/about-claude/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.5987,
+      "custo_livro_usd_x1": 6.2952,
+      "custo_dataset_usd_x3": 1.494,
+      "custo_livro_usd_x3": 15.7076,
+      "custo_dataset_usd_x10": 4.6273,
+      "custo_livro_usd_x10": 48.6511
+    },
+    {
+      "modelo": "claude-sonnet-5.5",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22533,
+      "fonte_preco": "Anthropic - platform.claude.com/docs/en/about-claude/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.3009,
+      "custo_livro_usd_x1": 3.1636,
+      "custo_dataset_usd_x3": 0.7516,
+      "custo_livro_usd_x3": 7.9017,
+      "custo_dataset_usd_x10": 2.3289,
+      "custo_livro_usd_x10": 24.4854
+    },
+    {
+      "modelo": "deepseek-v4.1-flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22715,
+      "fonte_preco": "DeepSeek - api-docs.deepseek.com/quick_start/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0386,
+      "custo_livro_usd_x1": 0.4058,
+      "custo_dataset_usd_x3": 0.0931,
+      "custo_livro_usd_x3": 0.9789,
+      "custo_dataset_usd_x10": 0.2839,
+      "custo_livro_usd_x10": 2.985
+    },
+    {
+      "modelo": "gemini-3.8-flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22352,
+      "fonte_preco": "Google - ai.google.dev/gemini-api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.1122,
+      "custo_livro_usd_x1": 1.1792,
+      "custo_dataset_usd_x3": 0.2798,
+      "custo_livro_usd_x3": 2.9417,
+      "custo_dataset_usd_x10": 0.8665,
+      "custo_livro_usd_x10": 9.1106
+    },
+    {
+      "modelo": "gemini-4-argon",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22150,
+      "fonte_preco": "Google - ai.google.dev/gemini-api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.2971,
+      "custo_livro_usd_x1": 3.1233,
+      "custo_dataset_usd_x3": 0.7401,
+      "custo_livro_usd_x3": 7.7809,
+      "custo_dataset_usd_x10": 2.2906,
+      "custo_livro_usd_x10": 24.0827
+    },
+    {
+      "modelo": "gemini-4-hydrogen",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22199,
+      "fonte_preco": "Google - ai.google.dev/gemini-api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.2232,
+      "custo_livro_usd_x1": 2.3463,
+      "custo_dataset_usd_x3": 0.5562,
+      "custo_livro_usd_x3": 5.8473,
+      "custo_dataset_usd_x10": 1.7216,
+      "custo_livro_usd_x10": 18.1006
+    },
+    {
+      "modelo": "gpt-6-luna",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22377,
+      "fonte_preco": "OpenAI - developers.openai.com/api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.015,
+      "custo_livro_usd_x1": 0.1574,
+      "custo_dataset_usd_x3": 0.0373,
+      "custo_livro_usd_x3": 0.3926,
+      "custo_dataset_usd_x10": 0.1157,
+      "custo_livro_usd_x10": 1.2161
+    },
+    {
+      "modelo": "gpt-6.1-sol",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22483,
+      "fonte_preco": "OpenAI - developers.openai.com/api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.3004,
+      "custo_livro_usd_x1": 3.1583,
+      "custo_dataset_usd_x3": 0.7501,
+      "custo_livro_usd_x3": 7.886,
+      "custo_dataset_usd_x10": 2.3239,
+      "custo_livro_usd_x10": 24.4328
+    },
+    {
+      "modelo": "gpt-6.1-terra",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22686,
+      "fonte_preco": "OpenAI - developers.openai.com/api/docs/pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.1512,
+      "custo_livro_usd_x1": 1.5898,
+      "custo_dataset_usd_x3": 0.3781,
+      "custo_livro_usd_x3": 3.975,
+      "custo_dataset_usd_x10": 1.1721,
+      "custo_livro_usd_x10": 12.3231
+    },
+    {
+      "modelo": "grok-4.7",
+      "tokens_entrada": 37782,
+      "tokens_saida": 23649,
+      "fonte_preco": "xAI - docs.x.ai/docs/models",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.2175,
+      "custo_livro_usd_x1": 2.2863,
+      "custo_dataset_usd_x3": 0.5012,
+      "custo_livro_usd_x3": 5.27,
+      "custo_dataset_usd_x10": 1.4945,
+      "custo_livro_usd_x10": 15.713
+    },
+    {
+      "modelo": "kimi-k3.1-pro",
+      "tokens_entrada": 37782,
+      "tokens_saida": 21901,
+      "fonte_preco": "Moonshot AI - platform.kimi.ai/docs/pricing/chat",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.2946,
+      "custo_livro_usd_x1": 3.0971,
+      "custo_dataset_usd_x3": 0.7326,
+      "custo_livro_usd_x3": 7.7024,
+      "custo_dataset_usd_x10": 2.2657,
+      "custo_livro_usd_x10": 23.8209
+    },
+    {
+      "modelo": "minimax-m3.1-flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22757,
+      "fonte_preco": "MiniMax - platform.minimax.io/docs/guides/pricing-paygo",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0193,
+      "custo_livro_usd_x1": 0.2031,
+      "custo_dataset_usd_x3": 0.0466,
+      "custo_livro_usd_x3": 0.4903,
+      "custo_dataset_usd_x10": 0.1422,
+      "custo_livro_usd_x10": 1.4952
+    },
+    {
+      "modelo": "musespark-1.3",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22474,
+      "fonte_preco": "Meta - dev.meta.ai/docs/pricing-rate-limits",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.1427,
+      "custo_livro_usd_x1": 1.5008,
+      "custo_dataset_usd_x3": 0.3338,
+      "custo_livro_usd_x3": 3.5092,
+      "custo_dataset_usd_x10": 1.0024,
+      "custo_livro_usd_x10": 10.5388
+    },
+    {
+      "modelo": "qwen3.8-flash",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22684,
+      "fonte_preco": "Alibaba Cloud Model Studio (Singapura) - alibabacloud.com/help/en/model-studio/model-pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.0163,
+      "custo_livro_usd_x1": 0.1717,
+      "custo_dataset_usd_x3": 0.0377,
+      "custo_livro_usd_x3": 0.3959,
+      "custo_dataset_usd_x10": 0.1123,
+      "custo_livro_usd_x10": 1.1805
+    },
+    {
+      "modelo": "qwen3.8-max",
+      "tokens_entrada": 37782,
+      "tokens_saida": 22432,
+      "fonte_preco": "Alibaba Cloud Model Studio (Singapura) - alibabacloud.com/help/en/model-studio/model-pricing",
+      "data_preco": "2026-11-18",
+      "custo_dataset_usd_x1": 0.2102,
+      "custo_livro_usd_x1": 2.2096,
+      "custo_dataset_usd_x3": 0.4793,
+      "custo_livro_usd_x3": 5.0397,
+      "custo_dataset_usd_x10": 1.4215,
+      "custo_livro_usd_x10": 14.9453
+    }
+  ]
+}

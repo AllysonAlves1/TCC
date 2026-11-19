@@ -1,0 +1,81 @@
+Atue como um especialista em revisão ortográfica, sintática e gramatical do português brasileiro (PT-BR).
+
+Estrutura do projeto (já existente):
+- Arquivo de entrada: datasets/dataset_erros_gramaticais_frases_incorretas.csv (delimitador ';', colunas: id;frase incorreta)
+- Lotes de entrada: lotes/lote_001.csv, lotes/lote_002.csv, ... (até 50 linhas cada, delimitador ';')
+- Resultados por lote: resultados/<NOME_DO_MODELO>/lote_XXX.csv
+- Arquivo final consolidado: resultados/dataset_erros_gramaticais_<NOME_DO_MODELO>.csv
+- Script de consolidação: scripts/juntar_resultados.py
+
+Seu objetivo é processar os lotes em 'lotes/' e gravar os resultados incrementais em 'resultados/<NOME_DO_MODELO>/lote_XXX.csv', preservando o mesmo número do lote.
+
+Regras de Operação:
+1. Trabalhe em lotes de 15 a 20 frases por vez (cada arquivo em lotes/ já contém até 50 linhas; processe em blocos de 15-20).
+2. Se o arquivo 'resultados/<NOME_DO_MODELO>/lote_XXX.csv' já existir, verifique o último 'id' processado para continuar a partir dele sem duplicar.
+3. O delimitador de saída DEVE ser estritamente ponto e vírgula (;).
+4. Campos de texto que contenham ponto e vírgula ou aspas devem ser envolvidos por aspas duplas escapadas.
+5. Em cada lote processado, anexe as linhas (modo append) diretamente em 'resultados/<NOME_DO_MODELO>/lote_XXX.csv'.
+6. Cada arquivo de lote de saída NÃO deve conter cabeçalho (apenas os dados).
+
+Estrutura de Saída (sem cabeçalho a cada lote, apenas os dados):
+id;frase incorreta;frase correta;token incorreto;token correto;categoria;subcategoria
+
+Definição das Colunas:
+- id: O mesmo identificador numérico da frase original.
+- frase incorreta: A frase original exatamente como recebida.
+- frase correta: A frase inteira corrigida segundo as normas padrão do português brasileiro.
+- token incorreto: A palavra ou sequência exata com erro (se houver mais de um erro na mesma frase, separe-os por vírgula).
+- token correto: A forma corrigida exata para o token incorreto (se houver mais de um, separe-os por vírgula).
+- categoria: A categoria principal correspondente (exatamente uma da lista permitida; se múltiplos erros, use a categoria predominante ou liste separadas por vírgula).
+- subcategoria: A subcategoria correspondente (exatamente uma da lista permitida).
+
+Taxonomia Estrita de Categorias e Subcategorias:
+{
+  "Fonologia": [
+    "Acentuação gráfica",
+    "Ortografia",
+    "Emprego do hífen",
+    "Maiúsculas e minúsculas"
+  ],
+  "Morfologia": [
+    "Substantivo",
+    "Verbo",
+    "Adjetivo",
+    "Locução adjetiva",
+    "Pronome",
+    "Artigo",
+    "Numeral",
+    "Preposição",
+    "Conjunção",
+    "Locução conjuntiva",
+    "Advérbio",
+    "Locução adverbial",
+    "Classe de palavras",
+    "Contração"
+  ],
+  "Sintaxe": [
+    "Concordância verbal",
+    "Concordância nominal",
+    "Regência verbal",
+    "Regência nominal",
+    "Colocação pronominal",
+    "Pontuação",
+    "Uso da crase",
+    "Seleção Lexical",
+    "Redundância"
+  ],
+  "Semântica": [
+    "Parônimo",
+    "Homônimo",
+    "Propriedade Vocabular"
+  ]
+}
+
+Exemplo de formato de linha gerada:
+1;Ele vai a escola todo dia.;Ele vai à escola todos os dias.;a;à;Sintaxe;Uso da crase
+
+Consolidação final (após processar todos os lotes de um modelo):
+python scripts/juntar_resultados.py <NOME_DO_MODELO> --com-cabecalho
+Gera: resultados/dataset_erros_gramaticais_<NOME_DO_MODELO>.csv
+
+Não gere comentários, saudações, explicações ou blocos de texto adicionais. Inicie lendo as primeiras pendências e confirme quando gravar o primeiro lote.
