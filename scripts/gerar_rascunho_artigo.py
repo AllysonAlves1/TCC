@@ -410,7 +410,9 @@ par("O custo de uso de um LLM por API é cobrado por milhão de tokens, com pre�
 h1("3 METODOLOGIA")
 par("A pesquisa é quantitativa e experimental. A Figura 1 resume as etapas: construção do conjunto de "
     "dados, anotação, execução dos modelos, verificação de integridade, cálculo das métricas e estimativa "
-    "de custo.")
+    "de custo. O conjunto de dados, as saídas de todos os modelos e os scripts usados em cada etapa estão "
+    "disponíveis no repositório do trabalho (https://github.com/AllysonAlves1/TCC), o que permite reproduzir "
+    "todos os resultados apresentados.")
 figura(1, "Fluxo metodológico da pesquisa", "fig_fluxo_metodologico.png", "Elaborado pelo autor (2026).", 15)
 
 h2("3.1 Construção do conjunto de dados")
@@ -958,7 +960,7 @@ for ref in REFS:
 h1("APÊNDICE A – NÚCLEO DO SCRIPT DE EXTRAÇÃO DO CONJUNTO DE DADOS")
 par("O trecho abaixo é a função central do script extrair_grammar_xml.py, que transforma um exemplo do "
     "grammar.xml em uma linha do conjunto de dados. O script completo, que também percorre as categorias e "
-    "regras, remove repetições e grava o CSV, está disponível em [[link do repositório do TCC]].")
+    "regras, remove repetições e grava o CSV, está disponível em https://github.com/AllysonAlves1/TCC, junto com os dados, as saídas dos modelos e os scripts de análise.")
 quadro("A.1", "Função de extração de um exemplo (Python)", [
     "def extrair_exemplo(example):",
     "    correction = example.get('correction')",

@@ -6,7 +6,12 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 PY="uv run --with tiktoken --with matplotlib --with python-docx python"
-MODELO="Anexo I - MODELO ARTIGO FORMATADO - ABRIR EM WORD 2013 OU MAIS ATUALIZADO.docx"
+# Modelo de artigo do IFPE (não versionado). Procura na raiz e em backup/, ou use: MODELO=/caminho/modelo.docx
+NOME_MODELO="Anexo I - MODELO ARTIGO FORMATADO - ABRIR EM WORD 2013 OU MAIS ATUALIZADO.docx"
+MODELO="${MODELO:-}"
+for c in "$NOME_MODELO" "backup/$NOME_MODELO"; do
+  [ -z "$MODELO" ] && [ -f "$c" ] && MODELO="$c"
+done
 
 echo "== 1. Métricas com o gabarito original e com o revisado"
 $PY scripts/calcular_metricas_v2.py --saida resultados/v2_pre
@@ -22,5 +27,9 @@ $PY scripts/gerar_figuras_v2.py resultados/v2_pre figuras pre
 $PY scripts/gerar_figuras_v2.py resultados/v2_pos figuras pos
 
 echo "== 4. Artigo"
-$PY scripts/gerar_rascunho_artigo.py "$MODELO" TCC_artigo.docx
-echo "Pronto: TCC_artigo.docx"
+if [ -n "$MODELO" ]; then
+  $PY scripts/gerar_rascunho_artigo.py "$MODELO" TCC_artigo.docx
+  echo "Pronto: TCC_artigo.docx"
+else
+  echo "Modelo do IFPE não encontrado; artigo não gerado (defina MODELO=/caminho/do/modelo.docx)."
+fi

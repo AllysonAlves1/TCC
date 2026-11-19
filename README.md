@@ -43,7 +43,7 @@ scripts/                                todo o código (ver abaixo)
 | 7. Comparação antes/depois da revisão | `comparar_pre_pos.py` | `resultados/comparacao_pre_pos.csv` |
 | 8. Análise de falsos positivos | `amostra_falsos_positivos.py gerar` / `calcular` | `datasets/revisao/fp_*.csv`, `resultados/v2_pos/falsos_positivos.csv` |
 | 9. Figuras | `gerar_fluxo_metodologico.py`, `gerar_figuras_v2.py` | `figuras/` |
-| 10. Artigo (modelo do IFPE) | `gerar_rascunho_artigo.py` | `.docx` |
+| 10. Artigo | `gerar_rascunho_artigo.py <modelo.docx> <saida.docx>` | `.docx` (requer o modelo de artigo do IFPE, não incluído) |
 
 Os preços de API usados no custo estão em `scripts/precos.csv`. Foram consultados nas páginas oficiais em 18/11/2026.
 
@@ -55,7 +55,7 @@ As saídas dos modelos já estão em `resultados/`. Para recalcular tudo a parti
 bash scripts/reproduzir.sh
 ```
 
-Esse script recalcula as métricas, a análise de falsos positivos, as figuras e o artigo (`TCC_artigo.docx`).
+Esse script recalcula as métricas, a análise de falsos positivos e as figuras. Se encontrar o modelo de artigo do IFPE, também gera o artigo (`TCC_artigo.docx`).
 
 Sem o uv, instale as dependências e rode os scripts da tabela acima com `python`:
 
